@@ -64,17 +64,24 @@ export const Impact = () => {
           <p className="text-xl text-gray-600 mb-12 text-center max-w-3xl mx-auto">
             Tracking progress across the five essential recovery dimensions
           </p>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+          {/* ✅ Centered Flex Layout for 5 boxes */}
+          <div className="flex flex-wrap justify-center gap-8">
             {metrics.map((metric, index) => {
               const Icon = metric.icon;
               return (
-                <Card key={index} className="border-2 rounded-3xl overflow-hidden hover:shadow-2xl transition-all">
+                <Card
+                  key={index}
+                  className="w-full sm:w-[300px] border-2 rounded-3xl overflow-hidden hover:shadow-2xl transition-all"
+                >
                   <CardContent className="p-8">
                     <div className="flex items-center justify-between mb-6">
                       <div className={`w-14 h-14 rounded-2xl ${metric.color} flex items-center justify-center`}>
                         <Icon className="w-7 h-7 text-white" />
                       </div>
-                      <span className="text-sm font-semibold text-gray-600 uppercase tracking-wide">{metric.dimension}</span>
+                      <span className="text-sm font-semibold text-gray-600 uppercase tracking-wide">
+                        {metric.dimension}
+                      </span>
                     </div>
                     <div className="text-6xl font-bold text-gray-900 mb-2">{metric.stat}</div>
                     <div className="text-lg text-gray-700">{metric.label}</div>
@@ -138,7 +145,10 @@ export const Impact = () => {
             Numbers show our impact, but stories show the human side of recovery
           </p>
           <Link to="/stories">
-            <Button size="lg" className="bg-[#f26d2d] hover:bg-[#d65a1e] text-white px-10 py-6 rounded-full text-lg transition-all duration-300 hover:scale-105">
+            <Button
+              size="lg"
+              className="bg-[#f26d2d] hover:bg-[#d65a1e] text-white px-10 py-6 rounded-full text-lg transition-all duration-300 hover:scale-105"
+            >
               Read Recovery Stories
             </Button>
           </Link>
