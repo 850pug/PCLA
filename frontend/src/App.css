@@ -1,0 +1,58 @@
+/* PCLA Custom Styles */
+
+* {
+  scroll-behavior: smooth;
+}
+
+.App {
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+/* Smooth transitions for interactive elements */
+button, a, .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+/* Enhanced hover effects */
+button:hover {
+  transform: translateY(-2px);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #336f99;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #86a873;
+}
+
+/* Improve focus visibility for accessibility */
+*:focus-visible {
+  outline: 3px solid #f26d2d;
+  outline-offset: 2px;
+}
+
+/* Smooth page transitions */
+main {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
