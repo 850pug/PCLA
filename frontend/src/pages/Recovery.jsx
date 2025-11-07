@@ -47,6 +47,10 @@ export const Recovery = () => {
     }
   ];
 
+  // Split dimensions into two rows
+  const firstRowDimensions = dimensions.slice(0, 3); // Housing, Belonging, Purpose
+  const secondRowDimensions = dimensions.slice(3, 5); // Health, Autonomy
+
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
@@ -97,14 +101,14 @@ export const Recovery = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {dimensions.map((dimension, index) => {
+          {/* First Row: Housing, Belonging, Purpose */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+            {firstRowDimensions.map((dimension, index) => {
               const Icon = dimension.icon;
               return (
                 <Link 
                   key={index} 
                   to={dimension.link}
-                  className={index === 2 ? 'lg:col-span-3 lg:max-w-2xl lg:mx-auto' : ''}
                 >
                   <Card className="h-full hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 cursor-pointer border-2 border-transparent hover:border-[#86a873] rounded-3xl overflow-hidden group">
                     <div className="relative h-64 overflow-hidden">
@@ -131,6 +135,44 @@ export const Recovery = () => {
                 </Link>
               );
             })}
+          </div>
+
+          {/* Second Row: Health, Autonomy (Centered) */}
+          <div className="max-w-4xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              {secondRowDimensions.map((dimension, index) => {
+                const Icon = dimension.icon;
+                return (
+                  <Link 
+                    key={index} 
+                    to={dimension.link}
+                  >
+                    <Card className="h-full hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 cursor-pointer border-2 border-transparent hover:border-[#86a873] rounded-3xl overflow-hidden group">
+                      <div className="relative h-64 overflow-hidden">
+                        <img 
+                          src={dimension.image} 
+                          alt={dimension.title}
+                          className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                        />
+                        <div className="absolute inset-0 bg-[#336f99]/80"></div>
+                        <div className="absolute inset-0 flex flex-col items-center justify-center text-white p-8">
+                          <Icon className="w-16 h-16 mb-4" />
+                          <h3 className="text-3xl font-bold text-center">{dimension.title}</h3>
+                        </div>
+                      </div>
+                      <CardContent className="p-8">
+                        <p className="text-gray-700 text-lg leading-relaxed mb-4">
+                          {dimension.description}
+                        </p>
+                        <div className="flex items-center text-[#336f99] font-semibold group-hover:text-[#86a873] transition-colors">
+                          Explore {dimension.title} <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-2 transition-transform" />
+                        </div>
+                      </CardContent>
+                    </Card>
+                  </Link>
+                );
+              })}
+            </div>
           </div>
         </div>
       </section>
