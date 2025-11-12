@@ -6,11 +6,10 @@ import { TrendingUp, Users, Home as HomeIcon, Heart, Download } from 'lucide-rea
 export const Impact = () => {
   const metrics = [
     { dimension: 'Housing', stat: '90%', label: 'of clients feel safe and respected at their residences', icon: HomeIcon, color: 'bg-[#336f99]' },
-    { dimension: 'Housing', stat: '358', label: 'clients placed and supported across our programs and locations.', icon: HomeIcon, color: 'bg-[#86a873]' },
     { dimension: 'Health', stat: '125,556', label: 'hours of direct care provided', icon: Users, color: 'bg-[#f26d2d]' },
-    { dimension: 'Purpose', stat: '87%', label: 'of clients feel optimistic about their recovery journeys.', icon: TrendingUp, color: 'bg-[#336f99]' },
-    { dimension: 'Belonging', stat: '87%', label: 'of clients placed in our longer stay programs are engaged in recreational,volunteering, employment, and educational opportunities.', icon: Heart, color: 'bg-[#86a873]' },
-    { dimension: 'Autonomy', stat: '89%', label: 'of clients note they are very satisfied with thePCLA staff support.', icon: TrendingUp, color: 'bg-[#f26d2d]' }
+    { dimension: 'Purpose', stat: '87%', label: 'of clients feel optimistic about their recovery journeys.', icon: TrendingUp, color: 'bg-[#86a873]' },
+    { dimension: 'Belonging', stat: '87%', label: 'of clients placed in our longer stay programs are engaged in recreational,volunteering, employment, and educational opportunities.', icon: Heart, color: 'bg-[#336f99]' },
+    { dimension: 'Autonomy', stat: '89%', label: 'of clients note they are very satisfied with PCLA staff support.', icon: TrendingUp, color: 'bg-[#f26d2d]' }
   ];
 
   const overallImpact = [
