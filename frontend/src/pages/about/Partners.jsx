@@ -11,7 +11,7 @@ export const Partners = () => {
     },
     {
       name: 'Vancouver Coastal Health',
-      logo: 'https://via.placeholder.com/200x80/86a873/ffffff?text=VCH',
+      logo: '/images/VCH_logo.png',
       description: 'Healthcare partner providing integrated mental health services and clinical support.',
       category: 'Healthcare'
     },
