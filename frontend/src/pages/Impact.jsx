@@ -65,8 +65,8 @@ export const Impact = () => {
             Tracking progress across the five essential recovery dimensions
           </p>
 
-          {/* Single row layout on desktop/tablet, single column on mobile */}
-          <div className="grid grid-cols-1 md:grid-cols-5 gap-6 max-w-7xl mx-auto">
+          {/* Single row layout on desktop/tablet, single column on mobile - matching gap-8 */}
+          <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
             {metrics.map((metric, index) => {
               const Icon = metric.icon;
               return (
