@@ -135,7 +135,7 @@ export const Programs = () => {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Supporting Recovery Through Eight Distinct Housing Programs</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">Supporting Recovery Through Eight Distinct Residential Programs</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Each program is designed to address specific recovery dimensions while working together for holistic support
             </p>
