@@ -141,11 +141,57 @@ export const Programs = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-7xl mx-auto">
-            {programs.map((program, index) => {
+          {/* First 6 programs in 3 columns */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+            {programs.slice(0, 6).map((program, index) => {
               const Icon = program.icon;
               return (
                 <Card key={index} className="hover:shadow-2xl transition-all duration-300 border-2 rounded-3xl overflow-hidden group">
+                  <div className="relative h-56 overflow-hidden">
+                    <img 
+                      src={program.image} 
+                      alt={program.name}
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+                    <div className="absolute bottom-0 left-0 right-0 p-6">
+                      <div className="w-14 h-14 rounded-2xl bg-[#f26d2d] flex items-center justify-center mb-3">
+                        <Icon className="w-7 h-7 text-white" />
+                      </div>
+                      <h3 className="text-2xl font-bold text-white">{program.name}</h3>
+                    </div>
+                  </div>
+                  <CardContent className="p-8">
+                    <p className="text-lg font-semibold text-[#336f99] mb-4">{program.tagline}</p>
+                    <p className="text-gray-700 leading-relaxed mb-6">{program.description}</p>
+                    <div className="space-y-2">
+                      <h4 className="font-bold text-gray-900">Key Features:</h4>
+                      <ul className="space-y-2">
+                        {program.features.map((feature, i) => (
+                          <li key={i} className="flex items-start">
+                            <span className="text-[#86a873] mr-2">•</span>
+                            <span className="text-gray-600 text-sm">{feature}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  </CardContent>
+                </Card>
+              );
+            })}
+          </div>
+
+          {/* Last 2 programs centered in 2 columns */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {programs.slice(6).map((program, index) => {
+              const Icon = program.icon;
+              return (
+                <Card 
+                  key={index} 
+                  className={`hover:shadow-2xl transition-all duration-300 border-2 rounded-3xl overflow-hidden group ${
+                    index === 0 ? 'md:col-start-1' : ''
+                  }`}
+                >
                   <div className="relative h-56 overflow-hidden">
                     <img 
                       src={program.image} 
