@@ -13,49 +13,65 @@ export const Programs = () => {
   const programs = [
     {
       icon: HomeIcon,
-      name: 'Supportive Housing',
+      name: 'Pioneer House',
       tagline: 'Safe, stable homes with wraparound support',
-      description: 'Long-term housing with on-site staff providing 24/7 support, community integration, and individualized recovery planning.',
+      description: 'Pioneer House is a 20-bed, community residential facility in New Westminster that focuses on assisting individuals to develop the skills necessary to facilitate their transition to independent, community living.',
       features: ['24/7 on-site support', 'Individual recovery plans', 'Community integration', 'Housing retention services'],
       image: 'https://images.pexels.com/photos/5637808/pexels-photo-5637808.jpeg?w=600'
     },
     {
-      icon: Users,
-      name: 'Peer Support Programs',
-      tagline: 'Recovery guided by lived experience',
-      description: 'Peer-led support groups, mentorship, and training programs that harness the power of shared experience.',
-      features: ['Weekly support groups', 'One-on-one peer mentoring', 'Peer specialist certification', 'Recovery storytelling circles'],
-      image: 'https://images.unsplash.com/photo-1529209076408-5a115ec9f1c6?w=600'
+      icon: HomeIcon,
+      name: 'Millers Way',
+      tagline: 'Safe, stable homes with wraparound support',
+      description: 'Millers Way is a 10-bed program in Burnaby that emphasizes psycho-social rehabilitation and recovery. It focuses on the individual’s strengths and abilities through fostering choices to promote independence and growth.',
+      features: ['24/7 on-site support', 'Individual recovery plans', 'Community integration', 'Housing retention services'],
+      image: 'https://images.pexels.com/photos/5637808/pexels-photo-5637808.jpeg?w=600'
     },
     {
-      icon: GraduationCap,
-      name: 'Education & Employment',
-      tagline: 'Building skills for independent futures',
-      description: 'Vocational training, educational support, and employment placement services tailored to individual goals.',
-      features: ['Job readiness training', 'Educational assistance', 'Resume and interview prep', 'Supported employment placements'],
-      image: 'https://images.unsplash.com/photo-1527525443983-6e60c75fff46?w=600'
+      icon: HomeIcon,
+      name: 'Lina’s Place',
+      tagline: 'Safe, stable homes with wraparound support',
+      description: 'Lina’s Place is a 12-bed Mental Health, Assisted Living program in Burnaby. It provides a stable, supportive environment for persons with a mental illness who require support in developing the skills and resources necessary to increase personal competencies and quality of life.',
+      features: ['24/7 on-site support', 'Individual recovery plans', 'Community integration', 'Housing retention services'],
+      image: 'https://images.pexels.com/photos/5637808/pexels-photo-5637808.jpeg?w=600'
     },
     {
-      icon: Heart,
-      name: 'Health & Wellness',
-      tagline: 'Integrated mind-body care',
-      description: 'Comprehensive health services including mental health support, physical wellness programs, and preventive care.',
-      features: ['Mental health counseling', 'Medication management', 'Wellness activities (yoga, fitness)', 'Healthcare coordination'],
-      image: 'https://images.unsplash.com/photo-1528129550655-5123a0cd0c4e?w=600'
+      icon: HomeIcon,
+      name: 'Adrian House',
+      tagline: 'Safe, stable homes with wraparound support',
+      description: 'Adrian House is a 10-bed program in Burnaby where Staff assist individuals to make choices, and then provide opportunities for the development of needed skills and resources to increase personal competencies and quality of life.',
+      features: ['24/7 on-site support', 'Individual recovery plans', 'Community integration', 'Housing retention services'],
+      image: 'https://images.pexels.com/photos/5637808/pexels-photo-5637808.jpeg?w=600'
     },
     {
-      icon: Shield,
-      name: 'Crisis Support',
-      tagline: '24/7 emergency assistance',
-      description: 'Immediate support during mental health crises, including de-escalation, stabilization, and connection to resources.',
-      features: ['24/7 crisis line', 'Mobile crisis response', 'Safety planning', 'Hospital follow-up'],
-      image: 'https://images.unsplash.com/photo-1758691463193-9d2b21fdb3ba?w=600'
+      icon: HomeIcon,
+      name: 'Elizabeth Barnett Terrace',
+      tagline: 'Safe, stable homes with wraparound support',
+      description: 'Elizabeth Barnett Terrace is a 23-unit, supported independent living apartment building in New Westminster. The goals of this program are to provide safe and affordable housing that fosters independent living, while providing the least restrictive environment possible.',
+      features: ['24/7 on-site support', 'Individual recovery plans', 'Community integration', 'Housing retention services'],
+      image: 'https://images.pexels.com/photos/5637808/pexels-photo-5637808.jpeg?w=600'
     },
     {
-      icon: HandHeart,
-      name: 'Family Support Services',
+      icon: HomeIcon,
+      name: 'Dominion House',
+      tagline: 'Safe, stable homes with wraparound support',
+      description: 'The Dominion House program is hosted in a 5-bed duplex in Burnaby. This program accommodates five Bridging Program residents who are ready to live more independently.',
+      features: ['24/7 on-site support', 'Individual recovery plans', 'Community integration', 'Housing retention services'],
+      image: 'https://images.pexels.com/photos/5637808/pexels-photo-5637808.jpeg?w=600'
+    },
+    {
+      icon: HomeIcon,
+      name: 'Henderson House',
+      tagline: 'Safe, stable homes with wraparound support',
+      description: 'Henderson House is a 10-bed residential program in Coquitlam for adults 19 years or older. The program accomodates five residents and is based on a client and family-centred, recovery culture framework with a psychosocial foundation.',
+      features: ['24/7 on-site support', 'Individual recovery plans', 'Community integration', 'Housing retention services'],
+      image: 'https://images.pexels.com/photos/5637808/pexels-photo-5637808.jpeg?w=600'
+    },
+    {
+      icon: HomeIcon,
+      name: 'Rainbow Lodge',
       tagline: 'Resources for loved ones',
-      description: 'Education, counseling, and support groups for family members and caregivers of individuals with mental illness.',
+      description: 'Rainbow Lodge is home to 10 residents at various stages of their recovery.',
       features: ['Family education workshops', 'Support groups', 'Individual counseling', 'Resource navigation'],
       image: 'https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=600'
     }
@@ -100,9 +116,9 @@ export const Programs = () => {
         </div>
         
         <div className="container mx-auto px-6 relative z-10 text-center">
-          <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">Our Programs & Services</h1>
+          <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">Our Programs</h1>
           <p className="text-xl md:text-2xl text-gray-100 max-w-3xl mx-auto leading-relaxed">
-            Comprehensive, recovery-oriented programs that support every aspect of well-being
+            Over the last 40 years, Pioneer Community Living Association has grown to offer eight distinct residential programs. We house and serve 355 individuals per year, offering individual care, group support, and learning opportunities. g
           </p>
         </div>
       </section>
@@ -111,7 +127,7 @@ export const Programs = () => {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Supporting Recovery Across Five Dimensions</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">Supporting Recovery Through 8 Housing Programs</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Each program is designed to address specific recovery dimensions while working together for holistic support
             </p>
