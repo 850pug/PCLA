@@ -67,15 +67,6 @@ export const Programs = () => {
     },
     {
       icon: HomeIcon,
-      name: 'Dominion House',
-      tagline: 'Safe, stable homes with wraparound support',
-      description: 'The Dominion House program is hosted in a 5-bed duplex in Burnaby. This program accommodates five Bridging Program residents who are ready to live more independently.',
-      features: ['24/7 on-site support', 'Individual recovery plans', 'Community integration', 'Housing retention services'],
-      image: '/images/dominion-house.webp',
-      alt: 'Dominion House recovery residence exterior view'
-    },
-    {
-      icon: HomeIcon,
       name: 'Henderson House',
       tagline: 'Safe, stable homes with wraparound support',
       description: 'Henderson House is a 10-bed residential program in Coquitlam for adults 19 years or older. The program accomodates five residents and is based on a client and family-centred, recovery culture framework with a psychosocial foundation.',
