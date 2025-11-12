@@ -47,6 +47,96 @@ export const Team = () => {
     }
   ];
 
+  const supportStaff = [
+    {
+      name: 'Jennifer Adams',
+      role: 'Clinical Support Worker',
+      image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400',
+      bio: 'Jennifer provides direct support to residents, fostering independence and recovery through compassionate care.',
+      linkedin: '#'
+    },
+    {
+      name: 'Marcus Johnson',
+      role: 'Peer Support Specialist',
+      image: 'https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?w=400',
+      bio: 'Marcus uses his lived experience to inspire hope and provide authentic peer-to-peer support.',
+      linkedin: '#'
+    },
+    {
+      name: 'Lisa Chen',
+      role: 'Case Manager',
+      image: 'https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=400',
+      bio: 'Lisa coordinates comprehensive care plans, connecting residents with essential resources and services.',
+      linkedin: '#'
+    },
+    {
+      name: 'James Wilson',
+      role: 'Recreation Coordinator',
+      image: 'https://images.pexels.com/photos/3777952/pexels-photo-3777952.jpeg?w=400',
+      bio: 'James designs engaging activities and programs that promote wellness, social connection, and community.',
+      linkedin: '#'
+    },
+    {
+      name: 'Maria Rodriguez',
+      role: 'Administrative Coordinator',
+      image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400',
+      bio: 'Maria ensures smooth operations, managing administrative tasks and supporting the entire team.',
+      linkedin: '#'
+    },
+    {
+      name: 'Ahmed Hassan',
+      role: 'Facilities Manager',
+      image: 'https://images.pexels.com/photos/3777952/pexels-photo-3777952.jpeg?w=400',
+      bio: 'Ahmed maintains safe, welcoming environments, ensuring all facilities meet the highest standards.',
+      linkedin: '#'
+    }
+  ];
+
+  const boardMembers = [
+    {
+      name: 'Dr. Patricia Thompson',
+      role: 'Board Chair',
+      image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400',
+      bio: 'Dr. Thompson brings 25 years of experience in mental health policy and governance, providing strategic leadership to our organization.',
+      linkedin: '#'
+    },
+    {
+      name: 'Robert Chang',
+      role: 'Vice Chair',
+      image: 'https://images.pexels.com/photos/3777952/pexels-photo-3777952.jpeg?w=400',
+      bio: 'Robert is a corporate leader with extensive experience in nonprofit governance and community development.',
+      linkedin: '#'
+    },
+    {
+      name: 'Dr. Aisha Mohammed',
+      role: 'Treasurer',
+      image: 'https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=400',
+      bio: 'Dr. Mohammed is a CPA with expertise in nonprofit financial management and sustainable funding strategies.',
+      linkedin: '#'
+    },
+    {
+      name: 'Thomas Anderson',
+      role: 'Secretary',
+      image: 'https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?w=400',
+      bio: 'Thomas is an attorney specializing in nonprofit law and governance, ensuring our compliance and best practices.',
+      linkedin: '#'
+    },
+    {
+      name: 'Sandra Lee',
+      role: 'Board Member',
+      image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400',
+      bio: 'Sandra brings lived experience and advocacy expertise, ensuring our board remains connected to the community we serve.',
+      linkedin: '#'
+    },
+    {
+      name: 'Dr. Michael O\'Brien',
+      role: 'Board Member',
+      image: 'https://images.pexels.com/photos/3259624/pexels-photo-3259624.jpeg?w=400',
+      bio: 'Dr. O\'Brien is a psychiatrist with deep knowledge of recovery-oriented systems and evidence-based practices.',
+      linkedin: '#'
+    }
+  ];
+
   const staffHighlights = [
     {
       stat: '85%',
@@ -111,12 +201,84 @@ export const Team = () => {
         </div>
       </section>
 
-      {/* Team Members Grid */}
+      {/* Leadership Team Section */}
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-6">
           <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">Leadership Team</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {teamMembers.map((member, index) => (
+              <Card key={index} className="hover:shadow-2xl transition-all duration-300 border-2 rounded-3xl overflow-hidden group">
+                <div className="relative h-80 overflow-hidden">
+                  <img 
+                    src={member.image} 
+                    alt={member.name}
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
+                    <h3 className="text-2xl font-bold mb-1">{member.name}</h3>
+                    <p className="text-[#86a873] font-semibold">{member.role}</p>
+                  </div>
+                </div>
+                <CardContent className="p-6">
+                  <p className="text-gray-700 leading-relaxed mb-4">{member.bio}</p>
+                  <div className="flex space-x-3">
+                    <a href={member.linkedin} className="text-[#336f99] hover:text-[#86a873] transition-colors">
+                      <Linkedin className="w-5 h-5" />
+                    </a>
+                    <a href={`mailto:${member.name.toLowerCase().replace(' ', '.')}@pclaservices.ca`} className="text-[#336f99] hover:text-[#86a873] transition-colors">
+                      <Mail className="w-5 h-5" />
+                    </a>
+                  </div>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Support Staff Section */}
+      <section className="py-20 bg-white">
+        <div className="container mx-auto px-6">
+          <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">Support Staff</h2>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {supportStaff.map((member, index) => (
+              <Card key={index} className="hover:shadow-2xl transition-all duration-300 border-2 rounded-3xl overflow-hidden group">
+                <div className="relative h-80 overflow-hidden">
+                  <img 
+                    src={member.image} 
+                    alt={member.name}
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
+                    <h3 className="text-2xl font-bold mb-1">{member.name}</h3>
+                    <p className="text-[#86a873] font-semibold">{member.role}</p>
+                  </div>
+                </div>
+                <CardContent className="p-6">
+                  <p className="text-gray-700 leading-relaxed mb-4">{member.bio}</p>
+                  <div className="flex space-x-3">
+                    <a href={member.linkedin} className="text-[#336f99] hover:text-[#86a873] transition-colors">
+                      <Linkedin className="w-5 h-5" />
+                    </a>
+                    <a href={`mailto:${member.name.toLowerCase().replace(' ', '.')}@pclaservices.ca`} className="text-[#336f99] hover:text-[#86a873] transition-colors">
+                      <Mail className="w-5 h-5" />
+                    </a>
+                  </div>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Board of Directors Section */}
+      <section className="py-20 bg-gray-50">
+        <div className="container mx-auto px-6">
+          <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">Board of Directors</h2>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {boardMembers.map((member, index) => (
               <Card key={index} className="hover:shadow-2xl transition-all duration-300 border-2 rounded-3xl overflow-hidden group">
                 <div className="relative h-80 overflow-hidden">
                   <img 
