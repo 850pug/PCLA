@@ -62,7 +62,7 @@ export const Home = () => {
               <span className="text-[#86a873]">strengthening communities</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-200 mb-8 leading-relaxed">
-              PCLA is the recognized reference point for recovery-oriented supportive housing for individuals living with serious and persistent mental illness.
+              PCLA is the Lower Mainland's recognized reference point for recovery-oriented supportive housing for individuals living with serious and persistent mental illness.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link to="/recovery">
