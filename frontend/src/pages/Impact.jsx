@@ -65,16 +65,14 @@ export const Impact = () => {
             Tracking progress across the five essential recovery dimensions
           </p>
 
-          {/* Grid layout with 5 boxes centered */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 justify-items-center">
+          {/* Single row layout on desktop/tablet, single column on mobile */}
+          <div className="grid grid-cols-1 md:grid-cols-5 gap-6 max-w-7xl mx-auto">
             {metrics.map((metric, index) => {
               const Icon = metric.icon;
               return (
                 <Card
                   key={index}
-                  className={`border-2 rounded-3xl overflow-hidden hover:shadow-2xl transition-all w-full ${
-                    index === 4 ? 'md:col-start-2' : ''
-                  }`}
+                  className="border-2 rounded-3xl overflow-hidden hover:shadow-2xl transition-all"
                 >
                   <CardContent className="p-6">
                     <div className="flex items-center justify-between mb-4">
@@ -85,8 +83,8 @@ export const Impact = () => {
                         {metric.dimension}
                       </span>
                     </div>
-                    <div className="text-5xl font-bold text-gray-900 mb-2">{metric.stat}</div>
-                    <div className="text-sm text-gray-700 leading-snug">{metric.label}</div>
+                    <div className="text-4xl font-bold text-gray-900 mb-2">{metric.stat}</div>
+                    <div className="text-xs text-gray-700 leading-tight">{metric.label}</div>
                   </CardContent>
                 </Card>
               );
