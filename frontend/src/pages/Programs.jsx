@@ -17,7 +17,7 @@ export const Programs = () => {
       tagline: 'Safe, stable homes with wraparound support',
       description: 'Pioneer House is a 20-bed, community residential facility in New Westminster that focuses on assisting individuals to develop the skills necessary to facilitate their transition to independent, community living.',
       features: ['24/7 on-site support', 'Individual recovery plans', 'Community integration', 'Housing retention services'],
-      image: 'https://images.pexels.com/photos/5637808/pexels-photo-5637808.jpeg?w=600'
+      image: '/images/pioneer-house.webp'
       alt: 'Pioneer House recovery residence exterior view'
     },
     {
@@ -35,7 +35,7 @@ export const Programs = () => {
       tagline: 'Safe, stable homes with wraparound support',
       description: 'Millers Way is a 10-bed program in Burnaby that emphasizes psycho-social rehabilitation and recovery. It focuses on the individual’s strengths and abilities through fostering choices to promote independence and growth.',
       features: ['24/7 on-site support', 'Individual recovery plans', 'Community integration', 'Housing retention services'],
-      image: 'https://images.pexels.com/photos/5637808/pexels-photo-5637808.jpeg?w=600'
+      image: '/images/millers-way.webp'
       alt: 'Millers Way recovery residence exterior view'
     },
     {
@@ -44,7 +44,7 @@ export const Programs = () => {
       tagline: 'Safe, stable homes with wraparound support',
       description: 'Lina’s Place is a 12-bed Mental Health, Assisted Living program in Burnaby. It provides a stable, supportive environment for persons with a mental illness who require support in developing the skills and resources necessary to increase personal competencies and quality of life.',
       features: ['24/7 on-site support', 'Individual recovery plans', 'Community integration', 'Housing retention services'],
-      image: 'https://images.pexels.com/photos/5637808/pexels-photo-5637808.jpeg?w=600'
+      image: '/images/linas-place.webp'
       alt: 'Lina’s Place recovery residence exterior view'
     },
     {
@@ -53,7 +53,7 @@ export const Programs = () => {
       tagline: 'Safe, stable homes with wraparound support',
       description: 'Adrian House is a 10-bed program in Burnaby where Staff assist individuals to make choices, and then provide opportunities for the development of needed skills and resources to increase personal competencies and quality of life.',
       features: ['24/7 on-site support', 'Individual recovery plans', 'Community integration', 'Housing retention services'],
-      image: 'https://images.pexels.com/photos/5637808/pexels-photo-5637808.jpeg?w=600'
+      image: '/images/CRESST.webp'
       alt: 'Adrian House recovery residence exterior view'
     },
     {
@@ -62,7 +62,7 @@ export const Programs = () => {
       tagline: 'Safe, stable homes with wraparound support',
       description: 'Elizabeth Barnett Terrace is a 23-unit, supported independent living apartment building in New Westminster. The goals of this program are to provide safe and affordable housing that fosters independent living, while providing the least restrictive environment possible.',
       features: ['24/7 on-site support', 'Individual recovery plans', 'Community integration', 'Housing retention services'],
-      image: 'https://images.pexels.com/photos/5637808/pexels-photo-5637808.jpeg?w=600'
+      iimage: '/images/elizabeth-barrett-terrace.webp'
       alt: 'Elizabeth Barnett Terrace recovery residence exterior view'
     },
     {
@@ -71,7 +71,7 @@ export const Programs = () => {
       tagline: 'Safe, stable homes with wraparound support',
       description: 'The Dominion House program is hosted in a 5-bed duplex in Burnaby. This program accommodates five Bridging Program residents who are ready to live more independently.',
       features: ['24/7 on-site support', 'Individual recovery plans', 'Community integration', 'Housing retention services'],
-      image: 'https://images.pexels.com/photos/5637808/pexels-photo-5637808.jpeg?w=600'
+      image: '/images/dominion-house.webp'
       alt: 'Dominion House recovery residence exterior view'
     },
     {
@@ -80,7 +80,7 @@ export const Programs = () => {
       tagline: 'Safe, stable homes with wraparound support',
       description: 'Henderson House is a 10-bed residential program in Coquitlam for adults 19 years or older. The program accomodates five residents and is based on a client and family-centred, recovery culture framework with a psychosocial foundation.',
       features: ['24/7 on-site support', 'Individual recovery plans', 'Community integration', 'Housing retention services'],
-      image: 'https://images.pexels.com/photos/5637808/pexels-photo-5637808.jpeg?w=600'
+      image: '/images/Henderson+House.webp'
       alt: 'Henderson House recovery residence exterior view'
     },
     {
@@ -89,7 +89,7 @@ export const Programs = () => {
       tagline: 'Resources for loved ones',
       description: 'Rainbow Lodge is home to 10 residents at various stages of their recovery.',
       features: ['Family education workshops', 'Support groups', 'Individual counseling', 'Resource navigation'],
-      image: 'https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=600'
+      image: '/images/CRESST.webp'
       alt: 'Rainbow Lodge recovery residence exterior view'
     }
   ];
