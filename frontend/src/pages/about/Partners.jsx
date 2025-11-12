@@ -5,7 +5,7 @@ export const Partners = () => {
   const partners = [
     {
       name: 'BC Housing',
-      logo: 'https://via.placeholder.com/200x80/336f99/ffffff?text=BC+Housing',
+      logo: '/images/BCH_Logo.webp',
       description: 'Provincial housing authority providing funding and support for supportive housing initiatives.',
       category: 'Government'
     },
