@@ -5,7 +5,7 @@ import { TrendingUp, Users, Home as HomeIcon, Heart, Download } from 'lucide-rea
 
 export const Impact = () => {
   const metrics = [
-    { dimension: 'Housing', stat: '95%', label: 'Housing retention rate', icon: HomeIcon, color: 'bg-[#336f99]' },
+    { dimension: 'Housing', stat: '90%', label: 'of clients feel safe and respected at their residences', icon: HomeIcon, color: 'bg-[#336f99]' },
     { dimension: 'Belonging', stat: '92%', label: 'Feel sense of community', icon: Users, color: 'bg-[#86a873]' },
     { dimension: 'Purpose', stat: '78%', label: 'Engaged in meaningful activities', icon: TrendingUp, color: 'bg-[#f26d2d]' },
     { dimension: 'Health', stat: '88%', label: 'Improved mental health', icon: Heart, color: 'bg-[#336f99]' },
@@ -46,7 +46,7 @@ export const Impact = () => {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-6">
           <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">Four Decades of Service</h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-6xl mx-auto">
             {overallImpact.map((item, index) => (
               <div key={index} className="text-center p-6 bg-gradient-to-br from-gray-50 to-gray-100 rounded-3xl border-2">
                 <div className="text-6xl font-bold text-[#336f99] mb-2">{item.number}</div>
@@ -65,26 +65,26 @@ export const Impact = () => {
             Tracking progress across the five essential recovery dimensions
           </p>
 
-          {/* ✅ Centered Flex Layout for 5 boxes */}
-          <div className="flex flex-wrap justify-center gap-8">
+          {/* Grid layout matching the Four Decades section */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-6xl mx-auto">
             {metrics.map((metric, index) => {
               const Icon = metric.icon;
               return (
                 <Card
                   key={index}
-                  className="w-full sm:w-[300px] border-2 rounded-3xl overflow-hidden hover:shadow-2xl transition-all"
+                  className="border-2 rounded-3xl overflow-hidden hover:shadow-2xl transition-all"
                 >
-                  <CardContent className="p-8">
-                    <div className="flex items-center justify-between mb-6">
-                      <div className={`w-14 h-14 rounded-2xl ${metric.color} flex items-center justify-center`}>
-                        <Icon className="w-7 h-7 text-white" />
+                  <CardContent className="p-6">
+                    <div className="flex items-center justify-between mb-4">
+                      <div className={`w-12 h-12 rounded-2xl ${metric.color} flex items-center justify-center`}>
+                        <Icon className="w-6 h-6 text-white" />
                       </div>
-                      <span className="text-sm font-semibold text-gray-600 uppercase tracking-wide">
+                      <span className="text-xs font-semibold text-gray-600 uppercase tracking-wide">
                         {metric.dimension}
                       </span>
                     </div>
-                    <div className="text-6xl font-bold text-gray-900 mb-2">{metric.stat}</div>
-                    <div className="text-lg text-gray-700">{metric.label}</div>
+                    <div className="text-5xl font-bold text-gray-900 mb-2">{metric.stat}</div>
+                    <div className="text-sm text-gray-700 leading-snug">{metric.label}</div>
                   </CardContent>
                 </Card>
               );
@@ -114,7 +114,7 @@ export const Impact = () => {
                 <CardContent className="p-8 flex items-center justify-between">
                   <div>
                     <h3 className="text-2xl font-bold text-gray-900 mb-2">What is Psychosocial Rehabilitation (PSR)?</h3>
-                    <p className="text-gray-600">The heart of PCLA’s approach.</p>
+                    <p className="text-gray-600">The heart of PCLA's approach.</p>
                   </div>
                   <Button className="bg-[#336f99] hover:bg-[#2a5a7d] text-white rounded-full px-6">
                     <Download className="w-5 h-5 mr-2" /> Download
@@ -125,7 +125,7 @@ export const Impact = () => {
                 <CardContent className="p-8 flex items-center justify-between">
                   <div>
                     <h3 className="text-2xl font-bold text-gray-900 mb-2">What is Housing First?</h3>
-                    <p className="text-gray-600">The evidence behind PCLA’s housing model.</p>
+                    <p className="text-gray-600">The evidence behind PCLA's housing model.</p>
                   </div>
                   <Button className="bg-[#86a873] hover:bg-[#6d8a5c] text-white rounded-full px-6">
                     <Download className="w-5 h-5 mr-2" /> Download
