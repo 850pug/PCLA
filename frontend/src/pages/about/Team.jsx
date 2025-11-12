@@ -104,7 +104,7 @@ export const Team = () => {
       name: 'Camila Nunes',
       role: 'Vice President',
       image: 'https://images.pexels.com/photos/3777952/pexels-photo-3777952.jpeg?w=400',
-      bio: BIO SNIPPET HERE',
+      bio: 'BIO SNIPPET HERE',
       linkedin: '#'
     },
     {
@@ -132,7 +132,7 @@ export const Team = () => {
       name: 'Ed Yee',
       role: 'Director',
       image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400',
-      bio: BIO SNIPPET HERE',
+      bio: 'BIO SNIPPET HERE',
       linkedin: '#'
     },
     {
