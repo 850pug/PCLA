@@ -181,16 +181,14 @@ export const Programs = () => {
             })}
           </div>
 
-          {/* Last 2 programs centered in 2 columns */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {/* Last 2 programs centered in 2 columns using flexbox */}
+          <div className="flex flex-wrap justify-center gap-8">
             {programs.slice(6).map((program, index) => {
               const Icon = program.icon;
               return (
                 <Card 
                   key={index} 
-                  className={`hover:shadow-2xl transition-all duration-300 border-2 rounded-3xl overflow-hidden group ${
-                    index === 0 ? 'md:col-start-1' : ''
-                  }`}
+                  className="hover:shadow-2xl transition-all duration-300 border-2 rounded-3xl overflow-hidden group w-full md:w-[calc(33.333%-1.333rem)]"
                 >
                   <div className="relative h-56 overflow-hidden">
                     <img 
