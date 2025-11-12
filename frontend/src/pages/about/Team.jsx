@@ -52,87 +52,101 @@ export const Team = () => {
       name: 'Deanna Alexander',
       role: 'Team Lead, Lina’s Place',
       image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400',
-      bio: 'BIO HERE',
+      bio: 'BIO SNIPPET HERE',
       linkedin: '#'
     },
     {
       name: 'Debbie Reid',
       role: 'Manager of Care, Millers Way & Lina’s Place',
       image: 'https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?w=400',
-      bio: 'BIO HERE',
+      bio: 'BIO SNIPPET HERE',
       linkedin: '#'
     },
     {
       name: 'Jeannine Corrigan',
       role: 'Manager of Care, CRESST',
       image: 'https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=400',
-      bio: 'BIO HERE',
+      bio: 'BIO SNIPPET HERE',
       linkedin: '#'
     },
     {
       name: 'Michelle Mikota',
       role: 'Manager of Care, Adrian House',
       image: 'https://images.pexels.com/photos/3777952/pexels-photo-3777952.jpeg?w=400',
-      bio: 'BIO HERE',
+      bio: 'BIO SNIPPET HERE',
       linkedin: '#'
     },
     {
       name: 'Susie Innes',
       role: 'Manager of Care, Rainbow Lodge',
       image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400',
-      bio: 'BIO HERE',
+      bio: 'BIO SNIPPET HERE',
       linkedin: '#'
     },
     {
       name: 'Vanessa Roberts',
       role: 'Manager of Care, Henderson House',
       image: 'https://images.pexels.com/photos/3777952/pexels-photo-3777952.jpeg?w=400',
-      bio: 'BIO HERE',
+      bio: 'BIO SNIPPET HERE',
       linkedin: '#'
     }
   ];
 
   const boardMembers = [
     {
-      name: 'Dr. Patricia Thompson',
-      role: 'Board Chair',
+      name: 'Scott Roberts',
+      role: 'President',
       image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400',
-      bio: 'Dr. Thompson brings 25 years of experience in mental health policy and governance, providing strategic leadership to our organization.',
+      bio: 'BIO SNIPPET HERE',
       linkedin: '#'
     },
     {
-      name: 'Robert Chang',
-      role: 'Vice Chair',
+      name: 'Camila Nunes',
+      role: 'Vice President',
       image: 'https://images.pexels.com/photos/3777952/pexels-photo-3777952.jpeg?w=400',
-      bio: 'Robert is a corporate leader with extensive experience in nonprofit governance and community development.',
+      bio: BIO SNIPPET HERE',
       linkedin: '#'
     },
     {
-      name: 'Dr. Aisha Mohammed',
+      name: 'Nancy Tu',
       role: 'Treasurer',
       image: 'https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=400',
-      bio: 'Dr. Mohammed is a CPA with expertise in nonprofit financial management and sustainable funding strategies.',
+      bio: 'BIO SNIPPET HERE',
       linkedin: '#'
     },
     {
-      name: 'Thomas Anderson',
+      name: 'Simi Rajput',
       role: 'Secretary',
       image: 'https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?w=400',
-      bio: 'Thomas is an attorney specializing in nonprofit law and governance, ensuring our compliance and best practices.',
+      bio: 'BIO SNIPPET HERE',
       linkedin: '#'
     },
     {
-      name: 'Sandra Lee',
-      role: 'Board Member',
+      name: 'Sib Shaw',
+      role: 'Director',
       image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400',
-      bio: 'Sandra brings lived experience and advocacy expertise, ensuring our board remains connected to the community we serve.',
+      bio: 'BIO SNIPPET HERE',
       linkedin: '#'
     },
     {
-      name: 'Dr. Michael O\'Brien',
-      role: 'Board Member',
+      name: 'Ed Yee',
+      role: 'Director',
+      image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400',
+      bio: BIO SNIPPET HERE',
+      linkedin: '#'
+    },
+    {
+      name: 'Harsh Thakkar',
+      role: 'Director',
+      image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400',
+      bio: 'BIO SNIPPET HERE',
+      linkedin: '#'
+    },
+    {
+      name: 'Rehan Khan',
+      role: 'Director',
       image: 'https://images.pexels.com/photos/3259624/pexels-photo-3259624.jpeg?w=400',
-      bio: 'Dr. O\'Brien is a psychiatrist with deep knowledge of recovery-oriented systems and evidence-based practices.',
+      bio: 'BIO SNIPPET HERE',
       linkedin: '#'
     }
   ];
