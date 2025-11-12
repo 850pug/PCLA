@@ -46,7 +46,7 @@ export const Impact = () => {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-6">
           <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">Four Decades of Service</h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-6xl mx-auto">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {overallImpact.map((item, index) => (
               <div key={index} className="text-center p-6 bg-gradient-to-br from-gray-50 to-gray-100 rounded-3xl border-2">
                 <div className="text-6xl font-bold text-[#336f99] mb-2">{item.number}</div>
@@ -65,14 +65,16 @@ export const Impact = () => {
             Tracking progress across the five essential recovery dimensions
           </p>
 
-          {/* Grid layout matching the Four Decades section */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-6xl mx-auto">
+          {/* Grid layout with 5 boxes centered */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 justify-items-center">
             {metrics.map((metric, index) => {
               const Icon = metric.icon;
               return (
                 <Card
                   key={index}
-                  className="border-2 rounded-3xl overflow-hidden hover:shadow-2xl transition-all"
+                  className={`border-2 rounded-3xl overflow-hidden hover:shadow-2xl transition-all w-full ${
+                    index === 4 ? 'md:col-start-2' : ''
+                  }`}
                 >
                   <CardContent className="p-6">
                     <div className="flex items-center justify-between mb-4">
