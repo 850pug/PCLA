@@ -6,7 +6,7 @@ export const Team = () => {
     {
       name: 'Michael Kierszenblat',
       role: 'Executive Director',
-      image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=400',
+      image: '/images/Michael+K+Bio.webp',
       bio: 'Michael Kierszenblat brings experience from leadership roles in Provincial Ministries, BC Housing, and the non-profit sector in the delivery of programs and services aimed at assisting the most vulnerable.',
       linkedin: '#'
     },
