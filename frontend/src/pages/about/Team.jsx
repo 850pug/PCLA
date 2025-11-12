@@ -49,45 +49,45 @@ export const Team = () => {
 
   const supportStaff = [
     {
-      name: 'Jennifer Adams',
-      role: 'Clinical Support Worker',
+      name: 'Deanna Alexander',
+      role: 'Team Lead, Lina’s Place',
       image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400',
-      bio: 'Jennifer provides direct support to residents, fostering independence and recovery through compassionate care.',
+      bio: 'BIO HERE',
       linkedin: '#'
     },
     {
-      name: 'Marcus Johnson',
-      role: 'Peer Support Specialist',
+      name: 'Debbie Reid',
+      role: 'Manager of Care, Millers Way & Lina’s Place',
       image: 'https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?w=400',
-      bio: 'Marcus uses his lived experience to inspire hope and provide authentic peer-to-peer support.',
+      bio: 'BIO HERE',
       linkedin: '#'
     },
     {
-      name: 'Lisa Chen',
-      role: 'Case Manager',
+      name: 'Jeannine Corrigan',
+      role: 'Manager of Care, CRESST',
       image: 'https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=400',
-      bio: 'Lisa coordinates comprehensive care plans, connecting residents with essential resources and services.',
+      bio: 'BIO HERE',
       linkedin: '#'
     },
     {
-      name: 'James Wilson',
-      role: 'Recreation Coordinator',
+      name: 'Michelle Mikota',
+      role: 'Manager of Care, Adrian House',
       image: 'https://images.pexels.com/photos/3777952/pexels-photo-3777952.jpeg?w=400',
-      bio: 'James designs engaging activities and programs that promote wellness, social connection, and community.',
+      bio: 'BIO HERE',
       linkedin: '#'
     },
     {
-      name: 'Maria Rodriguez',
-      role: 'Administrative Coordinator',
+      name: 'Susie Innes',
+      role: 'Manager of Care, Rainbow Lodge',
       image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400',
-      bio: 'Maria ensures smooth operations, managing administrative tasks and supporting the entire team.',
+      bio: 'BIO HERE',
       linkedin: '#'
     },
     {
-      name: 'Ahmed Hassan',
-      role: 'Facilities Manager',
+      name: 'Vanessa Roberts',
+      role: 'Manager of Care, Henderson House',
       image: 'https://images.pexels.com/photos/3777952/pexels-photo-3777952.jpeg?w=400',
-      bio: 'Ahmed maintains safe, welcoming environments, ensuring all facilities meet the highest standards.',
+      bio: 'BIO HERE',
       linkedin: '#'
     }
   ];
