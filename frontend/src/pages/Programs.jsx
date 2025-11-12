@@ -24,7 +24,7 @@ export const Programs = () => {
       icon: HomeIcon,
       name: 'CRESST',
       tagline: 'Safe, stable homes with wraparound support',
-      description: 'CRESST is a 10-bed, community response, short-stay program in New Westminster. CRESST provides a structured, therapeutic environment that offers psycho-educational groups during the clients’ stay. The program provides service for 275 clients annually.',
+      description: 'CRESST is a 10-bed, community response, short-stay program in New Westminster. CRESST provides a structured, therapeutic environment that offers psycho-educational groups during the clients' stay. The program provides service for 275 clients annually.',
       features: ['24/7 on-site support', 'Individual recovery plans', 'Community integration', 'Housing retention services'],
       image: '/images/CRESST.webp',
       alt: 'CRESST recovery residence exterior view'
@@ -33,19 +33,19 @@ export const Programs = () => {
       icon: HomeIcon,
       name: 'Millers Way',
       tagline: 'Safe, stable homes with wraparound support',
-      description: 'Millers Way is a 10-bed program in Burnaby that emphasizes psycho-social rehabilitation and recovery. It focuses on the individual’s strengths and abilities through fostering choices to promote independence and growth.',
+      description: 'Millers Way is a 10-bed program in Burnaby that emphasizes psycho-social rehabilitation and recovery. It focuses on the individual's strengths and abilities through fostering choices to promote independence and growth.',
       features: ['24/7 on-site support', 'Individual recovery plans', 'Community integration', 'Housing retention services'],
       image: '/images/millers-way.webp',
       alt: 'Millers Way recovery residence exterior view'
     },
     {
       icon: HomeIcon,
-      name: 'Lina’s Place',
+      name: 'Lina's Place',
       tagline: 'Safe, stable homes with wraparound support',
-      description: 'Lina’s Place is a 12-bed Mental Health, Assisted Living program in Burnaby. It provides a stable, supportive environment for persons with a mental illness who require support in developing the skills and resources necessary to increase personal competencies and quality of life.',
+      description: 'Lina's Place is a 12-bed Mental Health, Assisted Living program in Burnaby. It provides a stable, supportive environment for persons with a mental illness who require support in developing the skills and resources necessary to increase personal competencies and quality of life.',
       features: ['24/7 on-site support', 'Individual recovery plans', 'Community integration', 'Housing retention services'],
       image: '/images/linas-place.webp',
-      alt: 'Lina’s Place recovery residence exterior view'
+      alt: 'Lina's Place recovery residence exterior view'
     },
     {
       icon: HomeIcon,
@@ -62,7 +62,7 @@ export const Programs = () => {
       tagline: 'Safe, stable homes with wraparound support',
       description: 'Elizabeth Barnett Terrace is a 23-unit, supported independent living apartment building in New Westminster. The goals of this program are to provide safe and affordable housing that fosters independent living, while providing the least restrictive environment possible.',
       features: ['24/7 on-site support', 'Individual recovery plans', 'Community integration', 'Housing retention services'],
-      iimage: '/images/elizabeth-barrett-terrace.webp',
+      image: '/images/elizabeth-barrett-terrace.webp',
       alt: 'Elizabeth Barnett Terrace recovery residence exterior view'
     },
     {
@@ -141,7 +141,7 @@ export const Programs = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-7xl mx-auto">
             {programs.map((program, index) => {
               const Icon = program.icon;
               return (
