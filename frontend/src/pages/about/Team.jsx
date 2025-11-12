@@ -4,10 +4,10 @@ import { Linkedin, Mail } from 'lucide-react';
 export const Team = () => {
   const teamMembers = [
     {
-      name: 'Dr. Jennifer Anderson',
+      name: 'Michael Kierszenblat',
       role: 'Executive Director',
       image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=400',
-      bio: 'With over 20 years of experience in mental health services, Dr. Anderson leads PCLA\'s strategic vision and national advocacy efforts.',
+      bio: 'Michael Kierszenblat brings experience from leadership roles in Provincial Ministries, BC Housing, and the non-profit sector in the delivery of programs and services aimed at assisting the most vulnerable.',
       linkedin: '#'
     },
     {
