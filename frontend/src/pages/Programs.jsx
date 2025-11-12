@@ -21,6 +21,14 @@ export const Programs = () => {
     },
     {
       icon: HomeIcon,
+      name: 'CRESST',
+      tagline: 'Safe, stable homes with wraparound support',
+      description: 'CRESST is a 10-bed, community response, short-stay program in New Westminster. CRESST provides a structured, therapeutic environment that offers psycho-educational groups during the clients’ stay. The program provides service for 275 clients annually.',
+      features: ['24/7 on-site support', 'Individual recovery plans', 'Community integration', 'Housing retention services'],
+      image: 'https://images.pexels.com/photos/5637808/pexels-photo-5637808.jpeg?w=600'
+    },
+    {
+      icon: HomeIcon,
       name: 'Millers Way',
       tagline: 'Safe, stable homes with wraparound support',
       description: 'Millers Way is a 10-bed program in Burnaby that emphasizes psycho-social rehabilitation and recovery. It focuses on the individual’s strengths and abilities through fostering choices to promote independence and growth.',
@@ -118,7 +126,7 @@ export const Programs = () => {
         <div className="container mx-auto px-6 relative z-10 text-center">
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">Our Programs</h1>
           <p className="text-xl md:text-2xl text-gray-100 max-w-3xl mx-auto leading-relaxed">
-            Over the last 40 years, Pioneer Community Living Association has grown to offer eight distinct residential programs. We house and serve 355 individuals per year, offering individual care, group support, and learning opportunities. g
+            Over the last 40 years, Pioneer Community Living Association has grown to offer NINE distinct residential programs. We house and serve 355 individuals per year, offering individual care, group support, and learning opportunities. g
           </p>
         </div>
       </section>
@@ -127,7 +135,7 @@ export const Programs = () => {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Supporting Recovery Through Eight Distinct Housing Programs</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">Supporting Recovery Through Nine Distinct Housing Programs</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Each program is designed to address specific recovery dimensions while working together for holistic support
             </p>
