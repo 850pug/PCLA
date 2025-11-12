@@ -39,10 +39,10 @@ export const Team = () => {
       linkedin: '#'
     },
     {
-      name: 'David Martinez',
-      role: 'Community Engagement Coordinator',
+      name: 'Anastasia Humenuk',
+      role: 'Director of Human Resources',
       image: 'https://images.unsplash.com/photo-1516841273335-e39b37888115?w=400',
-      bio: 'David builds partnerships and community connections, fostering belonging and integration for program participants.',
+      bio: 'Anastasia Humenuk brings 28 years of experience in HR leadership roles in the private, healthcare, municipal government and the non-profit sectors. She has specific experience leading the HR function and HR team for non-profits who deliver programs and services aimed at assisting the most vulnerable. ',
       linkedin: '#'
     }
   ];
