@@ -15,7 +15,7 @@ export const Programs = () => {
       icon: HomeIcon,
       name: 'Pioneer House',
       tagline: 'Safe, stable homes with wraparound support',
-      description: 'Pioneer House is a 20-bed, community residential facility in New Westminster that focuses on assisting individuals to develop the skills necessary to facilitate their transition to independent, community living.',
+      description: "Pioneer House is a 20-bed, community residential facility in New Westminster that focuses on assisting individuals to develop the skills necessary to facilitate their transition to independent, community living.",
       features: ['24/7 on-site support', 'Individual recovery plans', 'Community integration', 'Housing retention services'],
       image: '/images/pioneer-house.webp',
       alt: 'Pioneer House recovery residence exterior view'
@@ -24,7 +24,7 @@ export const Programs = () => {
       icon: HomeIcon,
       name: 'CRESST',
       tagline: 'Safe, stable homes with wraparound support',
-      description: 'CRESST is a 10-bed, community response, short-stay program in New Westminster. CRESST provides a structured, therapeutic environment that offers psycho-educational groups during the clients' stay. The program provides service for 275 clients annually.',
+      description: "CRESST is a 10-bed, community response, short-stay program in New Westminster. CRESST provides a structured, therapeutic environment that offers psycho-educational groups during the clients' stay. The program provides service for 275 clients annually.",
       features: ['24/7 on-site support', 'Individual recovery plans', 'Community integration', 'Housing retention services'],
       image: '/images/CRESST.webp',
       alt: 'CRESST recovery residence exterior view'
@@ -33,25 +33,25 @@ export const Programs = () => {
       icon: HomeIcon,
       name: 'Millers Way',
       tagline: 'Safe, stable homes with wraparound support',
-      description: 'Millers Way is a 10-bed program in Burnaby that emphasizes psycho-social rehabilitation and recovery. It focuses on the individual's strengths and abilities through fostering choices to promote independence and growth.',
+      description: "Millers Way is a 10-bed program in Burnaby that emphasizes psycho-social rehabilitation and recovery. It focuses on the individual's strengths and abilities through fostering choices to promote independence and growth.",
       features: ['24/7 on-site support', 'Individual recovery plans', 'Community integration', 'Housing retention services'],
       image: '/images/millers-way.webp',
       alt: 'Millers Way recovery residence exterior view'
     },
     {
       icon: HomeIcon,
-      name: 'Lina's Place',
+      name: "Lina's Place",
       tagline: 'Safe, stable homes with wraparound support',
-      description: 'Lina's Place is a 12-bed Mental Health, Assisted Living program in Burnaby. It provides a stable, supportive environment for persons with a mental illness who require support in developing the skills and resources necessary to increase personal competencies and quality of life.',
+      description: "Lina's Place is a 12-bed Mental Health, Assisted Living program in Burnaby. It provides a stable, supportive environment for persons with a mental illness who require support in developing the skills and resources necessary to increase personal competencies and quality of life.",
       features: ['24/7 on-site support', 'Individual recovery plans', 'Community integration', 'Housing retention services'],
       image: '/images/linas-place.webp',
-      alt: 'Lina's Place recovery residence exterior view'
+      alt: "Lina's Place recovery residence exterior view"
     },
     {
       icon: HomeIcon,
       name: 'Adrian House',
       tagline: 'Safe, stable homes with wraparound support',
-      description: 'Adrian House is a 10-bed program in Burnaby where Staff assist individuals to make choices, and then provide opportunities for the development of needed skills and resources to increase personal competencies and quality of life.',
+      description: "Adrian House is a 10-bed program in Burnaby where Staff assist individuals to make choices, and then provide opportunities for the development of needed skills and resources to increase personal competencies and quality of life.",
       features: ['24/7 on-site support', 'Individual recovery plans', 'Community integration', 'Housing retention services'],
       image: '/images/CRESST.webp',
       alt: 'Adrian House recovery residence exterior view'
@@ -60,7 +60,7 @@ export const Programs = () => {
       icon: HomeIcon,
       name: 'Elizabeth Barnett Terrace',
       tagline: 'Safe, stable homes with wraparound support',
-      description: 'Elizabeth Barnett Terrace is a 23-unit, supported independent living apartment building in New Westminster. The goals of this program are to provide safe and affordable housing that fosters independent living, while providing the least restrictive environment possible.',
+      description: "Elizabeth Barnett Terrace is a 23-unit, supported independent living apartment building in New Westminster. The goals of this program are to provide safe and affordable housing that fosters independent living, while providing the least restrictive environment possible.",
       features: ['24/7 on-site support', 'Individual recovery plans', 'Community integration', 'Housing retention services'],
       image: '/images/elizabeth-barrett-terrace.webp',
       alt: 'Elizabeth Barnett Terrace recovery residence exterior view'
@@ -69,7 +69,7 @@ export const Programs = () => {
       icon: HomeIcon,
       name: 'Henderson House',
       tagline: 'Safe, stable homes with wraparound support',
-      description: 'Henderson House is a 10-bed residential program in Coquitlam for adults 19 years or older. The program accomodates five residents and is based on a client and family-centred, recovery culture framework with a psychosocial foundation.',
+      description: "Henderson House is a 10-bed residential program in Coquitlam for adults 19 years or older. The program accomodates five residents and is based on a client and family-centred, recovery culture framework with a psychosocial foundation.",
       features: ['24/7 on-site support', 'Individual recovery plans', 'Community integration', 'Housing retention services'],
       image: '/images/Henderson+House.webp',
       alt: 'Henderson House recovery residence exterior view'
@@ -78,7 +78,7 @@ export const Programs = () => {
       icon: HomeIcon,
       name: 'Rainbow Lodge',
       tagline: 'Resources for loved ones',
-      description: 'Rainbow Lodge is home to 10 residents at various stages of their recovery.',
+      description: "Rainbow Lodge is home to 10 residents at various stages of their recovery.",
       features: ['Family education workshops', 'Support groups', 'Individual counseling', 'Resource navigation'],
       image: '/images/Rainbow-House.jpg',
       alt: 'Rainbow Lodge recovery residence exterior view'
@@ -104,7 +104,7 @@ export const Programs = () => {
     },
     {
       question: 'Can family members be involved in recovery?',
-      answer: 'Yes! With the resident\'s consent, we encourage family involvement. We offer family support groups, education workshops, and include loved ones in recovery planning when appropriate.'
+      answer: "Yes! With the resident's consent, we encourage family involvement. We offer family support groups, education workshops, and include loved ones in recovery planning when appropriate."
     }
   ];
 
