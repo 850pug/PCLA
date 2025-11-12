@@ -89,7 +89,7 @@ export const Programs = () => {
       tagline: 'Resources for loved ones',
       description: 'Rainbow Lodge is home to 10 residents at various stages of their recovery.',
       features: ['Family education workshops', 'Support groups', 'Individual counseling', 'Resource navigation'],
-      image: '/images/CRESST.webp'
+      image: '/images/Rainbow-House.jpg'
       alt: 'Rainbow Lodge recovery residence exterior view'
     }
   ];
