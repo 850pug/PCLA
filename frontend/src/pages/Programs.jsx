@@ -25,7 +25,7 @@ export const Programs = () => {
       tagline: 'Safe, stable homes with wraparound support',
       description: 'CRESST is a 10-bed, community response, short-stay program in New Westminster. CRESST provides a structured, therapeutic environment that offers psycho-educational groups during the clients’ stay. The program provides service for 275 clients annually.',
       features: ['24/7 on-site support', 'Individual recovery plans', 'Community integration', 'Housing retention services'],
-      image: 'https://images.pexels.com/photos/5637808/pexels-photo-5637808.jpeg?w=600'
+      image: '/images/CRESST.webp'
     },
     {
       icon: HomeIcon,
