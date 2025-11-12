@@ -11,31 +11,31 @@ export const Team = () => {
       linkedin: '#'
     },
     {
-      name: 'Michael Chen',
-      role: 'Director of Programs',
+      name: 'Nadun Nirosha',
+      role: 'Director, Finance and Administration',
       image: 'https://images.pexels.com/photos/3259624/pexels-photo-3259624.jpeg?w=400',
-      bio: 'Michael oversees all recovery-oriented programs, ensuring person-centered care and continuous quality improvement.',
+      bio: 'As a seasoned financial professional with 22 years of dedicated experience in accounting and finance, Nadun Nirosha brings a wealth of experience and expertise to the role as Director, Finance and Administration.',
       linkedin: '#'
     },
     {
-      name: 'Sarah Williams',
-      role: 'Director of Recovery Narratives',
+      name: 'Nabila Kassam',
+      role: 'Director of Development',
       image: 'https://images.unsplash.com/photo-1516841273335-e39b37888115?w=400',
-      bio: 'Sarah leads our innovative storytelling initiative, ethically gathering and sharing lived experiences of recovery.',
+      bio: 'As Director of Development at PCLA, Nabila oversees marketing and communication, nurtures existing relationships, and secures new opportunities for PCLA to grow and improve. Nabila brings fifteen years of experience in fundraising, partnership development, and program evaluation to her current role. ',
       linkedin: '#'
     },
     {
-      name: 'Dr. Rajesh Patel',
-      role: 'Research & Policy Lead',
+      name: 'Jen Ballantyne',
+      role: 'Executive Coordinator',
       image: 'https://images.pexels.com/photos/3259624/pexels-photo-3259624.jpeg?w=400',
-      bio: 'Dr. Patel translates qualitative evidence into policy recommendations, bridging practice and systemic change.',
+      bio: 'Jen Ballantyne brings extensive experience in executive support, administration, and organizational management to her role as Executive Coordinator at PCLA. With a strong background in executive assistance, departmental coordination, and financial administration, she supports the Executive Director, Board of Directors, and Human Resources.',
       linkedin: '#'
     },
     {
-      name: 'Emily Thompson',
-      role: 'Housing Services Manager',
+      name: 'Sahar Kouhestani',
+      role: 'Quality, Safety & Risk Manager',
       image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=400',
-      bio: 'Emily manages our supportive housing programs, ensuring safe and stable living environments for all residents.',
+      bio: 'Dr. Sahar Kouhestani is a healthcare leader specializing in quality improvement, safety systems, and risk management. She holds a PhD in Health Policy and a Master’s in Health Care Management (MHA) and brings over eight years of experience in healthcare administration, accreditation, and performance excellence.',
       linkedin: '#'
     },
     {
