@@ -202,7 +202,7 @@ export const Team = () => {
       </section>
 
       {/* Leadership Team Section */}
-      <section className="pt-12 pb-20 bg-gray-50">
+      <section className="pt-6 pb-10 bg-gray-50">
         <div className="container mx-auto px-6">
           <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">Leadership Team</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -238,7 +238,7 @@ export const Team = () => {
       </section>
 
       {/* Support Staff Section */}
-      <section className="pt-12 pb-20 bg-white-50">
+      <section className="pt-6 pb-10 bg-white-50">
         <div className="container mx-auto px-6">
           <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">Support Staff</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
