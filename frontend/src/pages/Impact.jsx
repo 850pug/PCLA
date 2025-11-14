@@ -5,7 +5,7 @@ import { TrendingUp, Users, Home as HomeIcon, Heart, Download } from 'lucide-rea
 
 export const Impact = () => {
   const metrics = [
-    { dimension: 'Housing', stat: '90%', label: 'of clients feel safe and respected at their residences', icon: HomeIcon, color: 'bg-[#336f99]' },
+    { dimension: 'Housing', stat: '90%', label: 'of residents feel safe, respected, and at home in their housing. Stable housing provides the foundation for meaningful recovery progress. This reflects strong relationships and supportive, dignified environments.', icon: HomeIcon, color: 'bg-[#336f99]' },
     { dimension: 'Health', stat: '125,556', label: 'hours of direct care provided', icon: Users, color: 'bg-[#f26d2d]' },
     { dimension: 'Purpose', stat: '87%', label: 'of clients feel optimistic about their recovery journeys.', icon: TrendingUp, color: 'bg-[#86a873]' },
     { dimension: 'Belonging', stat: '87%', label: 'of clients placed in our longer stay programs are engaged in recreational,volunteering, employment, and educational opportunities.', icon: Heart, color: 'bg-[#336f99]' },
