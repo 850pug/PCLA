@@ -6,6 +6,7 @@ import { Toaster } from "@/components/ui/sonner";
 
 // Pages
 import Home from "@/pages/Home";
+import History from "@/pages/about/History";
 import Mission from "@/pages/about/Mission";
 import Framework from "@/pages/about/Framework";
 import Team from "@/pages/about/Team";
@@ -39,6 +40,7 @@ function App() {
         <main>
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/about/history" element={<History />} />
             <Route path="/about/mission" element={<Mission />} />
             <Route path="/about/framework" element={<Framework />} />
             <Route path="/about/team" element={<Team />} />
