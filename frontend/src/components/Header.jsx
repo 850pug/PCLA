@@ -24,6 +24,7 @@ export const Header = () => {
 
 
   const aboutPages = [
+  { name: 'Mission', path: '/about/history' },
   { name: 'Mission', path: '/about/mission' },
   { name: 'Framework', path: '/about/framework' },
   { name: 'Team', path: '/about/team' },
