@@ -30,7 +30,7 @@ export const Team = () => {
     {
       name: 'Sahar Kouhestani',
       role: 'Quality, Safety & Risk Manager',
-      bio: 'Dr. Sahar Kouhestani is a healthcare leader specializing in quality improvement, safety systems, and risk management. She holds a PhD in Health Policy and a Master's in Health Care Management (MHA) and brings over eight years of experience in healthcare administration, accreditation, and performance excellence.',
+      bio: "Dr. Sahar Kouhestani is a healthcare leader specializing in quality improvement, safety systems, and risk management. She holds a PhD in Health Policy and a Master's in Health Care Management (MHA) and brings over eight years of experience in healthcare administration, accreditation, and performance excellence.",
       bioLink: '/team/sahar-kouhestani'
     },
     {
