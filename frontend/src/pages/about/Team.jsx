@@ -44,13 +44,13 @@ export const Team = () => {
   const supportStaff = [
     {
       name: 'Deanna Alexander',
-      role: 'Team Lead, Lina's Place',
+      role: "Team Lead, Lina's Place",
       bio: 'BIO SNIPPET HERE',
       bioLink: '/team/deanna-alexander'
     },
     {
       name: 'Debbie Reid',
-      role: 'Manager of Care, Millers Way & Lina's Place',
+      role: "Manager of Care, Millers Way & Lina's Place",
       bio: 'BIO SNIPPET HERE',
       bioLink: '/team/debbie-reid'
     },
