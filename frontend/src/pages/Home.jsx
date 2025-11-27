@@ -173,7 +173,7 @@ export const Home = () => {
       </section>
 
       {/* Call to Action */}
-      <section className="py-20 bg-[#86a873] text-white">
+      <section className="py-20 bg-[#006ba8] text-white">
         <div className="container mx-auto px-6 text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">Every action makes a difference</h2>
           <p className="text-xl md:text-2xl mb-10 max-w-3xl mx-auto text-gray-100">
