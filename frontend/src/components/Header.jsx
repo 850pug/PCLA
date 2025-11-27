@@ -57,7 +57,7 @@ export const Header = () => {
       </div>
 
       {/* Main Navigation */}
-      <nav className="bg-[#86a873] shadow-lg">
+      <nav className="bg-[#006ba8] shadow-lg">
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             {/* Logo */}
