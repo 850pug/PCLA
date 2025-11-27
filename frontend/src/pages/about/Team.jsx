@@ -150,12 +150,12 @@ export const Team = () => {
     }
   ];
 
-  const TeamCard = ({ member }) => (
+  const TeamCard = ({ member, bgColor = '#006ba8', titleColor = 'text-white' }) => (
     <a href={member.bioLink} className="block group">
       <Card className="hover:shadow-2xl transition-all duration-300 border-2 rounded-3xl overflow-hidden h-full flex flex-col">
-        <div className="relative h-32 bg-[#006ba8] flex items-center justify-center px-6">
+        <div className="relative h-32 flex items-center justify-center px-6" style={{ backgroundColor: bgColor }}>
           <div className="text-center">
-            <h3 className="text-2xl font-bold text-white mb-1">{member.name}</h3>
+            <h3 className={`text-2xl font-bold ${titleColor} mb-1`}>{member.name}</h3>
             <p className="text-[#86a873] font-semibold">{member.role}</p>
           </div>
         </div>
@@ -233,7 +233,7 @@ export const Team = () => {
           <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">Program Staff</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {supportStaff.map((member, index) => (
-              <TeamCard key={index} member={member} />
+              <TeamCard key={index} member={member} bgColor="#fdf0e6" titleColor="text-[#006ba8]" />
             ))}
           </div>
         </div>
