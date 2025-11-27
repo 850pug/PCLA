@@ -58,8 +58,8 @@ export const Home = () => {
         <div className="container mx-auto px-6 relative z-10">
           <div className="max-w-3xl">
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-              Supporting individuals,<br />
-              <span className="text-[#86a873]">strengthening communities</span>
+              .,<br />
+              <span className="text-[#74aa50]">Healthy Independence</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-200 mb-8 leading-relaxed">
               PCLA is the Lower Mainland's recognized reference point for recovery-oriented supportive housing for individuals living with serious and persistent mental illness.
