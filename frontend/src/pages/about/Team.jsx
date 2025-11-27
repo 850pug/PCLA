@@ -1,94 +1,82 @@
 import { Card, CardContent } from '@/components/ui/card';
-import { Linkedin, Mail } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 
 export const Team = () => {
   const teamMembers = [
     {
       name: 'Michael Kierszenblat',
       role: 'Executive Director',
-      image: '/images/Michael+K+Bio.webp',
       bio: 'Michael Kierszenblat brings experience from leadership roles in Provincial Ministries, BC Housing, and the non-profit sector in the delivery of programs and services aimed at assisting the most vulnerable.',
-      linkedin: '#'
+      bioLink: '/team/michael-kierszenblat'
     },
     {
       name: 'Nadun Nirosha',
       role: 'Director, Finance and Administration',
-      image: 'https://images.pexels.com/photos/3259624/pexels-photo-3259624.jpeg?w=400',
       bio: 'As a seasoned financial professional with 22 years of dedicated experience in accounting and finance, Nadun Nirosha brings a wealth of experience and expertise to the role as Director, Finance and Administration.',
-      linkedin: '#'
+      bioLink: '/team/nadun-nirosha'
     },
     {
       name: 'Nabila Kassam',
       role: 'Director of Development',
-      image: 'https://images.unsplash.com/photo-1516841273335-e39b37888115?w=400',
-      bio: 'As Director of Development at PCLA, Nabila oversees marketing and communication, nurtures existing relationships, and secures new opportunities for PCLA to grow and improve. Nabila brings fifteen years of experience in fundraising, partnership development, and program evaluation to her current role. ',
-      linkedin: '#'
+      bio: 'As Director of Development at PCLA, Nabila oversees marketing and communication, nurtures existing relationships, and secures new opportunities for PCLA to grow and improve. Nabila brings fifteen years of experience in fundraising, partnership development, and program evaluation to her current role.',
+      bioLink: '/team/nabila-kassam'
     },
     {
       name: 'Jen Ballantyne',
       role: 'Executive Coordinator',
-      image: 'https://images.pexels.com/photos/3259624/pexels-photo-3259624.jpeg?w=400',
       bio: 'Jen Ballantyne brings extensive experience in executive support, administration, and organizational management to her role as Executive Coordinator at PCLA. With a strong background in executive assistance, departmental coordination, and financial administration, she supports the Executive Director, Board of Directors, and Human Resources.',
-      linkedin: '#'
+      bioLink: '/team/jen-ballantyne'
     },
     {
       name: 'Sahar Kouhestani',
       role: 'Quality, Safety & Risk Manager',
-      image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=400',
-      bio: 'Dr. Sahar Kouhestani is a healthcare leader specializing in quality improvement, safety systems, and risk management. She holds a PhD in Health Policy and a Master’s in Health Care Management (MHA) and brings over eight years of experience in healthcare administration, accreditation, and performance excellence.',
-      linkedin: '#'
+      bio: 'Dr. Sahar Kouhestani is a healthcare leader specializing in quality improvement, safety systems, and risk management. She holds a PhD in Health Policy and a Master's in Health Care Management (MHA) and brings over eight years of experience in healthcare administration, accreditation, and performance excellence.',
+      bioLink: '/team/sahar-kouhestani'
     },
     {
       name: 'Anastasia Humenuk',
       role: 'Director of Human Resources',
-      image: 'https://images.unsplash.com/photo-1516841273335-e39b37888115?w=400',
-      bio: 'Anastasia Humenuk brings 28 years of experience in HR leadership roles in the private, healthcare, municipal government and the non-profit sectors. She has specific experience leading the HR function and HR team for non-profits who deliver programs and services aimed at assisting the most vulnerable. ',
-      linkedin: '#'
+      bio: 'Anastasia Humenuk brings 28 years of experience in HR leadership roles in the private, healthcare, municipal government and the non-profit sectors. She has specific experience leading the HR function and HR team for non-profits who deliver programs and services aimed at assisting the most vulnerable.',
+      bioLink: '/team/anastasia-humenuk'
     }
   ];
 
   const supportStaff = [
     {
       name: 'Deanna Alexander',
-      role: 'Team Lead, Lina’s Place',
-      image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400',
+      role: 'Team Lead, Lina's Place',
       bio: 'BIO SNIPPET HERE',
-      linkedin: '#'
+      bioLink: '/team/deanna-alexander'
     },
     {
       name: 'Debbie Reid',
-      role: 'Manager of Care, Millers Way & Lina’s Place',
-      image: 'https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?w=400',
+      role: 'Manager of Care, Millers Way & Lina's Place',
       bio: 'BIO SNIPPET HERE',
-      linkedin: '#'
+      bioLink: '/team/debbie-reid'
     },
     {
       name: 'Jeannine Corrigan',
       role: 'Manager of Care, CRESST',
-      image: 'https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=400',
       bio: 'BIO SNIPPET HERE',
-      linkedin: '#'
+      bioLink: '/team/jeannine-corrigan'
     },
     {
       name: 'Michelle Mikota',
       role: 'Manager of Care, Adrian House',
-      image: 'https://images.pexels.com/photos/3777952/pexels-photo-3777952.jpeg?w=400',
       bio: 'BIO SNIPPET HERE',
-      linkedin: '#'
+      bioLink: '/team/michelle-mikota'
     },
     {
       name: 'Susie Innes',
       role: 'Manager of Care, Rainbow Lodge',
-      image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400',
       bio: 'BIO SNIPPET HERE',
-      linkedin: '#'
+      bioLink: '/team/susie-innes'
     },
     {
       name: 'Vanessa Roberts',
       role: 'Manager of Care, Henderson House',
-      image: 'https://images.pexels.com/photos/3777952/pexels-photo-3777952.jpeg?w=400',
       bio: 'BIO SNIPPET HERE',
-      linkedin: '#'
+      bioLink: '/team/vanessa-roberts'
     }
   ];
 
@@ -96,58 +84,50 @@ export const Team = () => {
     {
       name: 'Scott Roberts',
       role: 'President',
-      image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400',
       bio: 'BIO SNIPPET HERE',
-      linkedin: '#'
+      bioLink: '/team/scott-roberts'
     },
     {
       name: 'Camila Nunes',
       role: 'Vice President',
-      image: 'https://images.pexels.com/photos/3777952/pexels-photo-3777952.jpeg?w=400',
       bio: 'BIO SNIPPET HERE',
-      linkedin: '#'
+      bioLink: '/team/camila-nunes'
     },
     {
       name: 'Nancy Tu',
       role: 'Treasurer',
-      image: 'https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=400',
       bio: 'BIO SNIPPET HERE',
-      linkedin: '#'
+      bioLink: '/team/nancy-tu'
     },
     {
       name: 'Simi Rajput',
       role: 'Secretary',
-      image: 'https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?w=400',
       bio: 'BIO SNIPPET HERE',
-      linkedin: '#'
+      bioLink: '/team/simi-rajput'
     },
     {
       name: 'Sib Shaw',
       role: 'Director',
-      image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400',
       bio: 'BIO SNIPPET HERE',
-      linkedin: '#'
+      bioLink: '/team/sib-shaw'
     },
     {
       name: 'Ed Yee',
       role: 'Director',
-      image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400',
       bio: 'BIO SNIPPET HERE',
-      linkedin: '#'
+      bioLink: '/team/ed-yee'
     },
     {
       name: 'Harsh Thakkar',
       role: 'Director',
-      image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400',
       bio: 'BIO SNIPPET HERE',
-      linkedin: '#'
+      bioLink: '/team/harsh-thakkar'
     },
     {
       name: 'Rehan Khan',
       role: 'Director',
-      image: 'https://images.pexels.com/photos/3259624/pexels-photo-3259624.jpeg?w=400',
       bio: 'BIO SNIPPET HERE',
-      linkedin: '#'
+      bioLink: '/team/rehan-khan'
     }
   ];
 
@@ -169,6 +149,26 @@ export const Team = () => {
       label: 'Support available for residents'
     }
   ];
+
+  const TeamCard = ({ member }) => (
+    <a href={member.bioLink} className="block group">
+      <Card className="hover:shadow-2xl transition-all duration-300 border-2 rounded-3xl overflow-hidden h-full flex flex-col">
+        <div className="relative h-32 bg-[#006ba8] flex items-center justify-center px-6">
+          <div className="text-center">
+            <h3 className="text-2xl font-bold text-white mb-1">{member.name}</h3>
+            <p className="text-[#86a873] font-semibold">{member.role}</p>
+          </div>
+        </div>
+        <CardContent className="p-6 flex-grow flex flex-col">
+          <p className="text-gray-700 leading-relaxed mb-6 flex-grow">{member.bio}</p>
+          <div className="flex items-center justify-end text-[#336f99] group-hover:text-[#86a873] transition-colors font-semibold">
+            <span className="mr-2">Read Bio</span>
+            <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+          </div>
+        </CardContent>
+      </Card>
+    </a>
+  );
 
   return (
     <div className="min-h-screen">
@@ -221,67 +221,19 @@ export const Team = () => {
           <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">Leadership Team</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {teamMembers.map((member, index) => (
-              <Card key={index} className="hover:shadow-2xl transition-all duration-300 border-2 rounded-3xl overflow-hidden group">
-                <div className="relative h-80 overflow-hidden">
-                  <img 
-                    src={member.image} 
-                    alt={member.name}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
-                  <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                    <h3 className="text-2xl font-bold mb-1">{member.name}</h3>
-                    <p className="text-[#86a873] font-semibold">{member.role}</p>
-                  </div>
-                </div>
-                <CardContent className="p-6">
-                  <p className="text-gray-700 leading-relaxed mb-4">{member.bio}</p>
-                  <div className="flex space-x-3">
-                    <a href={member.linkedin} className="text-[#336f99] hover:text-[#86a873] transition-colors">
-                      <Linkedin className="w-5 h-5" />
-                    </a>
-                    <a href={`mailto:${member.name.toLowerCase().replace(' ', '.')}@pclaservices.ca`} className="text-[#336f99] hover:text-[#86a873] transition-colors">
-                      <Mail className="w-5 h-5" />
-                    </a>
-                  </div>
-                </CardContent>
-              </Card>
+              <TeamCard key={index} member={member} />
             ))}
           </div>
         </div>
       </section>
 
       {/* Support Staff Section */}
-      <section className="pt-6 pb-10 bg-white-50">
+      <section className="pt-6 pb-10 bg-white">
         <div className="container mx-auto px-6">
           <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">Program Staff</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {supportStaff.map((member, index) => (
-              <Card key={index} className="hover:shadow-2xl transition-all duration-300 border-2 rounded-3xl overflow-hidden group">
-                <div className="relative h-80 overflow-hidden">
-                  <img 
-                    src={member.image} 
-                    alt={member.name}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
-                  <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                    <h3 className="text-2xl font-bold mb-1">{member.name}</h3>
-                    <p className="text-[#86a873] font-semibold">{member.role}</p>
-                  </div>
-                </div>
-                <CardContent className="p-6">
-                  <p className="text-gray-700 leading-relaxed mb-4">{member.bio}</p>
-                  <div className="flex space-x-3">
-                    <a href={member.linkedin} className="text-[#336f99] hover:text-[#86a873] transition-colors">
-                      <Linkedin className="w-5 h-5" />
-                    </a>
-                    <a href={`mailto:${member.name.toLowerCase().replace(' ', '.')}@pclaservices.ca`} className="text-[#336f99] hover:text-[#86a873] transition-colors">
-                      <Mail className="w-5 h-5" />
-                    </a>
-                  </div>
-                </CardContent>
-              </Card>
+              <TeamCard key={index} member={member} />
             ))}
           </div>
         </div>
@@ -293,31 +245,7 @@ export const Team = () => {
           <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">Board of Directors</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {boardMembers.map((member, index) => (
-              <Card key={index} className="hover:shadow-2xl transition-all duration-300 border-2 rounded-3xl overflow-hidden group">
-                <div className="relative h-80 overflow-hidden">
-                  <img 
-                    src={member.image} 
-                    alt={member.name}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
-                  <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                    <h3 className="text-2xl font-bold mb-1">{member.name}</h3>
-                    <p className="text-[#86a873] font-semibold">{member.role}</p>
-                  </div>
-                </div>
-                <CardContent className="p-6">
-                  <p className="text-gray-700 leading-relaxed mb-4">{member.bio}</p>
-                  <div className="flex space-x-3">
-                    <a href={member.linkedin} className="text-[#336f99] hover:text-[#86a873] transition-colors">
-                      <Linkedin className="w-5 h-5" />
-                    </a>
-                    <a href={`mailto:${member.name.toLowerCase().replace(' ', '.')}@pclaservices.ca`} className="text-[#336f99] hover:text-[#86a873] transition-colors">
-                      <Mail className="w-5 h-5" />
-                    </a>
-                  </div>
-                </CardContent>
-              </Card>
+              <TeamCard key={index} member={member} />
             ))}
           </div>
         </div>
