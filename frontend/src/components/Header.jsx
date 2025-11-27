@@ -34,7 +34,7 @@ export const Header = () => {
   return (
     <header className="sticky top-0 z-50">
       {/* Top Bar - Same color as footer */}
-      <div className="py-2 text-white !bg-[#3D6B4A]">
+      <div className="py-2 text-white !bg-[#004a73]">
         <div className="container mx-auto px-6">
           <div className="flex items-center justify-between text-sm">
             <div className="flex items-center space-x-6">
