@@ -228,12 +228,12 @@ export const Team = () => {
       </section>
 
       {/* Support Staff Section */}
-      <section className="pt-6 pb-10 bg-white">
+      <section className="pt-6 pb-10 bg-[#fdf0e6]">
         <div className="container mx-auto px-6">
           <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">Program Staff</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {supportStaff.map((member, index) => (
-              <TeamCard key={index} member={member} cardBgColor="bg-[#fdf0e6]" />
+              <TeamCard key={index} member={member} />
             ))}
           </div>
         </div>
