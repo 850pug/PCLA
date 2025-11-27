@@ -9,7 +9,6 @@ export const Team = () => {
       image: '/images/Michael+K+Bio.webp',
       bio: 'Michael Kierszenblat brings experience from leadership roles in Provincial Ministries, BC Housing, and the non-profit sector in the delivery of programs and services aimed at assisting the most vulnerable.',
       linkedin: '#'
-      slug: 'Michael-Kierszenblat'
     },
     {
       name: 'Nadun Nirosha',
