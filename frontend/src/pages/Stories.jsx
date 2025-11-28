@@ -10,7 +10,7 @@ export const Stories = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedDimension, setSelectedDimension] = useState('All');
 
-  const dimensions = ['All', 'Housing', 'Belonging', 'Purpose', 'Health', 'Autonomy'];
+  const dimensions = ['All', 'Housing', 'Belonging', 'Purpose', 'Health', 'Autonomy', 'Partners'];
 
   const stories = [
     {
