@@ -7,7 +7,7 @@ export const Team = () => {
       name: 'Michael Kierszenblat',
       role: 'Executive Director',
       bio: 'Michael Kierszenblat brings experience from leadership roles in Provincial Ministries, BC Housing, and the non-profit sector in the delivery of programs and services aimed at assisting the most vulnerable.',
-      bioLink: 'about/team/michael-kierszenblat'
+      bioLink: '/team/michael-kierszenblat'
     },
     {
       name: 'Nadun Nirosha',
