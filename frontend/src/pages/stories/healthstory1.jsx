@@ -9,7 +9,7 @@ const HealthStory1 = () => {
     title: 'Wellness and Recovery',
     dimension: 'Health',
     image: 'https://images.unsplash.com/photo-1697551458746-b86ccf5049d4?w=600',
-    excerpt: 'The staff here understand recovery isn't linear. They celebrate every small victory with me.',
+    excerpt: "The staff here understand recovery isn't linear. They celebrate every small victory with me.",
     tags: ['Health', 'Wellness', 'Mental Health'],
     fullStory: {
       introduction: "Elena T.'s journey is one of transformation, resilience, and hope. Through the support of PCLA's programs and services, they have found stability, community, and a renewed sense of purpose.",

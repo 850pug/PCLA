@@ -9,7 +9,7 @@ const AutonomyStory1 = () => {
     title: 'Reclaiming My Independence',
     dimension: 'Autonomy',
     image: 'https://images.pexels.com/photos/6484132/pexels-photo-6484132.jpeg?w=600',
-    excerpt: 'PCLA taught me that having a mental illness doesn't mean giving up control of my life. I make my own choices now.',
+    excerpt: "PCLA taught me that having a mental illness doesn't mean giving up control of my life. I make my own choices now.",
     tags: ['Autonomy', 'Independence', 'Self-Advocacy'],
     fullStory: {
       introduction: "James K.'s journey is one of transformation, resilience, and hope. Through the support of PCLA's programs and services, they have found stability, community, and a renewed sense of purpose.",

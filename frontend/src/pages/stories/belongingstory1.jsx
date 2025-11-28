@@ -9,7 +9,7 @@ const BelongingStory1 = () => {
     title: 'Finding Community',
     dimension: 'Belonging',
     image: 'https://images.unsplash.com/photo-1679466061812-211a6b737175?w=600',
-    excerpt: 'I spent years isolated and alone. At PCLA, I discovered I wasn't defined by my illness—I was part of a caring community.',
+    excerpt: "I spent years isolated and alone. At PCLA, I discovered I wasn't defined by my illness—I was part of a caring community.",
     tags: ['Belonging', 'Community', 'Connection'],
     fullStory: {
       introduction: "Maria G.'s journey is one of transformation, resilience, and hope. Through the support of PCLA's programs and services, they have found stability, community, and a renewed sense of purpose.",
