@@ -14,72 +14,72 @@ export const Programs = () => {
     {
       icon: HomeIcon,
       name: 'Pioneer House',
-      tagline: 'Community residential facility',
+      tagline: 'Safe, stable homes with wraparound support',
       description: "Pioneer House is a 20-bed, community residential facility in New Westminster that focuses on assisting individuals to develop the skills necessary to facilitate their transition to independent, community living.",
-      features: ['24/7 on-site support', 'Skill development', 'Community integration', 'Transition planning'],
+      features: ['24/7 on-site support', 'Individual recovery plans', 'Community integration', 'Housing retention services'],
       image: '/images/pioneer-house.webp',
       alt: 'Pioneer House recovery residence exterior view'
     },
     {
       icon: HomeIcon,
       name: 'CRESST',
-      tagline: 'Short-stay therapeutic program',
+      tagline: 'Safe, stable homes with wraparound support',
       description: "CRESST is a 10-bed, community response, short-stay program in New Westminster. CRESST provides a structured, therapeutic environment that offers psycho-educational groups during the clients' stay. The program provides service for 275 clients annually.",
-      features: ['Structured therapeutic environment', 'Psycho-educational groups', 'Short-stay support', '275 clients served annually'],
+      features: ['24/7 on-site support', 'Individual recovery plans', 'Community integration', 'Housing retention services'],
       image: '/images/CRESST.webp',
       alt: 'CRESST recovery residence exterior view'
     },
     {
       icon: HomeIcon,
       name: 'Millers Way',
-      tagline: 'Psycho-social rehabilitation',
+      tagline: 'Safe, stable homes with wraparound support',
       description: "Millers Way is a 10-bed program in Burnaby that emphasizes psycho-social rehabilitation and recovery. It focuses on the individual's strengths and abilities through fostering choices to promote independence and growth.",
-      features: ['Strength-based approach', 'Individual choice focus', 'Independence promotion', 'Recovery-oriented'],
+      features: ['24/7 on-site support', 'Individual recovery plans', 'Community integration', 'Housing retention services'],
       image: '/images/millers-way.webp',
       alt: 'Millers Way recovery residence exterior view'
     },
     {
       icon: HomeIcon,
       name: "Lina's Place",
-      tagline: 'Mental health assisted living',
+      tagline: 'Safe, stable homes with wraparound support',
       description: "Lina's Place is a 12-bed Mental Health, Assisted Living program in Burnaby. It provides a stable, supportive environment for persons with a mental illness who require support in developing the skills and resources necessary to increase personal competencies and quality of life.",
-      features: ['Stable supportive environment', 'Skill development', 'Quality of life focus', 'Personal competency building'],
+      features: ['24/7 on-site support', 'Individual recovery plans', 'Community integration', 'Housing retention services'],
       image: '/images/linas-place.webp',
       alt: "Lina's Place recovery residence exterior view"
     },
     {
       icon: HomeIcon,
       name: 'Adrian House',
-      tagline: 'Choice-centered support',
+      tagline: 'Safe, stable homes with wraparound support',
       description: "Adrian House is a 10-bed program in Burnaby where Staff assist individuals to make choices, and then provide opportunities for the development of needed skills and resources to increase personal competencies and quality of life.",
-      features: ['Choice-making support', 'Skills development', 'Resource connection', 'Quality of life enhancement'],
+      features: ['24/7 on-site support', 'Individual recovery plans', 'Community integration', 'Housing retention services'],
       image: '/images/adrian-house.webp',
       alt: 'Adrian House recovery residence exterior view'
     },
     {
       icon: HomeIcon,
       name: 'Elizabeth Barnett Terrace',
-      tagline: 'Supported independent living',
+      tagline: 'Safe, stable homes with wraparound support',
       description: "Elizabeth Barnett Terrace is a 23-unit, supported independent living apartment building in New Westminster. The goals of this program are to provide safe and affordable housing that fosters independent living, while providing the least restrictive environment possible.",
-      features: ['Independent apartments', 'Safe affordable housing', 'Least restrictive environment', 'Community support'],
+      features: ['24/7 on-site support', 'Individual recovery plans', 'Community integration', 'Housing retention services'],
       image: '/images/elizabeth-barrett-terrace.webp',
       alt: 'Elizabeth Barnett Terrace recovery residence exterior view'
     },
     {
       icon: HomeIcon,
       name: 'Henderson House',
-      tagline: 'Family-centered recovery',
+      tagline: 'Safe, stable homes with wraparound support',
       description: "Henderson House is a 10-bed residential program in Coquitlam for adults 19 years or older. The program accomodates five residents and is based on a client and family-centred, recovery culture framework with a psychosocial foundation.",
-      features: ['Family-centered approach', 'Recovery culture framework', 'Psychosocial foundation', 'Adults 19+'],
+      features: ['24/7 on-site support', 'Individual recovery plans', 'Community integration', 'Housing retention services'],
       image: '/images/Henderson+House.webp',
       alt: 'Henderson House recovery residence exterior view'
     },
     {
       icon: HomeIcon,
       name: 'Rainbow Lodge',
-      tagline: 'Recovery-focused residential support',
+      tagline: 'Supporting recovery and independence',
       description: "Rainbow Lodge is home to 10 residents at various stages of their recovery.",
-      features: ['10-bed residential program', 'Recovery-focused support', 'Individualized care', 'Community integration'],
+      features: ['24/7 on-site support', 'Individual recovery plans', 'Community integration', 'Housing retention services'],
       image: '/images/Rainbow-House.jpg',
       alt: 'Rainbow Lodge recovery residence exterior view'
     }
@@ -89,118 +89,97 @@ export const Programs = () => {
     {
       question: 'What is the eligibility criteria?',
       answer: (
-        <div>
-          <p className="mb-4">
-            Potential residents of PCLA's Residential Programs are referred by{' '}
-            <a 
-              href="https://www.fraserhealth.ca/Service-Directory/Services/mental-health-and-substance-use#.YJWrvrVKhaQ" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-[#336f99] underline hover:text-[#86a873]"
-            >
-              Fraser Health Authority
-            </a>{' '}
-            (FHA) through a Housing Application Residential/Tertiary (HART) referral.
-          </p>
-          <p className="mb-4">
-            The HART referral is sent to the local{' '}
-            <a 
-              href="https://www.fraserhealth.ca/Service-Directory/Service-at-Location/3/E/mental-health-centre---new-westminster" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-[#336f99] underline hover:text-[#86a873]"
-            >
-              New Westminster
-            </a>
-            ,{' '}
-            <a 
-              href="https://www.fraserhealth.ca/Service-Directory/Service-at-Location/9/C/mental-health-centre---tri-cities" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-[#336f99] underline hover:text-[#86a873]"
-            >
-              Coquitlam
-            </a>
-            ,{' '}
-            <a 
-              href="https://www.fraserhealth.ca/Service-Directory/Locations/Burnaby/burnaby-mental-health-centre" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-[#336f99] underline hover:text-[#86a873]"
-            >
-              Burnaby
-            </a>{' '}
-            Mental Health Centres for their review.
-          </p>
-          <p>
-            PCLA's residential programs do not accept referrals directly, all inquiries regarding program eligibility will be referred to FHA.
-          </p>
-        </div>
+        <>
+          Potential residents of PCLA's Residential Programs are referred by{' '}
+          <a 
+            href="https://www.fraserhealth.ca/Service-Directory/Services/mental-health-and-substance-use#.YJWrvrVKhaQ" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-[#336f99] hover:text-[#86a873] underline"
+          >
+            Fraser Health Authority
+          </a>{' '}
+          (FHA) through a Housing Application Residential/Tertiary (HART) referral. The HART referral is sent to the local{' '}
+          <a 
+            href="https://www.fraserhealth.ca/Service-Directory/Service-at-Location/3/E/mental-health-centre---new-westminster" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-[#336f99] hover:text-[#86a873] underline"
+          >
+            New Westminster
+          </a>
+          ,{' '}
+          <a 
+            href="https://www.fraserhealth.ca/Service-Directory/Service-at-Location/9/C/mental-health-centre---tri-cities" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-[#336f99] hover:text-[#86a873] underline"
+          >
+            Coquitlam
+          </a>
+          ,{' '}
+          <a 
+            href="https://www.fraserhealth.ca/Service-Directory/Locations/Burnaby/burnaby-mental-health-centre" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-[#336f99] hover:text-[#86a873] underline"
+          >
+            Burnaby
+          </a>{' '}
+          Mental Health Centres for their review. PCLA's residential programs do not accept referrals directly, all inquiries regarding program eligibility will be referred to FHA.
+        </>
+      )
+    },
+    {
+      question: 'Can you access the program directly?',
+      answer: (
+        <>
+          At this time, No. A referral is required. Please connect with{' '}
+          <a 
+            href="https://www.fraserhealth.ca/Service-Directory/Service-at-Location/3/E/mental-health-centre---new-westminster" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-[#336f99] hover:text-[#86a873] underline"
+          >
+            New Westminster
+          </a>
+          ,{' '}
+          <a 
+            href="https://www.fraserhealth.ca/Service-Directory/Service-at-Location/9/C/mental-health-centre---tri-cities" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-[#336f99] hover:text-[#86a873] underline"
+          >
+            Coquitlam
+          </a>
+          ,{' '}
+          <a 
+            href="https://www.fraserhealth.ca/Service-Directory/Locations/Burnaby/burnaby-mental-health-centre" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-[#336f99] hover:text-[#86a873] underline"
+          >
+            Burnaby
+          </a>{' '}
+          Mental Health Centres to find out more information.
+        </>
       )
     },
     {
       question: 'How do I enroll at a PCLA site?',
       answer: (
-        <div>
-          <p className="mb-4">
-            In order to qualify for supports from our programs, you need to be a client of the Burnaby or New Westminster Mental Health & Substance Use Centre. We partner with them to provide wrap-around supports for clients in these areas.
-          </p>
-          <p>
-            For more, please click{' '}
-            <a 
-              href="https://www.fraserhealth.ca/Service-Directory/Services/mental-health-and-substance-use/mental-health-centres/mental-health-centres" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-[#336f99] underline hover:text-[#86a873]"
-            >
-              here
-            </a>.
-          </p>
-        </div>
-      )
-    },
-    {
-      question: 'Who is on the care team?',
-      answer: 'Our clinical care teams are comprised of nurses, mental health workers, support personnel, social workers and connections to Psychiatrists and the Fraser Health Mental Health Centres in New Westminster and Burnaby.'
-    },
-    {
-      question: 'Can you access the program directly?',
-      answer: (
-        <div>
-          <p className="mb-4">
-            At this time, No. A referral is required.
-          </p>
-          <p>
-            Please connect with{' '}
-            <a 
-              href="https://www.fraserhealth.ca/Service-Directory/Service-at-Location/3/E/mental-health-centre---new-westminster" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-[#336f99] underline hover:text-[#86a873]"
-            >
-              New Westminster
-            </a>
-            ,{' '}
-            <a 
-              href="https://www.fraserhealth.ca/Service-Directory/Service-at-Location/9/C/mental-health-centre---tri-cities" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-[#336f99] underline hover:text-[#86a873]"
-            >
-              Coquitlam
-            </a>
-            ,{' '}
-            <a 
-              href="https://www.fraserhealth.ca/Service-Directory/Locations/Burnaby/burnaby-mental-health-centre" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-[#336f99] underline hover:text-[#86a873]"
-            >
-              Burnaby
-            </a>{' '}
-            Mental Health Centres to find out more information.
-          </p>
-        </div>
+        <>
+          In order to qualify for supports from our programs, you need to be a client of the Burnaby or New Westminster Mental Health & Substance Use Centre. We partner with them to provide wrap-around supports for clients in these areas. For more, please click{' '}
+          <a 
+            href="https://www.fraserhealth.ca/Service-Directory/Services/mental-health-and-substance-use/mental-health-centres/mental-health-centres" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-[#336f99] hover:text-[#86a873] underline"
+          >
+            here
+          </a>
+          .
+        </>
       )
     },
     {
@@ -208,30 +187,29 @@ export const Programs = () => {
       answer: 'All residents develop a wellness plan when they first arrive in collaboration with the care team. These plans outline the resident\'s goals and objectives and are reviewed on a regular basis.'
     },
     {
+      question: 'Who is on the care team?',
+      answer: 'Our clinical care teams are comprised of nurses, mental health workers, support personnel, social workers and connections to Psychiatrists and the Fraser Health Mental Health Centres in New Westminster and Burnaby.'
+    },
+    {
       question: 'How do I contribute?',
       answer: (
-        <div>
-          <p className="mb-4">
-            There are a number of ways you can give back to PCLA. Your contributions can assist in the development of programming and the enhancement of our facilities.
-          </p>
-          <p>
-            Please contact{' '}
-            <a 
-              href="mailto:nkassam@pclaservices.ca" 
-              className="text-[#336f99] underline hover:text-[#86a873]"
-            >
-              Nabila Kassam
-            </a>
-            , Director of Development or visit our{' '}
-            <Link 
-              to="/get-involved" 
-              className="text-[#336f99] underline hover:text-[#86a873]"
-            >
-              Get Involved
-            </Link>{' '}
-            page.
-          </p>
-        </div>
+        <>
+          There are a number of ways you can give back to PCLA. Your contributions can assist in the development of programming and the enhancement of our facilities. Please contact{' '}
+          <a 
+            href="mailto:nkassam@pclaservices.ca"
+            className="text-[#336f99] hover:text-[#86a873] underline"
+          >
+            Nabila Kassam
+          </a>
+          , Director of Development or visit our{' '}
+          <Link 
+            to="/get-involved"
+            className="text-[#336f99] hover:text-[#86a873] underline"
+          >
+            Get Involved
+          </Link>
+          {' '}page.
+        </>
       )
     }
   ];
@@ -254,20 +232,8 @@ export const Programs = () => {
         <div className="container mx-auto px-6 relative z-10 text-center">
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">Our Programs</h1>
           <p className="text-xl md:text-2xl text-gray-100 max-w-3xl mx-auto leading-relaxed">
-            Over the last 40 years, Pioneer Community Living Association has grown to offer eight distinct residential programs. We house and serve 355 individuals per year, offering individual care, group support, and learning opportunities.
+            Over the last 40 years, Pioneer Community Living Association has grown to offer EIGHT distinct residential programs. We house and serve 355 individuals per year, offering individual care, group support, and learning opportunities.
           </p>
-        </div>
-      </section>
-
-      {/* Intro Quote */}
-      <section className="py-16 bg-[#fdf0e6]">
-        <div className="container mx-auto px-6">
-          <div className="max-w-4xl mx-auto text-center">
-            <blockquote className="text-2xl md:text-3xl italic text-gray-800 leading-relaxed mb-6">
-              "I'm grateful that you are willing to work through difficult situations and relationships with an inordinate amount of patience, perseverance, open-mindedness and innovation."
-            </blockquote>
-            <p className="text-lg text-gray-600">~ Family member of PCLA resident</p>
-          </div>
         </div>
       </section>
 
@@ -275,9 +241,9 @@ export const Programs = () => {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Eight Distinct Residential Programs</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">Supporting Recovery Through Eight Distinct Residential Programs</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Each program is designed to support recovery through safe, stable housing and wrap-around services
+              Each program is designed to address specific recovery dimensions while working together for holistic support
             </p>
           </div>
 
@@ -293,7 +259,7 @@ export const Programs = () => {
                   <div className="relative h-56 overflow-hidden">
                     <img 
                       src={program.image} 
-                      alt={program.alt}
+                      alt={program.name}
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
@@ -324,7 +290,7 @@ export const Programs = () => {
             })}
           </div>
 
-          {/* Last 2 programs centered in 2 columns */}
+          {/* Last 2 programs centered in 2 columns using flexbox */}
           <div className="flex flex-wrap justify-center gap-8">
             {programs.slice(6).map((program, index) => {
               const Icon = program.icon;
@@ -336,7 +302,7 @@ export const Programs = () => {
                   <div className="relative h-56 overflow-hidden">
                     <img 
                       src={program.image} 
-                      alt={program.alt}
+                      alt={program.name}
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
@@ -369,16 +335,29 @@ export const Programs = () => {
         </div>
       </section>
 
+      {/* Quote Section */}
+      <section className="py-16 bg-[#fdf0e6]">
+        <div className="container mx-auto px-6">
+          <div className="max-w-4xl mx-auto text-center">
+            <p className="text-sm uppercase tracking-wider text-[#336f99] font-semibold mb-4">A Safe Place to Land</p>
+            <blockquote className="text-2xl md:text-3xl italic font-light text-gray-800 leading-relaxed mb-6">
+              "I'm grateful that you are willing to work through difficult situations and relationships with an inordinate amount of patience, perseverance, open-mindedness and innovation."
+            </blockquote>
+            <p className="text-gray-600">~ Family member of PCLA resident</p>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-white">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4 text-center">FAQs</h2>
-            <p className="text-xl text-gray-600 mb-12 text-center">Frequently asked questions about our programs and services</p>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4 text-center">Frequently Asked Questions</h2>
+            <p className="text-xl text-gray-600 mb-12 text-center">Learn more about referrals, eligibility, and program access</p>
             
             <Accordion type="single" collapsible className="space-y-4">
               {faqs.map((faq, index) => (
-                <AccordionItem key={index} value={`item-${index}`} className="border-2 rounded-2xl px-6 bg-white">
+                <AccordionItem key={index} value={`item-${index}`} className="border-2 rounded-2xl px-6 bg-gray-50">
                   <AccordionTrigger className="text-left text-lg font-bold text-gray-900 hover:text-[#336f99] py-6">
                     {faq.question}
                   </AccordionTrigger>
@@ -392,15 +371,15 @@ export const Programs = () => {
         </div>
       </section>
 
-      {/* Quote Section */}
-      <section className="py-16 bg-white">
+      {/* Did You Know Section */}
+      <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto text-center">
-            <h3 className="text-2xl font-bold text-[#336f99] mb-6">Did you know…</h3>
-            <blockquote className="text-2xl md:text-3xl italic text-gray-800 leading-relaxed mb-6">
+            <p className="text-sm uppercase tracking-wider text-[#336f99] font-semibold mb-4">Did You Know…</p>
+            <blockquote className="text-2xl md:text-3xl italic font-light text-gray-800 leading-relaxed mb-6">
               "I admire our residents for all they deal with to get through their day."
             </blockquote>
-            <p className="text-lg text-gray-600">~ Mark Zuberbuhler, Former PCLA Executive Director</p>
+            <p className="text-gray-600">~ Mark Zuberbuhler, Former PCLA Executive Director</p>
           </div>
         </div>
       </section>
@@ -408,9 +387,9 @@ export const Programs = () => {
       {/* CTA */}
       <section className="py-20 bg-[#86a873] text-white">
         <div className="container mx-auto px-6 text-center">
-          <h2 className="text-4xl font-bold mb-6">Ready to Learn More?</h2>
+          <h2 className="text-4xl font-bold mb-6">Ready to Get Started?</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
-            Contact us to learn more about our programs or to begin the referral process
+            Reach out to learn more about our programs or to begin the referral process
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link to="/contact">
@@ -418,9 +397,9 @@ export const Programs = () => {
                 Contact Us
               </Button>
             </Link>
-            <Link to="/get-involved">
+            <Link to="/stories">
               <Button size="lg" variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-[#336f99] px-10 py-6 rounded-full text-lg transition-all duration-300">
-                Get Involved
+                Read Success Stories
               </Button>
             </Link>
           </div>
