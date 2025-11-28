@@ -23,6 +23,8 @@ import Stories from "@/pages/Stories";
 import GetInvolved from "@/pages/GetInvolved";
 import Resources from "@/pages/Resources";
 import Contact from "@/pages/Contact";
+// Individual Story Pages
+// import SarahStory from "@/pages/stories/SarahStory";
 
 // Team member bio pages - only import the ones that exist
 import MichaelKierszenblat from "@/pages/about/team/michael-kierszenblat";
@@ -80,6 +82,7 @@ function App() {
             <Route path="/get-involved" element={<GetInvolved />} />
             <Route path="/resources" element={<Resources />} />
             <Route path="/contact" element={<Contact />} />
+            // <Route path="/stories/sarah-m" element={<SarahStory />} />
             
             {/* Leadership Team Bio Pages - only add routes for files that exist */}
             <Route path="/about/team/michael-kierszenblat" element={<MichaelKierszenblat />} />
