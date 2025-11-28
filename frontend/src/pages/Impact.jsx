@@ -105,9 +105,11 @@ export const Impact = () => {
                     <h3 className="text-2xl font-bold text-gray-900 mb-2">2024/25 Annual Impact Report</h3>
                     <p className="text-gray-600">Comprehensive review of outcomes, stories, and organizational growth</p>
                   </div>
-                  <Button className="bg-[#f26d2d] hover:bg-[#d65a1e] text-white rounded-full px-6">
-                    <Download className="w-5 h-5 mr-2" /> Download
-                  </Button>
+                  <a href="/documents/PCLA+Annual+Report+August+2025.pdf" download="PCLA-Annual-Report-2024-25.pdf">
+                    <Button className="bg-[#f26d2d] hover:bg-[#d65a1e] text-white rounded-full px-6">
+                      <Download className="w-5 h-5 mr-2" /> Download
+                    </Button>
+                  </a>
                 </CardContent>
               </Card>
               <Card className="border-2 rounded-2xl overflow-hidden hover:shadow-xl transition-all">
