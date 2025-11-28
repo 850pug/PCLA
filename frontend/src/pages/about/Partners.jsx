@@ -96,7 +96,7 @@ export const Partners = () => {
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl font-bold text-gray-900 mb-6">Building a Network of Support</h2>
             <p className="text-xl text-gray-700 leading-relaxed">
-              PCLA's impact is amplified through strategic partnerships across government, healthcare, academic, and community sectors. Together, we create a comprehensive ecosystem of support for individuals on their recovery journey.
+              We welcome interest from community groups and organizations who would like to discuss potential partnerships.Since our opening in 1982, we have worked in partnership with other government and non-governmental organizations to provide a range of unique services for people with a serious or persistent mental illness. If you are interested in partnering with PCLA, please contact Michael Kierszenblat, Executive Director mkierszenblat@pclaservices.ca.
             </p>
           </div>
         </div>
