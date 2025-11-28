@@ -59,7 +59,7 @@ export const Partners = () => {
     },
     {
       name: 'co-operators',
-      logo: '/images/co-operators logo.jpg,
+      logo: '/images/co-operators logo.jpg',
       description: 'Placeholder Description.',
       category: 'Community'
     }
