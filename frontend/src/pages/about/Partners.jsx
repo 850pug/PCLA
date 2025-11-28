@@ -98,6 +98,9 @@ export const Partners = () => {
             <p className="text-xl text-gray-700 leading-relaxed">
               We welcome interest from community groups and organizations who would like to discuss potential partnerships.Since our opening in 1982, we have worked in partnership with other government and non-governmental organizations to provide a range of unique services for people with a serious or persistent mental illness. If you are interested in partnering with PCLA, please contact Michael Kierszenblat, Executive Director mkierszenblat@pclaservices.ca.
             </p>
+            <p className="text-xl text-gray-700 leading-relaxed">
+              If you are interested in partnering with PCLA, please contact Michael Kierszenblat, Executive Director mkierszenblat@pclaservices.ca.
+            </p>
           </div>
         </div>
       </section>
