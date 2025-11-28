@@ -38,6 +38,30 @@ export const Partners = () => {
       logo: '/images/British Columbia Ministry of Health Logo.png',
       description: 'Placeholder Description.',
       category: 'Community'
+    },
+    {
+      name: 'British Columbia Ministry of Social Development',
+      logo: '/images/British Columbia Ministry of Social Development Logo.jpg',
+      description: 'Placeholder Description.',
+      category: 'Community'
+    },
+    {
+      name: 'The McLean Foundation',
+      logo: '/images/The McLean Foundation logo.png',
+      description: 'Placeholder Description.',
+      category: 'Community'
+    },
+    {
+      name: 'Vancity',
+      logo: '/images/Vancity Logo.png',
+      description: 'Placeholder Description.',
+      category: 'Community'
+    },
+    {
+      name: 'co-operators',
+      logo: '/images/co-operators logo.jpg,
+      description: 'Placeholder Description.',
+      category: 'Community'
     }
   ];
 
