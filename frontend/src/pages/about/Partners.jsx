@@ -16,27 +16,27 @@ export const Partners = () => {
       category: 'Healthcare'
     },
     {
-      name: 'Canadian Mental Health Association',
-      logo: 'https://via.placeholder.com/200x80/336f99/ffffff?text=CMHA',
-      description: 'National advocacy partner promoting mental health for all Canadians.',
-      category: 'Advocacy'
+      name: 'Fraser Health',
+      logo: '/images/fraserhealth logo.png',
+      description: 'Placeholder Description',
+      category: 'Healthcare'
     },
     {
-      name: 'UBC School of Social Work',
-      logo: 'https://via.placeholder.com/200x80/86a873/ffffff?text=UBC',
-      description: 'Academic partner supporting research on recovery-oriented practice.',
-      category: 'Academic'
+      name: 'Pacifica Treatment Centre',
+      logo: '/images/pacifica treatment centre logo.png',
+      description: 'Placeholder Description',
+      category: 'Healthcare'
     },
     {
-      name: 'Community Living BC',
-      logo: 'https://via.placeholder.com/200x80/f26d2d/ffffff?text=CLBC',
-      description: 'Supporting individuals with developmental disabilities and complex needs.',
+      name: 'AlRoadburg Foundation',
+      logo: '/images/AlRoadburg Logo.png',
+      description: 'Placeholder Description.',
       category: 'Government'
     },
     {
-      name: 'Coast Mental Health',
-      logo: 'https://via.placeholder.com/200x80/336f99/ffffff?text=Coast+MH',
-      description: 'Community mental health organization providing complementary services.',
+      name: 'British Columbia Ministry of Health',
+      logo: '/images/British Columbia Ministry of Health Logo.png',
+      description: 'Placeholder Description.',
       category: 'Community'
     }
   ];
