@@ -26,8 +26,8 @@ import Contact from "@/pages/Contact";
 
 // Team member bio pages - only import the ones that exist
 import MichaelKierszenblat from "@/pages/about/team/michael-kierszenblat";
+import NadunNirosha from "@/pages/about/team/nadun-nirosha";
 // TODO: Uncomment as you create each file
-// import NadunNirosha from "@/pages/about/team/nadun-nirosha";
 // import NabilaKassam from "@/pages/about/team/nabila-kassam";
 // import JenBallantyne from "@/pages/about/team/jen-ballantyne";
 // import SaharKouhestani from "@/pages/about/team/sahar-kouhestani";
@@ -83,8 +83,8 @@ function App() {
             
             {/* Leadership Team Bio Pages - only add routes for files that exist */}
             <Route path="/about/team/michael-kierszenblat" element={<MichaelKierszenblat />} />
-            {/* TODO: Uncomment as you create each file
             <Route path="/about/team/nadun-nirosha" element={<NadunNirosha />} />
+            {/* TODO: Uncomment as you create each file
             <Route path="/about/team/nabila-kassam" element={<NabilaKassam />} />
             <Route path="/about/team/jen-ballantyne" element={<JenBallantyne />} />
             <Route path="/about/team/sahar-kouhestani" element={<SaharKouhestani />} />
