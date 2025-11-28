@@ -24,7 +24,7 @@ import GetInvolved from "@/pages/GetInvolved";
 import Resources from "@/pages/Resources";
 import Contact from "@/pages/Contact";
 
-// Team member bio pages - only import the ones that exist
+// Team member bio pages
 import MichaelKierszenblat from "@/pages/about/team/michael-kierszenblat";
 import NadunNirosha from "@/pages/about/team/nadun-nirosha";
 import NabilaKassam from "@/pages/about/team/nabila-kassam";
@@ -46,6 +46,14 @@ import NabilaKassam from "@/pages/about/team/nabila-kassam";
 // import EdYee from "@/pages/about/team/ed-yee";
 // import HarshThakkar from "@/pages/about/team/harsh-thakkar";
 // import RehanKhan from "@/pages/about/team/rehan-khan";
+
+// Story pages
+import HousingStory1 from "@/pages/stories/housingstory1";
+import PurposeStory1 from "@/pages/stories/purposestory1";
+import HealthStory1 from "@/pages/stories/healthstory1";
+import BelongingStory1 from "@/pages/stories/belongingstory1";
+import AutonomyStory1 from "@/pages/stories/autonomystory1";
+import PartnerStory1 from "@/pages/stories/partnerstory1";
 
 // Wireframes
 import WireframeIndex from "@/pages/wireframes/WireframeIndex";
@@ -81,7 +89,7 @@ function App() {
             <Route path="/resources" element={<Resources />} />
             <Route path="/contact" element={<Contact />} />
             
-            {/* Leadership Team Bio Pages - only add routes for files that exist */}
+            {/* Leadership Team Bio Pages */}
             <Route path="/about/team/michael-kierszenblat" element={<MichaelKierszenblat />} />
             <Route path="/about/team/nadun-nirosha" element={<NadunNirosha />} />
             <Route path="/about/team/nabila-kassam" element={<NabilaKassam />} />
@@ -89,14 +97,12 @@ function App() {
             <Route path="/about/team/jen-ballantyne" element={<JenBallantyne />} />
             <Route path="/about/team/sahar-kouhestani" element={<SaharKouhestani />} />
             <Route path="/about/team/anastasia-humenuk" element={<AnastasiaHumenuk />} />
-
             <Route path="/about/team/deanna-alexander" element={<DeannaAlexander />} />
             <Route path="/about/team/debbie-reid" element={<DebbieReid />} />
             <Route path="/about/team/jeannine-corrigan" element={<JeannineCorrigan />} />
             <Route path="/about/team/michelle-mikota" element={<MichelleMikota />} />
             <Route path="/about/team/susie-innes" element={<SusieInnes />} />
             <Route path="/about/team/vanessa-roberts" element={<VanessaRoberts />} />
-
             <Route path="/about/team/scott-roberts" element={<ScottRoberts />} />
             <Route path="/about/team/camila-nunes" element={<CamilaNunes />} />
             <Route path="/about/team/nancy-tu" element={<NancyTu />} />
@@ -106,6 +112,14 @@ function App() {
             <Route path="/about/team/harsh-thakkar" element={<HarshThakkar />} />
             <Route path="/about/team/rehan-khan" element={<RehanKhan />} />
             */}
+
+            {/* Story Pages */}
+            <Route path="/stories/housingstory1" element={<HousingStory1 />} />
+            <Route path="/stories/purposestory1" element={<PurposeStory1 />} />
+            <Route path="/stories/healthstory1" element={<HealthStory1 />} />
+            <Route path="/stories/belongingstory1" element={<BelongingStory1 />} />
+            <Route path="/stories/autonomystory1" element={<AutonomyStory1 />} />
+            <Route path="/stories/partnerstory1" element={<PartnerStory1 />} />
             
             {/* Wireframe Routes */}
             <Route path="/wireframes" element={<WireframeIndex />} />
