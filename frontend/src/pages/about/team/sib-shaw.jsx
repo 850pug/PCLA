@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Linkedin, Mail, ArrowLeft } from 'lucide-react';
 
-export const SibShaw = () => {
+const SibShaw = () => {
   return (
     <div className="min-h-screen">
       <section className="bg-gray-50 py-8">

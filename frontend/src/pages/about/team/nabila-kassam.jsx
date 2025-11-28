@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Linkedin, Mail, ArrowLeft } from 'lucide-react';
 
-export const NabilaKassam = () => {
+const NabilaKassam = () => {
   return (
     <div className="min-h-screen">
       {/* Navigation */}
