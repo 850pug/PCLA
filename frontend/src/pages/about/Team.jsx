@@ -13,31 +13,31 @@ export const Team = () => {
       name: 'Nadun Nirosha',
       role: 'Director, Finance and Administration',
       bio: 'As a seasoned financial professional with 22 years of dedicated experience in accounting and finance, Nadun Nirosha brings a wealth of experience and expertise to the role as Director, Finance and Administration.',
-      bioLink: '/team/nadun-nirosha'
+      bioLink: '/about/team/nadun-nirosha'
     },
     {
       name: 'Nabila Kassam',
       role: 'Director of Development',
       bio: 'As Director of Development at PCLA, Nabila oversees marketing and communication, nurtures existing relationships, and secures new opportunities for PCLA to grow and improve. Nabila brings fifteen years of experience in fundraising, partnership development, and program evaluation to her current role.',
-      bioLink: '/team/nabila-kassam'
+      bioLink: '/about/team/nabila-kassam'
     },
     {
       name: 'Jen Ballantyne',
       role: 'Executive Coordinator',
       bio: 'Jen Ballantyne brings extensive experience in executive support, administration, and organizational management to her role as Executive Coordinator at PCLA. With a strong background in executive assistance, departmental coordination, and financial administration, she supports the Executive Director, Board of Directors, and Human Resources.',
-      bioLink: '/team/jen-ballantyne'
+      bioLink: '/about/team/jen-ballantyne'
     },
     {
       name: 'Sahar Kouhestani',
       role: 'Quality, Safety & Risk Manager',
       bio: "Dr. Sahar Kouhestani is a healthcare leader specializing in quality improvement, safety systems, and risk management. She holds a PhD in Health Policy and a Master's in Health Care Management (MHA) and brings over eight years of experience in healthcare administration, accreditation, and performance excellence.",
-      bioLink: '/team/sahar-kouhestani'
+      bioLink: '/about/team/sahar-kouhestani'
     },
     {
       name: 'Anastasia Humenuk',
       role: 'Director of Human Resources',
       bio: 'Anastasia Humenuk brings 28 years of experience in HR leadership roles in the private, healthcare, municipal government and the non-profit sectors. She has specific experience leading the HR function and HR team for non-profits who deliver programs and services aimed at assisting the most vulnerable.',
-      bioLink: '/team/anastasia-humenuk'
+      bioLink: '/about/team/anastasia-humenuk'
     }
   ];
 
@@ -46,37 +46,37 @@ export const Team = () => {
       name: 'Deanna Alexander',
       role: "Team Lead, Lina's Place",
       bio: 'BIO SNIPPET HERE',
-      bioLink: '/team/deanna-alexander'
+      bioLink: '/about/team/deanna-alexander'
     },
     {
       name: 'Debbie Reid',
       role: "Manager of Care, Millers Way & Lina's Place",
       bio: 'BIO SNIPPET HERE',
-      bioLink: '/team/debbie-reid'
+      bioLink: '/about/team/debbie-reid'
     },
     {
       name: 'Jeannine Corrigan',
       role: 'Manager of Care, CRESST',
       bio: 'BIO SNIPPET HERE',
-      bioLink: '/team/jeannine-corrigan'
+      bioLink: '/about/team/jeannine-corrigan'
     },
     {
       name: 'Michelle Mikota',
       role: 'Manager of Care, Adrian House',
       bio: 'BIO SNIPPET HERE',
-      bioLink: '/team/michelle-mikota'
+      bioLink: '/about/team/michelle-mikota'
     },
     {
       name: 'Susie Innes',
       role: 'Manager of Care, Rainbow Lodge',
       bio: 'BIO SNIPPET HERE',
-      bioLink: '/team/susie-innes'
+      bioLink: '/about/team/susie-innes'
     },
     {
       name: 'Vanessa Roberts',
       role: 'Manager of Care, Henderson House',
       bio: 'BIO SNIPPET HERE',
-      bioLink: '/team/vanessa-roberts'
+      bioLink: '/about/team/vanessa-roberts'
     }
   ];
 
@@ -85,49 +85,49 @@ export const Team = () => {
       name: 'Scott Roberts',
       role: 'President',
       bio: 'BIO SNIPPET HERE',
-      bioLink: '/team/scott-roberts'
+      bioLink: '/about/team/scott-roberts'
     },
     {
       name: 'Camila Nunes',
       role: 'Vice President',
       bio: 'BIO SNIPPET HERE',
-      bioLink: '/team/camila-nunes'
+      bioLink: '/about/team/camila-nunes'
     },
     {
       name: 'Nancy Tu',
       role: 'Treasurer',
       bio: 'BIO SNIPPET HERE',
-      bioLink: '/team/nancy-tu'
+      bioLink: '/about/team/nancy-tu'
     },
     {
       name: 'Simi Rajput',
       role: 'Secretary',
       bio: 'BIO SNIPPET HERE',
-      bioLink: '/team/simi-rajput'
+      bioLink: '/about/team/simi-rajput'
     },
     {
       name: 'Sib Shaw',
       role: 'Director',
       bio: 'BIO SNIPPET HERE',
-      bioLink: '/team/sib-shaw'
+      bioLink: '/about/team/sib-shaw'
     },
     {
       name: 'Ed Yee',
       role: 'Director',
       bio: 'BIO SNIPPET HERE',
-      bioLink: '/team/ed-yee'
+      bioLink: '/about/team/ed-yee'
     },
     {
       name: 'Harsh Thakkar',
       role: 'Director',
       bio: 'BIO SNIPPET HERE',
-      bioLink: '/team/harsh-thakkar'
+      bioLink: '/about/team/harsh-thakkar'
     },
     {
       name: 'Rehan Khan',
       role: 'Director',
       bio: 'BIO SNIPPET HERE',
-      bioLink: '/team/rehan-khan'
+      bioLink: '/about/team/rehan-khan'
     }
   ];
 
