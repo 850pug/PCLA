@@ -24,27 +24,28 @@ import GetInvolved from "@/pages/GetInvolved";
 import Resources from "@/pages/Resources";
 import Contact from "@/pages/Contact";
 
-// Team member bio pages
+// Team member bio pages - only import the ones that exist
 import MichaelKierszenblat from "@/pages/about/team/michael-kierszenblat";
-import NadunNirosha from "@/pages/about/team/nadun-nirosha";
-import NabilaKassam from "@/pages/about/team/nabila-kassam";
-import JenBallantyne from "@/pages/about/team/jen-ballantyne";
-import SaharKouhestani from "@/pages/about/team/sahar-kouhestani";
-import AnastasiaHumenuk from "@/pages/about/team/anastasia-humenuk";
-import DeannaAlexander from "@/pages/about/team/deanna-alexander";
-import DebbieReid from "@/pages/about/team/debbie-reid";
-import JeannineCorrigan from "@/pages/about/team/jeannine-corrigan";
-import MichelleMikota from "@/pages/about/team/michelle-mikota";
-import SusieInnes from "@/pages/about/team/susie-innes";
-import VanessaRoberts from "@/pages/about/team/vanessa-roberts";
-import ScottRoberts from "@/pages/about/team/scott-roberts";
-import CamilaNunes from "@/pages/about/team/camila-nunes";
-import NancyTu from "@/pages/about/team/nancy-tu";
-import SimiRajput from "@/pages/about/team/simi-rajput";
-import SibShaw from "@/pages/about/team/sib-shaw";
-import EdYee from "@/pages/about/team/ed-yee";
-import HarshThakkar from "@/pages/about/team/harsh-thakkar";
-import RehanKhan from "@/pages/about/team/rehan-khan";
+// TODO: Uncomment as you create each file
+// import NadunNirosha from "@/pages/about/team/nadun-nirosha";
+// import NabilaKassam from "@/pages/about/team/nabila-kassam";
+// import JenBallantyne from "@/pages/about/team/jen-ballantyne";
+// import SaharKouhestani from "@/pages/about/team/sahar-kouhestani";
+// import AnastasiaHumenuk from "@/pages/about/team/anastasia-humenuk";
+// import DeannaAlexander from "@/pages/about/team/deanna-alexander";
+// import DebbieReid from "@/pages/about/team/debbie-reid";
+// import JeannineCorrigan from "@/pages/about/team/jeannine-corrigan";
+// import MichelleMikota from "@/pages/about/team/michelle-mikota";
+// import SusieInnes from "@/pages/about/team/susie-innes";
+// import VanessaRoberts from "@/pages/about/team/vanessa-roberts";
+// import ScottRoberts from "@/pages/about/team/scott-roberts";
+// import CamilaNunes from "@/pages/about/team/camila-nunes";
+// import NancyTu from "@/pages/about/team/nancy-tu";
+// import SimiRajput from "@/pages/about/team/simi-rajput";
+// import SibShaw from "@/pages/about/team/sib-shaw";
+// import EdYee from "@/pages/about/team/ed-yee";
+// import HarshThakkar from "@/pages/about/team/harsh-thakkar";
+// import RehanKhan from "@/pages/about/team/rehan-khan";
 
 // Wireframes
 import WireframeIndex from "@/pages/wireframes/WireframeIndex";
@@ -80,15 +81,15 @@ function App() {
             <Route path="/resources" element={<Resources />} />
             <Route path="/contact" element={<Contact />} />
             
-            {/* Leadership Team Bio Pages */}
+            {/* Leadership Team Bio Pages - only add routes for files that exist */}
             <Route path="/about/team/michael-kierszenblat" element={<MichaelKierszenblat />} />
+            {/* TODO: Uncomment as you create each file
             <Route path="/about/team/nadun-nirosha" element={<NadunNirosha />} />
             <Route path="/about/team/nabila-kassam" element={<NabilaKassam />} />
             <Route path="/about/team/jen-ballantyne" element={<JenBallantyne />} />
             <Route path="/about/team/sahar-kouhestani" element={<SaharKouhestani />} />
             <Route path="/about/team/anastasia-humenuk" element={<AnastasiaHumenuk />} />
 
-            {/* Program Staff Bio Pages */}
             <Route path="/about/team/deanna-alexander" element={<DeannaAlexander />} />
             <Route path="/about/team/debbie-reid" element={<DebbieReid />} />
             <Route path="/about/team/jeannine-corrigan" element={<JeannineCorrigan />} />
@@ -96,7 +97,6 @@ function App() {
             <Route path="/about/team/susie-innes" element={<SusieInnes />} />
             <Route path="/about/team/vanessa-roberts" element={<VanessaRoberts />} />
 
-            {/* Board Members Bio Pages */}
             <Route path="/about/team/scott-roberts" element={<ScottRoberts />} />
             <Route path="/about/team/camila-nunes" element={<CamilaNunes />} />
             <Route path="/about/team/nancy-tu" element={<NancyTu />} />
@@ -105,6 +105,7 @@ function App() {
             <Route path="/about/team/ed-yee" element={<EdYee />} />
             <Route path="/about/team/harsh-thakkar" element={<HarshThakkar />} />
             <Route path="/about/team/rehan-khan" element={<RehanKhan />} />
+            */}
             
             {/* Wireframe Routes */}
             <Route path="/wireframes" element={<WireframeIndex />} />
