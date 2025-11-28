@@ -19,7 +19,8 @@ export const Stories = () => {
       dimension: 'Housing',
       image: 'https://images.unsplash.com/photo-1618622127587-3261f2b2f553?w=600',
       excerpt: 'After years of instability, PCLA gave me what I needed most: a place to call home. With that foundation, everything else became possible.',
-      tags: ['Housing', 'Stability', 'Community']
+      tags: ['Housing', 'Stability', 'Community'],
+      storyLink: '/stories/housingstory1'
     },
     {
       name: 'Michael R.',
@@ -27,7 +28,8 @@ export const Stories = () => {
       dimension: 'Purpose',
       image: 'https://images.pexels.com/photos/10599803/pexels-photo-10599803.jpeg?w=600',
       excerpt: 'I discovered my purpose through the programs here. Now I help others find theirs as a peer support specialist.',
-      tags: ['Purpose', 'Employment', 'Peer Support']
+      tags: ['Purpose', 'Employment', 'Peer Support'],
+      storyLink: '/stories/purposestory1'
     },
     {
       name: 'Elena T.',
@@ -35,7 +37,8 @@ export const Stories = () => {
       dimension: 'Health',
       image: 'https://images.unsplash.com/photo-1697551458746-b86ccf5049d4?w=600',
       excerpt: 'The staff here understand recovery isn\'t linear. They celebrate every small victory with me.',
-      tags: ['Health', 'Wellness', 'Mental Health']
+      tags: ['Health', 'Wellness', 'Mental Health'],
+      storyLink: '/stories/healthstory1'
     },
     {
       name: 'Maria G.',
@@ -43,7 +46,8 @@ export const Stories = () => {
       dimension: 'Belonging',
       image: 'https://images.unsplash.com/photo-1679466061812-211a6b737175?w=600',
       excerpt: 'I spent years isolated and alone. At PCLA, I discovered I wasn\'t defined by my illness—I was part of a caring community.',
-      tags: ['Belonging', 'Community', 'Connection']
+      tags: ['Belonging', 'Community', 'Connection'],
+      storyLink: '/stories/belongingstory1'
     },
     {
       name: 'James K.',
@@ -51,15 +55,17 @@ export const Stories = () => {
       dimension: 'Autonomy',
       image: 'https://images.pexels.com/photos/6484132/pexels-photo-6484132.jpeg?w=600',
       excerpt: 'PCLA taught me that having a mental illness doesn\'t mean giving up control of my life. I make my own choices now.',
-      tags: ['Autonomy', 'Independence', 'Self-Advocacy']
+      tags: ['Autonomy', 'Independence', 'Self-Advocacy'],
+      storyLink: '/stories/autonomystory1'
     },
     {
       name: 'Anita S.',
       title: 'A Path to Wellness',
-      dimension: 'Health',
+      dimension: 'Partners',
       image: 'https://images.pexels.com/photos/10599803/pexels-photo-10599803.jpeg?w=600',
       excerpt: 'For the first time, I have healthcare providers who see the whole me—not just my diagnosis.',
-      tags: ['Health', 'Integrated Care', 'Wellness']
+      tags: ['Partners', 'Collaboration', 'Integrated Care'],
+      storyLink: '/stories/partnerstory1'
     }
   ];
 
@@ -137,32 +143,34 @@ export const Stories = () => {
           {filteredStories.length > 0 ? (
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {filteredStories.map((story, index) => (
-                <Card key={index} className="hover:shadow-2xl transition-all duration-300 border-2 rounded-3xl overflow-hidden group cursor-pointer">
-                  <div className="relative h-72 overflow-hidden">
-                    <img 
-                      src={story.image} 
-                      alt={story.name}
-                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
-                    <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                      <h3 className="text-2xl font-bold mb-2">{story.name}</h3>
-                      <Badge className="bg-[#f26d2d] hover:bg-[#d65a1e]">{story.dimension}</Badge>
+                <Link to={story.storyLink} key={index}>
+                  <Card className="hover:shadow-2xl transition-all duration-300 border-2 rounded-3xl overflow-hidden group cursor-pointer h-full">
+                    <div className="relative h-72 overflow-hidden">
+                      <img 
+                        src={story.image} 
+                        alt={story.name}
+                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+                      <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
+                        <h3 className="text-2xl font-bold mb-2">{story.name}</h3>
+                        <Badge className="bg-[#f26d2d] hover:bg-[#d65a1e]">{story.dimension}</Badge>
+                      </div>
                     </div>
-                  </div>
-                  <CardContent className="p-6">
-                    <h4 className="text-xl font-bold text-gray-900 mb-3">{story.title}</h4>
-                    <p className="text-gray-700 leading-relaxed mb-4 italic">"{story.excerpt}"</p>
-                    <div className="flex flex-wrap gap-2 mb-4">
-                      {story.tags.map((tag, i) => (
-                        <Badge key={i} variant="outline" className="border-[#86a873] text-[#86a873]">{tag}</Badge>
-                      ))}
-                    </div>
-                    <Button className="w-full bg-[#336f99] hover:bg-[#2a5a7d] text-white rounded-full">
-                      Read Full Story →
-                    </Button>
-                  </CardContent>
-                </Card>
+                    <CardContent className="p-6">
+                      <h4 className="text-xl font-bold text-gray-900 mb-3">{story.title}</h4>
+                      <p className="text-gray-700 leading-relaxed mb-4 italic">"{story.excerpt}"</p>
+                      <div className="flex flex-wrap gap-2 mb-4">
+                        {story.tags.map((tag, i) => (
+                          <Badge key={i} variant="outline" className="border-[#86a873] text-[#86a873]">{tag}</Badge>
+                        ))}
+                      </div>
+                      <Button className="w-full bg-[#336f99] hover:bg-[#2a5a7d] text-white rounded-full">
+                        Read Full Story →
+                      </Button>
+                    </CardContent>
+                  </Card>
+                </Link>
               ))}
             </div>
           ) : (
