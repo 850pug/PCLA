@@ -23,7 +23,7 @@ const NabilaKassam = () => {
             <div className="md:col-span-1">
               <div className="aspect-[3/4] w-full overflow-hidden rounded-3xl border-4 border-gray-200 shadow-xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1516841273335-e39b37888115?w=600" 
+                  src="/images/Nabila-Kassam.webp" 
                   alt="Nabila Kassam"
                   className="w-full h-full object-cover"
                 />
