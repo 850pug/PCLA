@@ -18,7 +18,7 @@ export const Team = () => {
     {
       name: 'Nabila Kassam',
       role: 'Director of Development',
-      bio: 'Nabila Kassam brings fifteen years of experience in fundraising, partnerships, and program development, leading PCLA's marketing and development efforts to advance equity and expand opportunities for those we serve.',
+      bio: 'Nabila Kassam brings fifteen years of experience in fundraising, partnerships, and program development, leading PCLA\'s marketing and development efforts to advance equity and expand opportunities for those we serve.',
       bioLink: '/about/team/nabila-kassam'
     },
     {
@@ -30,13 +30,13 @@ export const Team = () => {
     {
       name: 'Sahar Kouhestani',
       role: 'Quality, Safety & Risk Manager',
-      bio: 'Dr. Sahar Kouhestani is a health policy and quality improvement leader who strengthens PCLA's safety, accreditation, and performance systems through expertise in healthcare management and evidence-based practice.',
+      bio: 'Dr. Sahar Kouhestani is a health policy and quality improvement leader who strengthens PCLA\'s safety, accreditation, and performance systems through expertise in healthcare management and evidence-based practice.',
       bioLink: '/about/team/sahar-kouhestani'
     },
     {
       name: 'Anastasia Humenuk',
       role: 'Director of Human Resources',
-      bio: 'Anastasia Humenuk brings 28 years of HR leadership experience across sectors, strengthening PCLA's people systems through expertise in labour relations, workplace practices, and organizational development.',
+      bio: 'Anastasia Humenuk brings 28 years of HR leadership experience across sectors, strengthening PCLA\'s people systems through expertise in labour relations, workplace practices, and organizational development.',
       bioLink: '/about/team/anastasia-humenuk'
     }
   ];
@@ -45,13 +45,13 @@ export const Team = () => {
     {
       name: 'Deanna Alexander',
       role: "Team Lead, Lina's Place",
-      bio: 'Deanna Alexander brings over 30 years of community mental health experience, leading resident support at Lina's Place with a focus on independence, compassion, and recovery-oriented care.',
+      bio: 'Deanna Alexander brings over 30 years of community mental health experience, leading resident support at Lina\'s Place with a focus on independence, compassion, and recovery-oriented care.',
       bioLink: '/about/team/deanna-alexander'
     },
     {
       name: 'Debbie Reid',
       role: "Manager of Care, Millers Way & Lina's Place",
-      bio: 'Debbie Reid brings over 40 years of nursing and mental health experience, leading care at Millers Way and Lina's Place with a strong commitment to compassion, community support, and resident wellbeing.',
+      bio: 'Debbie Reid brings over 40 years of nursing and mental health experience, leading care at Millers Way and Lina\'s Place with a strong commitment to compassion, community support, and resident wellbeing.',
       bioLink: '/about/team/debbie-reid'
     },
     {
@@ -108,7 +108,7 @@ export const Team = () => {
     {
       name: 'Sib Shaw',
       role: 'Director',
-      bio: 'Sib Shaw brings over 30 years of international leadership experience across hospitality, retail, and healthcare, contributing strategic operational insight and strong community engagement to PCLA's governance.',
+      bio: 'Sib Shaw brings over 30 years of international leadership experience across hospitality, retail, and healthcare, contributing strategic operational insight and strong community engagement to PCLA\'s governance.',
       bioLink: '/about/team/sib-shaw'
     },
     {
