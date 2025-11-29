@@ -14,6 +14,15 @@ export const Stories = () => {
 
   const stories = [
     {
+      name: 'Fraser Health.',
+      title: 'Building a Trauma-Informed Culture',
+      dimension: 'Partners',
+      image: '/images/fraserhealth logo.png',
+      excerpt: 'This training helped our staff deepen their understanding of trauma and strengthen the compassion we bring to every interaction.',
+      tags: ['Partners', 'Collaboration', 'Integrated Care'],
+      storyLink: '/stories/partnerstory1'
+    },
+    {
       name: 'Sarah M.',
       title: 'From Homelessness to Home',
       dimension: 'Housing',
@@ -57,15 +66,6 @@ export const Stories = () => {
       excerpt: 'PCLA taught me that having a mental illness doesn\'t mean giving up control of my life. I make my own choices now.',
       tags: ['Autonomy', 'Independence', 'Self-Advocacy'],
       storyLink: '/stories/autonomystory1'
-    },
-    {
-      name: 'Fraser Health.',
-      title: 'Building a Trauma-Informed Culture at PCLA',
-      dimension: 'Partners',
-      image: '/images/fraserhealth logo.png',
-      excerpt: 'This training helped our staff deepen their understanding of trauma and strengthen the compassion we bring to every interaction.',
-      tags: ['Partners', 'Collaboration', 'Integrated Care'],
-      storyLink: '/stories/partnerstory1'
     }
   ];
 
