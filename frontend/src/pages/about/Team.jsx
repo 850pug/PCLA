@@ -12,7 +12,7 @@ export const Team = () => {
     {
       name: 'Nadun Nirosha',
       role: 'Director, Finance and Administration',
-      bio: 'As a seasoned financial professional with 22 years of dedicated experience in accounting and finance, Nadun Nirosha brings a wealth of experience and expertise to the role as Director, Finance and Administration.',
+      bio: 'Nadun Nirosha is a seasoned finance professional with 22 years of international experience, leading financial strategy, planning, and administration to strengthen organizational performance and operational excellence.',
       bioLink: '/about/team/nadun-nirosha'
     },
     {
