@@ -5,11 +5,11 @@ import { ArrowLeft } from 'lucide-react';
 
 const PartnerStory1 = () => {
   const story = {
-    name: 'Anita S.',
-    title: 'A Path to Wellness',
+    name: 'Fraser Health',
+    title: 'Building a Trauma-Informed Culture',
     dimension: 'Partners',
-    image: 'https://images.pexels.com/photos/10599803/pexels-photo-10599803.jpeg?w=600',
-    excerpt: 'For the first time, I have healthcare providers who see the whole me—not just my diagnosis.',
+    image: '/images/Fraser Health Authority’s Trauma & Resiliency Informed Practice (TRIP) 6.jpg',
+    excerpt: 'This training helped our staff deepen their understanding of trauma and strengthen the compassion we bring to every interaction.',
     tags: ['Partners', 'Collaboration', 'Integrated Care'],
     fullStory: {
       introduction: "Anita S.'s journey is one of transformation, resilience, and hope. Through the support of PCLA's programs and services, they have found stability, community, and a renewed sense of purpose.",
