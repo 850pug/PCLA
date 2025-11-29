@@ -24,7 +24,7 @@ export const Team = () => {
     {
       name: 'Jen Ballantyne',
       role: 'Executive Coordinator',
-      bio: 'Jen Ballantyne brings extensive experience in executive support and administration, ensuring seamless coordination across leadership functions and strengthening PCLA's operations through professionalism and attention to detail.',
+      bio: 'Jen Ballantyne brings extensive experience in executive support and administration, ensuring seamless coordination across leadership functions and strengthening PCLA\'s operations through professionalism and attention to detail.',
       bioLink: '/about/team/jen-ballantyne'
     },
     {
