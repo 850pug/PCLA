@@ -71,9 +71,10 @@ export const Stories = () => {
 
   const filteredStories = stories.filter(story => {
     const matchesDimension = selectedDimension === 'All' || story.dimension === selectedDimension;
-    const matchesSearch = story.name.toLowerCase().includes(searchTerm.toLowerCase()) || 
-                         story.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                         story.excerpt.toLowerCase().includes(searchTerm.toLowerCase());
+    const matchesSearch =
+      story.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      story.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      story.excerpt.toLowerCase().includes(searchTerm.toLowerCase());
     return matchesDimension && matchesSearch;
   });
 
@@ -81,17 +82,18 @@ export const Stories = () => {
     <div className="min-h-screen">
       {/* Hero */}
       <section className="relative h-[70vh] flex items-center justify-center overflow-hidden">
-        <div 
+        <div
           className="absolute inset-0 z-0"
           style={{
-            backgroundImage: 'url(https://images.unsplash.com/photo-1527525443983-6e60c75fff46?w=1920)',
+            backgroundImage:
+              'url(https://images.unsplash.com/photo-1527525443983-6e60c75fff46?w=1920)',
             backgroundSize: 'cover',
             backgroundPosition: 'center'
           }}
         >
           <div className="absolute inset-0 bg-black/40"></div>
         </div>
-        
+
         <div className="container mx-auto px-6 relative z-10 text-center">
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">Story Hub</h1>
           <p className="text-xl md:text-2xl text-gray-100 max-w-3xl mx-auto">
@@ -107,7 +109,7 @@ export const Stories = () => {
             {/* Search Bar */}
             <div className="relative mb-8">
               <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
-              <Input 
+              <Input
                 type="text"
                 placeholder="Search stories by name, keyword, or theme..."
                 className="pl-12 pr-4 py-6 text-lg rounded-full border-2"
@@ -123,8 +125,8 @@ export const Stories = () => {
                   key={dimension}
                   variant={selectedDimension === dimension ? 'default' : 'outline'}
                   className={`rounded-full px-6 py-2 transition-all ${
-                    selectedDimension === dimension 
-                      ? 'bg-[#336f99] hover:bg-[#2a5a7d] text-white' 
+                    selectedDimension === dimension
+                      ? 'bg-[#336f99] hover:bg-[#2a5a7d] text-white'
                       : 'border-2 border-gray-300 hover:border-[#336f99] hover:text-[#336f99]'
                   }`}
                   onClick={() => setSelectedDimension(dimension)}
@@ -146,23 +148,35 @@ export const Stories = () => {
                 <Link to={story.storyLink} key={index}>
                   <Card className="hover:shadow-2xl transition-all duration-300 border-2 rounded-3xl overflow-hidden group cursor-pointer h-full">
                     <div className="relative h-72 overflow-hidden">
-                      <img 
-                        src={story.image} 
+
+                      {/* CONDITIONAL IMAGE HANDLING — LOGO vs PHOTO */}
+                      <img
+                        src={story.image}
                         alt={story.name}
-                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                        className={`w-full h-full ${
+                          story.dimension === 'Partners'
+                            ? 'object-contain bg-white p-6'
+                            : 'object-cover group-hover:scale-110 transition-transform duration-500'
+                        }`}
                       />
+
                       <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
                       <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
                         <h3 className="text-2xl font-bold mb-2">{story.name}</h3>
                         <Badge className="bg-[#f26d2d] hover:bg-[#d65a1e]">{story.dimension}</Badge>
                       </div>
                     </div>
+
                     <CardContent className="p-6">
                       <h4 className="text-xl font-bold text-gray-900 mb-3">{story.title}</h4>
-                      <p className="text-gray-700 leading-relaxed mb-4 italic">"{story.excerpt}"</p>
+                      <p className="text-gray-700 leading-relaxed mb-4 italic">
+                        "{story.excerpt}"
+                      </p>
                       <div className="flex flex-wrap gap-2 mb-4">
                         {story.tags.map((tag, i) => (
-                          <Badge key={i} variant="outline" className="border-[#86a873] text-[#86a873]">{tag}</Badge>
+                          <Badge key={i} variant="outline" className="border-[#86a873] text-[#86a873]">
+                            {tag}
+                          </Badge>
                         ))}
                       </div>
                       <Button className="w-full bg-[#336f99] hover:bg-[#2a5a7d] text-white rounded-full">
@@ -176,9 +190,12 @@ export const Stories = () => {
           ) : (
             <div className="text-center py-20">
               <p className="text-2xl text-gray-600">No stories found matching your search.</p>
-              <Button 
+              <Button
                 className="mt-6 bg-[#336f99] hover:bg-[#2a5a7d] text-white rounded-full px-8"
-                onClick={() => { setSearchTerm(''); setSelectedDimension('All'); }}
+                onClick={() => {
+                  setSearchTerm('');
+                  setSelectedDimension('All');
+                }}
               >
                 Clear Filters
               </Button>
@@ -195,7 +212,10 @@ export const Stories = () => {
             Your story can inspire hope and help others on their recovery journey
           </p>
           <Link to="/contact">
-            <Button size="lg" className="bg-[#f26d2d] hover:bg-[#d65a1e] text-white px-10 py-6 rounded-full text-lg transition-all duration-300 hover:scale-105">
+            <Button
+              size="lg"
+              className="bg-[#f26d2d] hover:bg-[#d65a1e] text-white px-10 py-6 rounded-full text-lg transition-all duration-300 hover:scale-105"
+            >
               Contact Us to Share
             </Button>
           </Link>
