@@ -18,25 +18,25 @@ export const Team = () => {
     {
       name: 'Nabila Kassam',
       role: 'Director of Development',
-      bio: 'As Director of Development at PCLA, Nabila oversees marketing and communication, nurtures existing relationships, and secures new opportunities for PCLA to grow and improve. Nabila brings fifteen years of experience in fundraising, partnership development, and program evaluation to her current role.',
+      bio: 'Nabila Kassam brings fifteen years of experience in fundraising, partnerships, and program development, leading PCLA's marketing and development efforts to advance equity and expand opportunities for those we serve.',
       bioLink: '/about/team/nabila-kassam'
     },
     {
       name: 'Jen Ballantyne',
       role: 'Executive Coordinator',
-      bio: 'Jen Ballantyne brings extensive experience in executive support, administration, and organizational management to her role as Executive Coordinator at PCLA. With a strong background in executive assistance, departmental coordination, and financial administration, she supports the Executive Director, Board of Directors, and Human Resources.',
+      bio: 'Jen Ballantyne brings extensive experience in executive support and administration, ensuring seamless coordination across leadership functions and strengthening PCLA's operations through professionalism and attention to detail.',
       bioLink: '/about/team/jen-ballantyne'
     },
     {
       name: 'Sahar Kouhestani',
       role: 'Quality, Safety & Risk Manager',
-      bio: "Dr. Sahar Kouhestani is a healthcare leader specializing in quality improvement, safety systems, and risk management. She holds a PhD in Health Policy and a Master's in Health Care Management (MHA) and brings over eight years of experience in healthcare administration, accreditation, and performance excellence.",
+      bio: 'Dr. Sahar Kouhestani is a health policy and quality improvement leader who strengthens PCLA's safety, accreditation, and performance systems through expertise in healthcare management and evidence-based practice.',
       bioLink: '/about/team/sahar-kouhestani'
     },
     {
       name: 'Anastasia Humenuk',
       role: 'Director of Human Resources',
-      bio: 'Anastasia Humenuk brings 28 years of experience in HR leadership roles in the private, healthcare, municipal government and the non-profit sectors. She has specific experience leading the HR function and HR team for non-profits who deliver programs and services aimed at assisting the most vulnerable.',
+      bio: 'Anastasia Humenuk brings 28 years of HR leadership experience across sectors, strengthening PCLA's people systems through expertise in labour relations, workplace practices, and organizational development.',
       bioLink: '/about/team/anastasia-humenuk'
     }
   ];
@@ -45,37 +45,37 @@ export const Team = () => {
     {
       name: 'Deanna Alexander',
       role: "Team Lead, Lina's Place",
-      bio: 'BIO SNIPPET HERE',
+      bio: 'Deanna Alexander brings over 30 years of community mental health experience, leading resident support at Lina's Place with a focus on independence, compassion, and recovery-oriented care.',
       bioLink: '/about/team/deanna-alexander'
     },
     {
       name: 'Debbie Reid',
       role: "Manager of Care, Millers Way & Lina's Place",
-      bio: 'BIO SNIPPET HERE',
+      bio: 'Debbie Reid brings over 40 years of nursing and mental health experience, leading care at Millers Way and Lina's Place with a strong commitment to compassion, community support, and resident wellbeing.',
       bioLink: '/about/team/debbie-reid'
     },
     {
       name: 'Jeannine Corrigan',
       role: 'Manager of Care, CRESST',
-      bio: 'BIO SNIPPET HERE',
+      bio: 'Jeannine Corrigan brings over 30 years of psychiatric nursing and community mental health experience, leading care at CRESST North with a strong commitment to advocacy, stability, and person-centered recovery.',
       bioLink: '/about/team/jeannine-corrigan'
     },
     {
       name: 'Michelle Mikota',
       role: 'Manager of Care, Adrian House',
-      bio: 'BIO SNIPPET HERE',
+      bio: 'Michelle Mikota brings over 20 years of psychiatric nursing and mental health leadership, guiding care at Adrian House with a focus on compassion, clinical excellence, and resident-centered recovery.',
       bioLink: '/about/team/michelle-mikota'
     },
     {
       name: 'Susie Innes',
       role: 'Manager of Care, Rainbow Lodge',
-      bio: 'BIO SNIPPET HERE',
+      bio: 'Susie Innes brings extensive psychiatric nursing and leadership experience, guiding care at Rainbow Lodge with a commitment to connection, respect, and recovery-focused support for residents.',
       bioLink: '/about/team/susie-innes'
     },
     {
       name: 'Vanessa Roberts',
       role: 'Manager of Care, Henderson House',
-      bio: 'BIO SNIPPET HERE',
+      bio: 'Vanessa Roberts brings diverse clinical and leadership experience to PCLA, leading the Henderson Program with a commitment to compassionate care, holistic support, and recovery-focused practice.',
       bioLink: '/about/team/vanessa-roberts'
     }
   ];
@@ -84,49 +84,49 @@ export const Team = () => {
     {
       name: 'Scott Roberts',
       role: 'President',
-      bio: 'BIO SNIPPET HERE',
+      bio: 'Scott Roberts brings extensive senior management and consulting experience across tourism, hospitality, and social enterprise, supporting PCLA with strategic insight rooted in community development and sustainability.',
       bioLink: '/about/team/scott-roberts'
     },
     {
       name: 'Camila Nunes',
       role: 'Vice President',
-      bio: 'BIO SNIPPET HERE',
+      bio: 'Camila Nunes brings over a decade of healthcare management experience, contributing strengths in accreditation, strategic planning, and operational leadership across diverse clinical and organizational settings.',
       bioLink: '/about/team/camila-nunes'
     },
     {
       name: 'Nancy Tu',
       role: 'Treasurer',
-      bio: 'BIO SNIPPET HERE',
+      bio: 'Nancy Tu brings over 20 years of accounting and financial leadership experience, offering strong expertise in budgeting, controls, and nonprofit financial management grounded in equity, teamwork, and integrity.',
       bioLink: '/about/team/nancy-tu'
     },
     {
       name: 'Simi Rajput',
       role: 'Secretary',
-      bio: 'BIO SNIPPET HERE',
+      bio: 'BIO SNIPPET PENDING',
       bioLink: '/about/team/simi-rajput'
     },
     {
       name: 'Sib Shaw',
       role: 'Director',
-      bio: 'BIO SNIPPET HERE',
+      bio: 'Sib Shaw brings over 30 years of international leadership experience across hospitality, retail, and healthcare, contributing strategic operational insight and strong community engagement to PCLA's governance.',
       bioLink: '/about/team/sib-shaw'
     },
     {
       name: 'Ed Yee',
       role: 'Director',
-      bio: 'BIO SNIPPET HERE',
+      bio: 'Ed Yee brings extensive senior leadership experience across private, public, and nonprofit sectors, offering strategic insight to PCLA informed by deep expertise in operations, strategy, and organizational development.',
       bioLink: '/about/team/ed-yee'
     },
     {
       name: 'Harsh Thakkar',
       role: 'Director',
-      bio: 'BIO SNIPPET HERE',
+      bio: 'Harsh Thakkar brings over 20 years of nonprofit leadership experience, advancing community impact through inclusive service delivery, operational excellence, and a strong commitment to equity and person-centered support.',
       bioLink: '/about/team/harsh-thakkar'
     },
     {
       name: 'Rehan Khan',
       role: 'Director',
-      bio: 'BIO SNIPPET HERE',
+      bio: 'Rehan Khan brings extensive experience in banking, accounting, and financial analysis, contributing expertise in internal controls, risk review, and strategic planning to strengthen nonprofit financial stewardship.',
       bioLink: '/about/team/rehan-khan'
     }
   ];
