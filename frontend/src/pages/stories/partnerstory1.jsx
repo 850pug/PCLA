@@ -20,7 +20,7 @@ const PartnerStory1 = () => {
       conclusion: "Stories like this one remind us why PCLA's work is so vital. Every person who walks through our doors carries unique experiences, challenges, and dreams. Our role is to provide the support, resources, and community that make recovery possible. We celebrate each person's journey and honor the courage it takes to choose healing."
     },
     pullQuote: "Recovery isn't about going back to who you were before. It's about discovering who you can become.",
-    contentImage1: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=1200",
+    contentImage1: '/images/Fraser Health Authority’s Trauma & Resiliency Informed Practice (TRIP) 6.jpg',
     imageCaption1: "Finding support and community at PCLA",
     contentImage2: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200",
     imageCaption2: "Building a life in recovery"
