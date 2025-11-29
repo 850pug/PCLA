@@ -8,21 +8,34 @@ const PartnerStory1 = () => {
     name: 'Fraser Health',
     title: 'Building a Trauma-Informed Culture',
     dimension: 'Partners',
-    image: '/images/Fraser Health Authority’s Trauma & Resiliency Informed Practice (TRIP) 6.jpg',
+    image: '/images/Fraser Health Authority’s Trauma & Resiliency Informed Practice (TRIP) 2.jpg?w=600',
     excerpt: 'This training helped our staff deepen their understanding of trauma and strengthen the compassion we bring to every interaction.',
     tags: ['Partners', 'Collaboration', 'Integrated Care'],
     fullStory: {
-      introduction: "Anita S.'s journey is one of transformation, resilience, and hope. Through the support of PCLA's programs and services, they have found stability, community, and a renewed sense of purpose.",
-      paragraph1: "Like many who come to PCLA, their path wasn't linear. There were setbacks and challenges along the way. But with consistent support, access to resources, and the belief that recovery is possible, they began to see change. Small victories turned into larger milestones, and what once seemed impossible became reality.",
-      paragraph2: "The turning point came when they realized they weren't alone in their struggle. Being surrounded by peers who understood their experiences, and staff who believed in their potential, created an environment where healing could happen. Access to stable housing provided the foundation, but it was the sense of belonging that truly made the difference.",
-      paragraph3: "Today, their life looks dramatically different. They have routines, relationships, and goals for the future. They've reconnected with family members, pursued education or employment opportunities, and most importantly, they've reclaimed their sense of self-worth. Their mental health challenges haven't disappeared, but they now have the tools, support, and confidence to manage them.",
-      paragraph4: "Looking back, they can see how far they've come. The person who first walked through PCLA's doors feels like a different lifetime ago. While the journey continues—recovery is ongoing—they now approach each day with hope and confidence. They've learned that having a mental illness doesn't define them, and that with the right support, anything is possible.",
-      conclusion: "Stories like this one remind us why PCLA's work is so vital. Every person who walks through our doors carries unique experiences, challenges, and dreams. Our role is to provide the support, resources, and community that make recovery possible. We celebrate each person's journey and honor the courage it takes to choose healing."
+    introduction: "Fraser Health Delivers Trauma & Resiliency Informed Practice Training for PCLA Staff.",
+    paragraph1:
+      "In October 2025, Fraser Health Authority’s Trauma & Resiliency Informed Practice (TRIP) team delivered a full-day, in-person training exclusively for Pioneer Community Living Association (PCLA) staff. Fifty of our health care workers from across all PCLA programs attended the session, held off-site, as part of our ongoing commitment to building a compassionate, trauma-informed culture of care.",
+    paragraph2:
+      "The session, “Connecting Hope and Self-Compassion to Trauma & Resiliency Informed Practices,” was led by Fraser Health’s Mental Health and Substance Use Services Trauma and Resiliency Informed Practice Team, who specialize in supporting organizations to integrate trauma-informed and resilience-based approaches across service delivery.",
+     // BULLET LIST SECTION
+    paragraph3: `
+      Throughout the day, staff explored how trauma and chronic stress affect the brain, body, and behaviour, and how mindful self-compassion can help restore balance and connection. The training also focused on understanding social and historical trauma, the importance of goal alignment in care relationships,and the role of hope as a catalyst for healing and recovery. Participants learned practical tools to:
+      <ul class="list-disc ml-6 mt-4 space-y-2">
+        <li>Recognize trauma responses and support self-regulation for both residents and staff;</li>
+        <li>Apply mindfulness and self-compassion practices in moments of stress or crisis;</li>
+        <li>Strengthen safety, trust, and collaboration in care environments; and</li>
+        <li>Build resiliency through hope-centered, person-directed approaches.</li>
+      </ul>
+  `  ,
+    paragraph4:
+      "This customized training reflects Fraser Health’s recognition of PCLA’s unique role in delivering mental health housing and recovery supports in the community. It also reinforces a shared commitment to fostering healing environments where both residents and staff can thrive.",
+    conclusion:
+      "PCLA extends its sincere gratitude to Fraser Health Authority and the TRIP team for leading this powerful day of learning. We remain committed to strengthening our trauma-informed, person-centered approach for every individual we serve."
     },
     pullQuote: "Recovery isn't about going back to who you were before. It's about discovering who you can become.",
     contentImage1: '/images/Fraser Health Authority’s Trauma & Resiliency Informed Practice (TRIP) 6.jpg',
     imageCaption1: "Finding support and community at PCLA",
-    contentImage2: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200",
+    contentImage2: '/images/Fraser Health Authority’s Trauma & Resiliency Informed Practice (TRIP) 3.jpg',
     imageCaption2: "Building a life in recovery"
   };
 
