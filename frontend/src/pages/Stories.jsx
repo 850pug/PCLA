@@ -59,11 +59,11 @@ export const Stories = () => {
       storyLink: '/stories/autonomystory1'
     },
     {
-      name: 'Anita S.',
-      title: 'A Path to Wellness',
+      name: 'Fraser Health.',
+      title: 'Building a Trauma-Informed Culture at PCLA',
       dimension: 'Partners',
-      image: 'https://images.pexels.com/photos/10599803/pexels-photo-10599803.jpeg?w=600',
-      excerpt: 'For the first time, I have healthcare providers who see the whole me—not just my diagnosis.',
+      image: '/images/fraserhealth logo.png',
+      excerpt: 'This training helped our staff deepen their understanding of trauma and strengthen the compassion we bring to every interaction.',
       tags: ['Partners', 'Collaboration', 'Integrated Care'],
       storyLink: '/stories/partnerstory1'
     }
