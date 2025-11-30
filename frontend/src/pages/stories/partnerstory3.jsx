@@ -127,16 +127,13 @@ const PartnerStory3 = () => {
             {/* START FLEXIBLE CONTENT - CUT AND PASTE THESE BLOCKS AS NEEDED */}
             
             <Paragraph size="large">
-              This year’s UBC Dental hygiene students held a special event at Pioneer House on September 20, 2023. Their dedication and passion for oral health care shone through as they met with our residents and employees, discussing the invaluable support they'll be providing this year.
+              UBC Dentistry partners with Pioneer Community Living Association (PCLA) to offer the Oral Health Preventative Program where UBC dental hygiene students provide care to residents of PCLA. This program has seen approximately 120 fourth-year students provide care to about 300 patients at various PCLA locations with approximately $7,000 of care provided each year for the past 13 years.
             </Paragraph>
 
             <Quote>
-              The impact they've made our residents is immeasurable.
+              “It was a good experience; not painful or uncomfortable. It got everything done and I didn’t need any further dental work.  They [the dental hygienist students] gave a lot of good advice about flossing, Toothbrushes, electric toothbrushes, and mouthwash.” 
+              – Rick, PCLA Resident 
             </Quote>
-
-            <Paragraph>
-              For the past 13 years, UBC Dentistry has collaborated with Pioneer Community Living Association (PCLA) to offer the Oral Health Preventative Program. This initiative has seen approximately 120 fourth-year students providing care to about 300 patients at various PCLA locations, with approximately $7,000 worth of care provided each year.
-            </Paragraph>
 
             <Image 
               src="/images/two-UBC-dental-students-looking-at-camera.jpg"
@@ -145,11 +142,44 @@ const PartnerStory3 = () => {
             />
 
             <Paragraph>
-              The program, co-developed by Dr. Leeann Donnelly and PCLA's Carol Anne Russell aims not only to enhance oral hygiene but also to break the stigma surrounding mental health. Through on-site care, the students create a comfortable environment, fostering community engagement and understanding.
+              Dr. Leeann Donnelly developed this program alongside PCLA’s Carol Anne Russell in hopes of mitigating the stigma around mental health whilst increasing oral hygiene amongst residents. When interviewed in 2014, Leeann spoke passionately about the program saying:
             </Paragraph>
 
+            <Quote>
+              “I think one of the biggest successes we have with this partnership is the experience that our students get in working with people with mental illness and breaking the stigma and stereotypes and societies held beliefs around what the mental illness is…. It also helps us understand (as scholars, researchers, students, and  faculty members) some of the issues that go on in the community and understand better people with mental illness.”
+            </Quote>
+
+            <Image 
+              src="/images/two-UBC-dental-students-looking-at-camera.jpg"
+              alt="UBC Dental hygiene at Pioneer House"
+              caption="UBC Dental hygiene at Pioneer House"
+            />
+
             <Paragraph>
-              We extend our heartfelt thanks to the UBC dental hygiene students for their unwavering dedication and passion. The impact they've made our residents is immeasurable. 
+              When we spoke with Leeann in 2023, her ongoing passion was clear. When asked what some of the biggest learnings from the program have been, Leeann discussed the nuances of working with individuals living with mental illness.
+            </Paragraph>
+
+            <Quote>
+              “When we first started the program, we decided we would come on-site and conduct the dental exams, but that we would have the residents go to Douglas College for the full clinic portion. We quickly realized this would not work. The first six residents did not show up at Douglas College for the clinic. We realized we were taking residents out of their comfort zone. It was an important learning for us. We then shifted to providing care onsite which worked wonderfully.” 
+              “We do get some fear from residents with every new batch of students, but within two-three weeks they are comfortable and no longer afraid of the students. The students spend a lot of time interacting. The purpose of this course is community engagement and understanding mental illness.”
+            </Quote>
+
+            <Image 
+              src="/images/two-UBC-dental-students-looking-at-camera.jpg"
+              alt="UBC Dental hygiene at Pioneer House"
+              caption="UBC Dental hygiene at Pioneer House"
+            />
+
+            <Paragraph>
+              In addition to key learnings, Leeann spoke about the many successes the students and residents have gained from this program. One that particularly stood out for her was the following: 
+            </Paragraph>
+
+            <Quote>
+               “One that comes to mind is of a student who left PCLA one day feeling incredibly disheartened. This student learnt that many PCLA residents do not attend their off-site dental appointments because they feel judged and uncomfortable. They learnt that some dental offices discriminate against disability insurance and do not always accept it. This declining of insurance left individuals feeling embarrassed and reluctant to return. This student committed that they would advocate for disability insurance at any office they worked at in the future. They also said they would reach out to organizations like PCLA and provide information about their inclusive approach and invite them to come to their clinic.”
+            </Quote>
+
+            <Paragraph>
+              This story of advocacy is one of many. The UBC and PCLA partnership has had a real and lasting impact on students for over a decade. Leann and the PCLA team are hopeful that the next generation of dental professionals are better equipped to support those living with mental illness. The program has been equally impactful for PCLA residents. Not only has hygiene been prioritized on site, but residents are also increasingly comfortable with medical practitioners. 
             </Paragraph>
 
             {/* END FLEXIBLE CONTENT */}
