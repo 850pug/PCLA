@@ -44,6 +44,16 @@ export const Stories = () => {
       storyLink: '/stories/partnerstory2'
     },
     {
+      name: 'Resident Spotlight',
+      title: 'The INCLUSION Art Show',
+      dimension: 'Belonging',
+      image: '/images/female-artist-displays-her-art-at-Inclusion-Art-Show.webp',
+      excerpt:
+        'PCLA staff and residents are grateful to posAbilities for hosting the 2023 INCLUSION Art Show & Sale.',
+      tags: ['Belonging', 'Community', 'Connection'],
+      storyLink: '/stories/belongingstory1'
+    },
+    {
       name: 'Sarah M.',
       title: 'From Homelessness to Home',
       dimension: 'Housing',
@@ -72,16 +82,6 @@ export const Stories = () => {
         'The staff here understand recovery isn\'t linear. They celebrate every small victory with me.',
       tags: ['Health', 'Wellness', 'Mental Health'],
       storyLink: '/stories/healthstory1'
-    },
-    {
-      name: 'Maria G.',
-      title: 'Finding Community',
-      dimension: 'Belonging',
-      image: 'https://images.unsplash.com/photo-1679466061812-211a6b737175?w=600',
-      excerpt:
-        'I spent years isolated and alone. At PCLA, I discovered I wasn\'t defined by my illness—I was part of a caring community.',
-      tags: ['Belonging', 'Community', 'Connection'],
-      storyLink: '/stories/belongingstory1'
     },
     {
       name: 'James K.',
