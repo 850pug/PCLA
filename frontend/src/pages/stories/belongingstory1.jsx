@@ -128,7 +128,8 @@ const belongingstory1 = () => {
             
             <Paragraph size="large">
               PCLA staff and residents are grateful to posAbilities for hosting the INCLUSION Art Show & Sale. With the participation of 200 artists of diverse abilities, including those with disabilities, the exhibition showcased an incredible range of original artworks - from paintings to pottery, photography to jewelry, and much more. Each piece was a testament to the unique perspectives and talents that thrive within our community.
-
+            </Paragraph>
+            
             <Paragraph>
               The event's success exceeded all expectations, with over 900 guests immersing themselves in the vibrant atmosphere. Paintings found new homes, and connections were forged through a shared appreciation for creativity. Two of our residents were featured at the INCLUSION Art Show – Doug and Molly. Please see the images below for a glimpse at their artwork.
             </Paragraph>
