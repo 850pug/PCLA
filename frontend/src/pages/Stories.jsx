@@ -77,9 +77,9 @@ export const Stories = () => {
       name: 'BCIT Partner Spotlight',
       title: "BCIT nursing program students at Miller's Way",
       dimension: ['Partners', 'Health'],
-      image: '/images/BCH_Logo.webp',
+      image: '/images/british-columbia-institute-of-technology-bcit-vector-logo.png',
       excerpt:
-        'The relationship with the BCIT Nursing program exposes future nurses to what successful in-community supports can look like for people living with mental illness.',
+        'The relationship with the BCIT Nursing program exposes future nurses to what successful supports can look like for people living with mental illness.',
       tags: ['Partners', 'Collaboration', 'Integrated Care'],
       storyLink: '/stories/partnerstory4'
     },
