@@ -39,7 +39,7 @@ export const Stories = () => {
       dimension: 'Partners',
       image: '/images/fraserhealth logo.png',
       excerpt:
-        'Celbrating Faranak Sajed Nia, winner of the 2023 Untapped "Diverse & Inclusive Champion Award”.',
+        'Celebrating Faranak Sajed Nia, winner of the "Diverse & Inclusive Champion Award” at the 10th annual Untapped Workplace Inclusion Awards 2023!.',
       tags: ['Partners', 'Collaboration', 'Integrated Care'],
       storyLink: '/stories/partnerstory2'
     },
