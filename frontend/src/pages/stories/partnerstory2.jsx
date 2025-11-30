@@ -10,7 +10,7 @@ const PartnerStory2 = () => {
     dimension: 'Partners',
 
     // Clean file names
-    image: '/images/fraserhealth-trip-2.jpg',
+    image: '/images/logo-untapped.png',
     excerpt:
       'Celebrating Faranak Sajed Nia, winner of the "Diverse & Inclusive Champion Award” at the 10th annual Untapped Workplace Inclusion Awards 2023!.',
     tags: ['Partners', 'Collaboration', 'Integrated Care'],
