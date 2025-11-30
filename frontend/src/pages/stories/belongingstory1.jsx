@@ -6,7 +6,7 @@ import { ArrowLeft } from 'lucide-react';
 const belongingstory1 = () => {
   const story = {
     name: 'Resident Spotlight',
-    title: 'The INCLUSION Art Show,
+    title: 'The INCLUSION Art Show',
     dimension: 'Belonging',
     heroImage: '/images/female-artist-displays-her-art-at-Inclusion-Art-Show.webp',
     excerpt: 'PCLA staff and residents are grateful to posAbilities for hosting the 2023 INCLUSION Art Show & Sale.',
