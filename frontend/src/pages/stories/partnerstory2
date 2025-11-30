@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { ArrowLeft } from 'lucide-react';
 
-const PartnerStory1 = () => {
+const PartnerStory2 = () => {
   const story = {
     name: 'Fraser Health',
     title: 'Building a Trauma-Informed Culture',
@@ -216,4 +216,4 @@ const PartnerStory1 = () => {
   );
 };
 
-export default PartnerStory1;
+export default PartnerStory2;
