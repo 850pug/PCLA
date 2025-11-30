@@ -16,7 +16,7 @@ export const Stories = () => {
     {
       name: 'Fraser Health.',
       title: 'Building a Trauma-Informed Culture',
-      dimension: 'Partners','Funders',
+      dimension: 'Partners',
       image: '/images/fraserhealth logo.png',
       excerpt: 'This training helped our staff deepen their understanding of trauma and strengthen the compassion we bring to every interaction.',
       tags: ['Partners', 'Collaboration', 'Integrated Care'],
