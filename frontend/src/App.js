@@ -55,6 +55,7 @@ import AutonomyStory1 from "@/pages/stories/autonomystory1";
 import PartnerStory1 from "@/pages/stories/partnerstory1";
 import PartnerStory2 from "@/pages/stories/partnerstory2";
 import PartnerStory3 from "@/pages/stories/partnerstory3";
+import PartnerStory4 from "@/pages/stories/partnerstory4";
 
 // Wireframes
 import WireframeIndex from "@/pages/wireframes/WireframeIndex";
@@ -121,6 +122,7 @@ function App() {
             <Route path="/stories/partnerstory1" element={<PartnerStory1 />} />
             <Route path="/stories/partnerstory2" element={<PartnerStory2 />} />
             <Route path="/stories/partnerstory3" element={<PartnerStory3 />} />
+            <Route path="/stories/partnerstory4" element={<PartnerStory4 />} />
             
             {/* Wireframe Routes */}
             <Route path="/wireframes" element={<WireframeIndex />} />
