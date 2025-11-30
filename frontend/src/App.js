@@ -53,7 +53,7 @@ import HealthStory1 from "@/pages/stories/healthstory1";
 import BelongingStory1 from "@/pages/stories/belongingstory1";
 import AutonomyStory1 from "@/pages/stories/autonomystory1";
 import PartnerStory1 from "@/pages/stories/partnerstory1";
-import PurposeStory2 from "@/pages/stories/purposestory2";
+import PartnerStory2 from "@/pages/stories/partnerstory2";
 
 // Wireframes
 import WireframeIndex from "@/pages/wireframes/WireframeIndex";
