@@ -49,9 +49,9 @@ const PartnerStory1 = () => {
     },
 
     pullQuote:
-      "Recovery isn't about going back to who you were before. It's about discovering who you can become.",
+      "Connecting Hope and Self-Compassion to Trauma & Resiliency Informed Practices",
 
-    contentImage1: '/images/fraserhealth-trip-6.jpg',
+    contentImage1: '/images/fraserhealth-trip-4.jpg',
     imageCaption1: 'Finding support and community at PCLA',
 
     contentImage2: '/images/fraserhealth-trip-3.jpg',
