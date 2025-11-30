@@ -9,7 +9,7 @@ const PartnerStory1 = () => {
     title: 'Building a Trauma-Informed Culture',
     dimension: 'Partners',
 
-    // renamed safe filenames
+    // Clean file names
     image: '/images/fraserhealth-trip-2.jpg',
     excerpt:
       'This training helped our staff deepen their understanding of trauma and strengthen the compassion we bring to every interaction.',
@@ -49,9 +49,9 @@ const PartnerStory1 = () => {
     },
 
     pullQuote:
-      "Connecting Hope and Self-Compassion to Trauma & Resiliency Informed Practices",
+      "Recovery isn't about going back to who you were before. It's about discovering who you can become.",
 
-    contentImage1: '/images/fraserhealth-trip-4.jpg',
+    contentImage1: '/images/fraserhealth-trip-6.jpg',
     imageCaption1: 'Finding support and community at PCLA',
 
     contentImage2: '/images/fraserhealth-trip-3.jpg',
@@ -60,8 +60,9 @@ const PartnerStory1 = () => {
 
   return (
     <div className="min-h-screen">
-      {/* HERO SECTION */}
-      <section className="relative h-[80vh] flex items-end justify-center overflow-hidden">
+      
+      {/* HERO SECTION — CENTERED TEXT */}
+      <section className="relative h-[80vh] flex items-center justify-center overflow-hidden">
         <div
           className="absolute inset-0 z-0"
           style={{
@@ -70,10 +71,10 @@ const PartnerStory1 = () => {
             backgroundPosition: 'center'
           }}
         >
-          <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-black/30"></div>
+          <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/60 to-black/20"></div>
         </div>
 
-        <div className="max-w-6xl mx-auto px-6 relative z-10 pb-16 w-full">
+        <div className="relative z-10 w-full max-w-4xl px-6 text-center">
           <Link
             to="/stories"
             className="inline-flex items-center text-white hover:text-[#86a873] transition-colors mb-8"
@@ -82,7 +83,7 @@ const PartnerStory1 = () => {
             Back to Stories
           </Link>
 
-          <div className="max-w-4xl text-left">
+          <div className="flex flex-col items-center justify-center">
             <Badge className="bg-[#f26d2d] hover:bg-[#d65a1e] text-white mb-4 text-sm px-4 py-1">
               {story.dimension}
             </Badge>
@@ -95,7 +96,7 @@ const PartnerStory1 = () => {
               {story.title}
             </h2>
 
-            <p className="text-2xl text-white italic leading-relaxed">
+            <p className="text-2xl text-white italic leading-relaxed max-w-3xl">
               "{story.excerpt}"
             </p>
           </div>
@@ -132,7 +133,7 @@ const PartnerStory1 = () => {
               {story.fullStory.paragraph2}
             </p>
 
-            {/* BULLET LIST RENDERING */}
+            {/* BULLET LIST */}
             <div
               className="text-lg text-gray-700 leading-relaxed mb-8"
               dangerouslySetInnerHTML={{ __html: story.fullStory.paragraph3 }}
