@@ -34,6 +34,16 @@ export const Stories = () => {
       storyLink: '/stories/partnerstory1'
     },
     {
+      name: 'Untapped Awards',
+      title: 'Celebrating Faranak Sajed Nia',
+      dimension: 'Partners',
+      image: '/images/fraserhealth logo.png',
+      excerpt:
+        'Celbrating Faranak Sajed Nia, winner of the 2023 Untapped "Diverse & Inclusive Champion Award”.',
+      tags: ['Partners', 'Collaboration', 'Integrated Care'],
+      storyLink: '/stories/partnerstory2'
+    },
+    {
       name: 'Sarah M.',
       title: 'From Homelessness to Home',
       dimension: 'Housing',
