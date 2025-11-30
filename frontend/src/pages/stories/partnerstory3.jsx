@@ -8,7 +8,7 @@ const PartnerStory3 = () => {
     name: 'UBC Partner Spotlight',
     title: 'UBC Dental hygiene students at Pioneer House',
     dimension: 'Partners',
-    heroImage: '/images/ubc_87334.jpg',
+    heroImage: '/images/UBC-dentistry-instructor-showing-document-to-student.webp',
     excerpt: 'For the past 13 years, UBC Dentistry has collaborated with Pioneer Community Living Association (PCLA) to offer the Oral Health Preventative Program.',
     tags: ['Partners', 'Collaboration', 'Integrated Care']
   };
@@ -136,9 +136,9 @@ const PartnerStory3 = () => {
             </Quote>
 
             <Image 
-              src="/images/two-UBC-dental-students-looking-at-camera.jpg"
-              alt="UBC Dental hygiene at Pioneer House"
-              caption="UBC Dental hygiene at Pioneer House"
+              src="/images/ubc-dentistry-student-working-on-man's-teeth.webp
+              alt="PCLA Resident receives care from UBC dental hygiene student"
+              caption="PCLA Resident receives care from UBC dental hygiene student"
             />
 
             <Paragraph>
@@ -161,13 +161,16 @@ const PartnerStory3 = () => {
 
             <Quote>
               “When we first started the program, we decided we would come on-site and conduct the dental exams, but that we would have the residents go to Douglas College for the full clinic portion. We quickly realized this would not work. The first six residents did not show up at Douglas College for the clinic. We realized we were taking residents out of their comfort zone. It was an important learning for us. We then shifted to providing care onsite which worked wonderfully.” 
+            </Quote>
+
+            <Quote>
               “We do get some fear from residents with every new batch of students, but within two-three weeks they are comfortable and no longer afraid of the students. The students spend a lot of time interacting. The purpose of this course is community engagement and understanding mental illness.”
             </Quote>
 
             <Image 
-              src="/images/two-UBC-dental-students-looking-at-camera.jpg"
-              alt="UBC Dental hygiene at Pioneer House"
-              caption="UBC Dental hygiene at Pioneer House"
+              src="/images/four-ubc-dentistry-students-looking-at-information-binder.webp"
+              alt="UBC Dentistry students at Pioneer House"
+              caption="UBC Dentistry students at Pioneer House"
             />
 
             <Paragraph>
