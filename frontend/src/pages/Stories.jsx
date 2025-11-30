@@ -56,22 +56,12 @@ export const Stories = () => {
     {
       name: 'UBC Partner Spotlight',
       title: 'UBC Dental hygiene students at Pioneer House',
-      dimension: 'Partners',
+      dimension:  ['Partners', 'Health'],
       image: '/images/ubc_87334.jpg',
       excerpt:
         'For the past 13 years, UBC Dentistry has collaborated with Pioneer Community Living Association (PCLA) to offer the Oral Health Preventative Program.',
       tags: ['Partners', 'Collaboration', 'Integrated Care'],
       storyLink: '/stories/partnerstory3'
-    },
-    {
-      name: 'Sarah M.',
-      title: 'From Homelessness to Home',
-      dimension: 'Housing',
-      image: 'https://images.unsplash.com/photo-1618622127587-3261f2b2f553?w=600',
-      excerpt:
-        'After years of instability, PCLA gave me what I needed most: a place to call home. With that foundation, everything else became possible.',
-      tags: ['Housing', 'Stability', 'Community'],
-      storyLink: '/stories/housingstory1'
     },
     {
       name: 'Giving Back to the Community',
@@ -82,6 +72,26 @@ export const Stories = () => {
         'PCLA Residents and staff come together to distribute food and clothing to those who are precariously housed around Oppenheimer Park.',
       tags: ['Purpose', 'Employment', 'Peer Support'],
       storyLink: '/stories/purposestory1'
+    },
+    {
+      name: 'BCIT Partner Spotlight',
+      title: "BCIT nursing program students at Miller's Way",
+      dimension: ['Partners', 'Health'],
+      image: '/images/BCH_Logo.webp',
+      excerpt:
+        'The relationship with the BCIT Nursing program exposes future nurses to what successful in-community supports can look like for people living with mental illness.',
+      tags: ['Partners', 'Collaboration', 'Integrated Care'],
+      storyLink: '/stories/partnerstory4'
+    },
+    {
+      name: 'Sarah M.',
+      title: 'From Homelessness to Home',
+      dimension: 'Housing',
+      image: 'https://images.unsplash.com/photo-1618622127587-3261f2b2f553?w=600',
+      excerpt:
+        'After years of instability, PCLA gave me what I needed most: a place to call home. With that foundation, everything else became possible.',
+      tags: ['Housing', 'Stability', 'Community'],
+      storyLink: '/stories/housingstory1'
     },
     {
       name: 'Elena T.',
