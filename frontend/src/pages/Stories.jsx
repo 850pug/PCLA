@@ -77,7 +77,7 @@ export const Stories = () => {
       name: 'Giving Back to the Community',
       title: 'PCLA residents at Oppenheimer Park',
       dimension: 'Purpose',
-      image: ''/images/pioneer-community-living-association-volunteers-helping-residents-find-clothing-donations.webp',
+      image: '/images/pioneer-community-living-association-volunteers-helping-residents-find-clothing-donations.webp',
       excerpt:
         'PCLA Residents and staff come together to distribute food and clothing to those who are precariously housed around Oppenheimer Park.',
       tags: ['Purpose', 'Employment', 'Peer Support'],
