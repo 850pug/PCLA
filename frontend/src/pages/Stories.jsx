@@ -54,6 +54,16 @@ export const Stories = () => {
       storyLink: '/stories/belongingstory1'
     },
     {
+      name: 'UBC Partner Spotlight',
+      title: 'UBC Dental hygiene students at Pioneer House',
+      dimension: 'Partners',
+      image: '/images/ubc_87334.jpg',
+      excerpt:
+        'For the past 13 years, UBC Dentistry has collaborated with Pioneer Community Living Association (PCLA) to offer the Oral Health Preventative Program.',
+      tags: ['Partners', 'Collaboration', 'Integrated Care'],
+      storyLink: '/stories/partnerstory3'
+    },
+    {
       name: 'Sarah M.',
       title: 'From Homelessness to Home',
       dimension: 'Housing',
