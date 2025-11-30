@@ -8,49 +8,63 @@ const PartnerStory2 = () => {
     name: 'Untapped Awards',
     title: 'Celebrating Faranak Sajed Nia',
     dimension: 'Partners',
+    heroImage: '/images/logo-untapped.png',
+    excerpt: 'Celebrating Faranak Sajed Nia, winner of the "Diverse & Inclusive Champion Award" at the 10th annual Untapped Workplace Inclusion Awards 2023!',
+    tags: ['Partners', 'Collaboration', 'Integrated Care']
+  };
 
-    // Clean file names
-    image: '/images/logo-untapped.png',
-    excerpt:
-      'Celebrating Faranak Sajed Nia, winner of the "Diverse & Inclusive Champion Award” at the 10th annual Untapped Workplace Inclusion Awards 2023!.',
-    tags: ['Partners', 'Collaboration', 'Integrated Care'],
+  // REUSABLE CONTENT COMPONENTS
+  const Paragraph = ({ children, size = 'normal' }) => {
+    const sizeClasses = {
+      large: 'text-xl text-gray-800',
+      normal: 'text-lg text-gray-700'
+    };
+    
+    return (
+      <p className={`${sizeClasses[size]} leading-relaxed mb-8`}>
+        {children}
+      </p>
+    );
+  };
 
-    fullStory: {
-      introduction:
-        'Pioneer Community Living Association is thrilled to spotlight the incredible achievements of Faranak Sajed Nia, winner of the "Diverse & Inclusive Champion Award” at the 10th annual Untapped Workplace Inclusion Awards 2023!',
+  const Image = ({ src, alt, caption }) => {
+    return (
+      <figure className="my-12">
+        <div className="aspect-[16/9] overflow-hidden rounded-3xl border-4 border-gray-200 shadow-xl">
+          <img
+            src={src}
+            alt={alt}
+            className="w-full h-full object-cover"
+          />
+        </div>
+        {caption && (
+          <figcaption className="text-center text-sm text-gray-600 mt-4 italic">
+            {caption}
+          </figcaption>
+        )}
+      </figure>
+    );
+  };
 
-      paragraph1:
-        'The Untapped Awards recognize and celebrate individuals and organizations leading the way in diversity, inclusion, and accessibility to ensure that everyone can thrive and succeed in the workplace.',
-
-      paragraph2:
-        "This year's event, held on October 13th at PARQ Vancouver, gathered 300 guests from across Canada, including business leaders, service providers, government representatives, industry experts, and advocates who united to celebrate the remarkable progress in advancing disability inclusion in workplaces.",
-
-      paragraph3:
-        "The Untapped Awards recognize inclusivity advocates in several categories. One of these categories is the individual Workplace Inclusion Champion. This year, PCLA's own Faranak Sajed Nia was the recipient of this award.",
-
-      paragraph4:
-        'Faranak, a Manager of Care at PCLA, stands out as a true Workplace Inclusion Champion, redefining leadership through her commitment to cultural diversity, disability inclusion, and accessibility. At Adrian House and Dominion House Faranak prioritizes inclusivity, comfort, and autonomy for her residents. As an immigrant and woman of colour with a medical background, she brings invaluable richness to her role, infusing daily practices with cultural sensitivity.',
-
-      conclusion:
-        'A heartfelt thank you to the #Untapped Workplace Inclusion Awards for making inclusion a priority. Your platform not only recognizes achievements but fuels the collective mission toward a more inclusive and diverse future. We look forward to celebrating further Inclusivity Champions at the 2024 awards.'
-    },
-
-    pullQuote:
-      'Faranak Sajed Nia, winner of the "Diverse & Inclusive Champion Award” at the 10th annual Untapped Workplace Inclusion Awards 2023!',
-
-    contentImage1: '/images/top-three-finalists-at-the-2023-Untapped-Awards.webp',
-    imageCaption1: '2023 Untapped Awards',
+  const Quote = ({ children }) => {
+    return (
+      <blockquote className="border-l-4 border-[#86a873] pl-8 my-12 py-4">
+        <p className="text-2xl text-gray-800 italic leading-relaxed">
+          {children}
+        </p>
+      </blockquote>
+    );
   };
 
   return (
     <div className="min-h-screen">
       
-      {/* HERO SECTION — CENTERED TEXT */}
+      {/* HERO SECTION */}
       <section className="relative h-[80vh] flex items-center justify-center overflow-hidden">
         <div
           className="absolute inset-0 z-0"
           style={{
-            backgroundImage: `url(${story.image})`,
+            backgroundImage: `url(${story.heroImage})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center'
           }}
@@ -87,69 +101,48 @@ const PartnerStory2 = () => {
         </div>
       </section>
 
-      {/* STORY BODY */}
+      {/* STORY BODY - FLEXIBLE CONTENT BLOCKS */}
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-6">
           <article className="prose prose-lg max-w-none">
-            <p className="text-xl text-gray-800 leading-relaxed mb-8">
-              {story.fullStory.introduction}
-            </p>
+            
+            {/* START FLEXIBLE CONTENT - CUT AND PASTE THESE BLOCKS AS NEEDED */}
+            
+            <Paragraph size="large">
+              Pioneer Community Living Association is thrilled to spotlight the incredible achievements of Faranak Sajed Nia, winner of the "Diverse & Inclusive Champion Award" at the 10th annual Untapped Workplace Inclusion Awards 2023!
+            </Paragraph>
 
-            <p className="text-lg text-gray-700 leading-relaxed mb-8">
-              {story.fullStory.paragraph1}
-            </p>
+            <Paragraph>
+              The Untapped Awards recognize and celebrate individuals and organizations leading the way in diversity, inclusion, and accessibility to ensure that everyone can thrive and succeed in the workplace.
+            </Paragraph>
 
-            {/* IMAGE 1 */}
-            <figure className="my-12">
-              <div className="aspect-[16/9] overflow-hidden rounded-3xl border-4 border-gray-200 shadow-xl">
-                <img
-                  src={story.contentImage1}
-                  alt="Story illustration 1"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <figcaption className="text-center text-sm text-gray-600 mt-4 italic">
-                {story.imageCaption1}
-              </figcaption>
-            </figure>
-
-            <p className="text-lg text-gray-700 leading-relaxed mb-8">
-              {story.fullStory.paragraph2}
-            </p>
-
-            {/* BULLET LIST */}
-            <div
-              className="text-lg text-gray-700 leading-relaxed mb-8"
-              dangerouslySetInnerHTML={{ __html: story.fullStory.paragraph3 }}
+            <Image 
+              src="/images/top-three-finalists-at-the-2023-Untapped-Awards.webp"
+              alt="2023 Untapped Awards"
+              caption="2023 Untapped Awards"
             />
 
-            {/* IMAGE 2 */}
-            <figure className="my-12">
-              <div className="aspect-[16/9] overflow-hidden rounded-3xl border-4 border-gray-200 shadow-xl">
-                <img
-                  src={story.contentImage2}
-                  alt="Story illustration 2"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <figcaption className="text-center text-sm text-gray-600 mt-4 italic">
-                {story.imageCaption2}
-              </figcaption>
-            </figure>
+            <Paragraph>
+              This year\'s event, held on October 13th at PARQ Vancouver, gathered 300 guests from across Canada, including business leaders, service providers, government representatives, industry experts, and advocates who united to celebrate the remarkable progress in advancing disability inclusion in workplaces.
+            </Paragraph>
 
-            <p className="text-lg text-gray-700 leading-relaxed mb-8">
-              {story.fullStory.paragraph4}
-            </p>
+            <Paragraph>
+              The Untapped Awards recognize inclusivity advocates in several categories. One of these categories is the individual Workplace Inclusion Champion. This year, PCLA\'s own Faranak Sajed Nia was the recipient of this award.
+            </Paragraph>
 
-            <blockquote className="border-l-4 border-[#86a873] pl-8 my-12 py-4">
-              <p className="text-2xl text-gray-800 italic leading-relaxed">
-                {story.pullQuote}
-              </p>
-            </blockquote>
+            <Paragraph>
+              Faranak, a Manager of Care at PCLA, stands out as a true Workplace Inclusion Champion, redefining leadership through her commitment to cultural diversity, disability inclusion, and accessibility. At Adrian House and Dominion House Faranak prioritizes inclusivity, comfort, and autonomy for her residents. As an immigrant and woman of colour with a medical background, she brings invaluable richness to her role, infusing daily practices with cultural sensitivity.
+            </Paragraph>
 
-            <p className="text-lg text-gray-700 leading-relaxed mb-8">
-              {story.fullStory.conclusion}
-            </p>
+            <Quote>
+              Faranak Sajed Nia, winner of the "Diverse & Inclusive Champion Award" at the 10th annual Untapped Workplace Inclusion Awards 2023!
+            </Quote>
+
+            <Paragraph>
+              A heartfelt thank you to the #Untapped Workplace Inclusion Awards for making inclusion a priority. Your platform not only recognizes achievements but fuels the collective mission toward a more inclusive and diverse future. We look forward to celebrating further Inclusivity Champions at the 2024 awards.
+            </Paragraph>
+
+            {/* END FLEXIBLE CONTENT */}
 
             {/* TAGS */}
             <div className="flex flex-wrap gap-3 mt-12 pt-8 border-t-2 border-gray-200">
