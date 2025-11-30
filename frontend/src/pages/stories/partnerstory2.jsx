@@ -41,6 +41,9 @@ const PartnerStory2 = () => {
     contentImage1: 'top-three-finalists-at-the-2023-Untapped-Awards.webp',
     imageCaption1: '2023 Untapped Awards',
 
+    contentImage2: 'top-three-finalists-at-the-2023-Untapped-Awards.webp',
+    imageCaption2: '2023 Untapped Awards',
+
   };
 
   return (
