@@ -74,12 +74,12 @@ export const Stories = () => {
       storyLink: '/stories/housingstory1'
     },
     {
-      name: 'Michael R.',
-      title: 'Finding My Purpose',
+      name: 'Giving Back to the Community',
+      title: 'PCLA residents at Oppenheimer Park',
       dimension: 'Purpose',
-      image: 'https://images.pexels.com/photos/10599803/pexels-photo-10599803.jpeg?w=600',
+      image: ''/images/pioneer-community-living-association-volunteers-helping-residents-find-clothing-donations.webp',
       excerpt:
-        'I discovered my purpose through the programs here. Now I help others find theirs as a peer support specialist.',
+        'PCLA Residents and staff come together to distribute food and clothing to those who are precariously housed around Oppenheimer Park.',
       tags: ['Purpose', 'Employment', 'Peer Support'],
       storyLink: '/stories/purposestory1'
     },
