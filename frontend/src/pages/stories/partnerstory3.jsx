@@ -136,7 +136,7 @@ const PartnerStory3 = () => {
             </Quote>
 
             <Image 
-              src="/images/ubc-dentistry-student-working-on-man's-teeth.webp
+              src="/images/ubc-dentistry-student-working-on-man's-teeth.webp"
               alt="PCLA Resident receives care from UBC dental hygiene student"
               caption="PCLA Resident receives care from UBC dental hygiene student"
             />
