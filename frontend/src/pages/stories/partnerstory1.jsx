@@ -23,10 +23,10 @@ const PartnerStory1 = () => {
         'The Untapped Awards recognize and celebrate individuals and organizations leading the way in diversity, inclusion, and accessibility to ensure that everyone can thrive and succeed in the workplace.',
 
       paragraph2:
-        'This year's event, held on October 13th at PARQ Vancouver, gathered 300 guests from across Canada, including business leaders, service providers, government representatives, industry experts, and advocates who united to celebrate the remarkable progress in advancing disability inclusion in workplaces.',
+        "This year's event, held on October 13th at PARQ Vancouver, gathered 300 guests from across Canada, including business leaders, service providers, government representatives, industry experts, and advocates who united to celebrate the remarkable progress in advancing disability inclusion in workplaces.",
 
-      paragraph3: `
-        'The Untapped Awards recognize inclusivity advocates in several categories. One of these categories is the individual Workplace Inclusion Champion. This year, PCLA's own Faranak Sajed Nia was the recipient of this award.',
+      paragraph3:
+        "The Untapped Awards recognize inclusivity advocates in several categories. One of these categories is the individual Workplace Inclusion Champion. This year, PCLA's own Faranak Sajed Nia was the recipient of this award.",
 
       paragraph4:
         'Faranak, a Manager of Care at PCLA, stands out as a true Workplace Inclusion Champion, redefining leadership through her commitment to cultural diversity, disability inclusion, and accessibility. At Adrian House and Dominion House Faranak prioritizes inclusivity, comfort, and autonomy for her residents. As an immigrant and woman of colour with a medical background, she brings invaluable richness to her role, infusing daily practices with cultural sensitivity.',
