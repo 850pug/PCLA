@@ -18,7 +18,8 @@ export const Stories = () => {
       title: 'Building a Trauma-Informed Culture',
       dimension: ['Partners', 'Funders'],
       image: '/images/fraserhealth logo.png',
-      excerpt: 'This training helped our staff deepen their understanding of trauma and strengthen the compassion we bring to every interaction.',
+      excerpt:
+        'This training helped our staff deepen their understanding of trauma and strengthen the compassion we bring to every interaction.',
       tags: ['Partners', 'Collaboration', 'Integrated Care'],
       storyLink: '/stories/partnerstory1'
     },
@@ -27,7 +28,8 @@ export const Stories = () => {
       title: 'From Homelessness to Home',
       dimension: 'Housing',
       image: 'https://images.unsplash.com/photo-1618622127587-3261f2b2f553?w=600',
-      excerpt: 'After years of instability, PCLA gave me what I needed most: a place to call home. With that foundation, everything else became possible.',
+      excerpt:
+        'After years of instability, PCLA gave me what I needed most: a place to call home. With that foundation, everything else became possible.',
       tags: ['Housing', 'Stability', 'Community'],
       storyLink: '/stories/housingstory1'
     },
@@ -36,7 +38,8 @@ export const Stories = () => {
       title: 'Finding My Purpose',
       dimension: 'Purpose',
       image: 'https://images.pexels.com/photos/10599803/pexels-photo-10599803.jpeg?w=600',
-      excerpt: 'I discovered my purpose through the programs here. Now I help others find theirs as a peer support specialist.',
+      excerpt:
+        'I discovered my purpose through the programs here. Now I help others find theirs as a peer support specialist.',
       tags: ['Purpose', 'Employment', 'Peer Support'],
       storyLink: '/stories/purposestory1'
     },
@@ -45,7 +48,8 @@ export const Stories = () => {
       title: 'Wellness and Recovery',
       dimension: 'Health',
       image: 'https://images.unsplash.com/photo-1697551458746-b86ccf5049d4?w=600',
-      excerpt: 'The staff here understand recovery isn\'t linear. They celebrate every small victory with me.',
+      excerpt:
+        'The staff here understand recovery isn\'t linear. They celebrate every small victory with me.',
       tags: ['Health', 'Wellness', 'Mental Health'],
       storyLink: '/stories/healthstory1'
     },
@@ -54,7 +58,8 @@ export const Stories = () => {
       title: 'Finding Community',
       dimension: 'Belonging',
       image: 'https://images.unsplash.com/photo-1679466061812-211a6b737175?w=600',
-      excerpt: 'I spent years isolated and alone. At PCLA, I discovered I wasn\'t defined by my illness—I was part of a caring community.',
+      excerpt:
+        'I spent years isolated and alone. At PCLA, I discovered I wasn\'t defined by my illness—I was part of a caring community.',
       tags: ['Belonging', 'Community', 'Connection'],
       storyLink: '/stories/belongingstory1'
     },
@@ -63,18 +68,26 @@ export const Stories = () => {
       title: 'Reclaiming My Independence',
       dimension: 'Autonomy',
       image: 'https://images.pexels.com/photos/6484132/pexels-photo-6484132.jpeg?w=600',
-      excerpt: 'PCLA taught me that having a mental illness doesn\'t mean giving up control of my life. I make my own choices now.',
+      excerpt:
+        'PCLA taught me that having a mental illness doesn\'t mean giving up control of my life. I make my own choices now.',
       tags: ['Autonomy', 'Independence', 'Self-Advocacy'],
       storyLink: '/stories/autonomystory1'
     }
   ];
 
-  const filteredStories = stories.filter(story => {
-    const matchesDimension = selectedDimension === 'All' || story.dimension === selectedDimension;
+  // ✅ Updated filtering logic to support arrays or strings
+  const filteredStories = stories.filter((story) => {
+    const dims = story.dimension;
+
+    const matchesDimension =
+      selectedDimension === 'All' ||
+      (Array.isArray(dims) ? dims.includes(selectedDimension) : dims === selectedDimension);
+
     const matchesSearch =
       story.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
       story.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
       story.excerpt.toLowerCase().includes(searchTerm.toLowerCase());
+
     return matchesDimension && matchesSearch;
   });
 
@@ -85,8 +98,7 @@ export const Stories = () => {
         <div
           className="absolute inset-0 z-0"
           style={{
-            backgroundImage:
-              'url(https://images.unsplash.com/photo-1527525443983-6e60c75fff46?w=1920)',
+            backgroundImage: 'url(https://images.unsplash.com/photo-1527525443983-6e60c75fff46?w=1920)',
             backgroundSize: 'cover',
             backgroundPosition: 'center'
           }}
@@ -144,48 +156,68 @@ export const Stories = () => {
         <div className="container mx-auto px-6">
           {filteredStories.length > 0 ? (
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {filteredStories.map((story, index) => (
-                <Link to={story.storyLink} key={index}>
-                  <Card className="hover:shadow-2xl transition-all duration-300 border-2 rounded-3xl overflow-hidden group cursor-pointer h-full">
-                    <div className="relative h-72 overflow-hidden">
+              {filteredStories.map((story, index) => {
+                const isLogo =
+                  Array.isArray(story.dimension)
+                    ? story.dimension.includes('Partners')
+                    : story.dimension === 'Partners';
 
-                      {/* CONDITIONAL IMAGE HANDLING — LOGO vs PHOTO */}
-                      <img
-                        src={story.image}
-                        alt={story.name}
-                        className={`w-full h-full ${
-                          story.dimension === 'Partners'
-                            ? 'object-contain bg-white p-6'
-                            : 'object-cover group-hover:scale-110 transition-transform duration-500'
-                        }`}
-                      />
+                return (
+                  <Link to={story.storyLink} key={index}>
+                    <Card className="hover:shadow-2xl transition-all duration-300 border-2 rounded-3xl overflow-hidden group cursor-pointer h-full">
+                      <div className="relative h-72 overflow-hidden">
+                        <img
+                          src={story.image}
+                          alt={story.name}
+                          className={`w-full h-full ${
+                            isLogo
+                              ? 'object-contain bg-white p-6'
+                              : 'object-cover group-hover:scale-110 transition-transform duration-500'
+                          }`}
+                        />
 
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
-                      <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                        <h3 className="text-2xl font-bold mb-2">{story.name}</h3>
-                        <Badge className="bg-[#f26d2d] hover:bg-[#d65a1e]">{story.dimension}</Badge>
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+                        <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
+                          <h3 className="text-2xl font-bold mb-2">{story.name}</h3>
+
+                          {/* Updated badge to show all dimensions */}
+                          <div className="flex gap-2 flex-wrap">
+                            {(Array.isArray(story.dimension)
+                              ? story.dimension
+                              : [story.dimension]
+                            ).map((dim, i) => (
+                              <Badge key={i} className="bg-[#f26d2d] hover:bg-[#d65a1e]">
+                                {dim}
+                              </Badge>
+                            ))}
+                          </div>
+                        </div>
                       </div>
-                    </div>
 
-                    <CardContent className="p-6">
-                      <h4 className="text-xl font-bold text-gray-900 mb-3">{story.title}</h4>
-                      <p className="text-gray-700 leading-relaxed mb-4 italic">
-                        "{story.excerpt}"
-                      </p>
-                      <div className="flex flex-wrap gap-2 mb-4">
-                        {story.tags.map((tag, i) => (
-                          <Badge key={i} variant="outline" className="border-[#86a873] text-[#86a873]">
-                            {tag}
-                          </Badge>
-                        ))}
-                      </div>
-                      <Button className="w-full bg-[#336f99] hover:bg-[#2a5a7d] text-white rounded-full">
-                        Read Full Story →
-                      </Button>
-                    </CardContent>
-                  </Card>
-                </Link>
-              ))}
+                      <CardContent className="p-6">
+                        <h4 className="text-xl font-bold text-gray-900 mb-3">{story.title}</h4>
+                        <p className="text-gray-700 leading-relaxed mb-4 italic">
+                          "{story.excerpt}"
+                        </p>
+                        <div className="flex flex-wrap gap-2 mb-4">
+                          {story.tags.map((tag, i) => (
+                            <Badge
+                              key={i}
+                              variant="outline"
+                              className="border-[#86a873] text-[#86a873]"
+                            >
+                              {tag}
+                            </Badge>
+                          ))}
+                        </div>
+                        <Button className="w-full bg-[#336f99] hover:bg-[#2a5a7d] text-white rounded-full">
+                          Read Full Story →
+                        </Button>
+                      </CardContent>
+                    </Card>
+                  </Link>
+                );
+              })}
             </div>
           ) : (
             <div className="text-center py-20">
