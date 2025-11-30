@@ -5,51 +5,38 @@ import { ArrowLeft } from 'lucide-react';
 
 const PartnerStory1 = () => {
   const story = {
-    name: 'Fraser Health',
-    title: 'Building a Trauma-Informed Culture',
+    name: 'Untapped Awards',
+    title: 'Celebrating Faranak Sajed Nia',
     dimension: 'Partners',
 
     // Clean file names
     image: '/images/fraserhealth-trip-2.jpg',
     excerpt:
-      'This training helped our staff deepen their understanding of trauma and strengthen the compassion we bring to every interaction.',
+      'Celebrating Faranak Sajed Nia, winner of the "Diverse & Inclusive Champion Award” at the 10th annual Untapped Workplace Inclusion Awards 2023!.',
     tags: ['Partners', 'Collaboration', 'Integrated Care'],
 
     fullStory: {
       introduction:
-        'Fraser Health Delivers Trauma & Resiliency Informed Practice Training for PCLA Staff.',
+        'Pioneer Community Living Association is thrilled to spotlight the incredible achievements of Faranak Sajed Nia, winner of the "Diverse & Inclusive Champion Award” at the 10th annual Untapped Workplace Inclusion Awards 2023!',
 
       paragraph1:
-        'In October 2025, Fraser Health Authority’s Trauma & Resiliency Informed Practice (TRIP) team delivered a full-day, in-person training exclusively for Pioneer Community Living Association (PCLA) staff. Fifty of our health care workers from across all PCLA programs attended the session, held off-site, as part of our ongoing commitment to building a compassionate, trauma-informed culture of care.',
+        'The Untapped Awards recognize and celebrate individuals and organizations leading the way in diversity, inclusion, and accessibility to ensure that everyone can thrive and succeed in the workplace.',
 
       paragraph2:
-        'The session, “Connecting Hope and Self-Compassion to Trauma & Resiliency Informed Practices,” was led by Fraser Health’s Mental Health and Substance Use Services Trauma and Resiliency Informed Practice Team, who specialize in supporting organizations to integrate trauma-informed and resilience-based approaches across service delivery.',
+        'This year's event, held on October 13th at PARQ Vancouver, gathered 300 guests from across Canada, including business leaders, service providers, government representatives, industry experts, and advocates who united to celebrate the remarkable progress in advancing disability inclusion in workplaces.',
 
       paragraph3: `
-        <p>
-          Throughout the day, staff explored how trauma and chronic stress affect the brain, body, and behaviour,
-          and how mindful self-compassion can help restore balance and connection. The training also focused on
-          understanding social and historical trauma, the importance of goal alignment in care relationships,
-          and the role of hope as a catalyst for healing and recovery. Participants learned practical tools to:
-        </p>
-
-        <ul class="list-disc ml-6 mt-4 space-y-2">
-          <li>Recognize trauma responses and support self-regulation for both residents and staff;</li>
-          <li>Apply mindfulness and self-compassion practices in moments of stress or crisis;</li>
-          <li>Strengthen safety, trust, and collaboration in care environments; and</li>
-          <li>Build resiliency through hope-centered, person-directed approaches.</li>
-        </ul>
-      `,
+        'The Untapped Awards recognize inclusivity advocates in several categories. One of these categories is the individual Workplace Inclusion Champion. This year, PCLA's own Faranak Sajed Nia was the recipient of this award.',
 
       paragraph4:
-        'This customized training reflects Fraser Health’s recognition of PCLA’s unique role in delivering mental health housing and recovery supports in the community. It also reinforces a shared commitment to fostering healing environments where both residents and staff can thrive.',
+        'Faranak, a Manager of Care at PCLA, stands out as a true Workplace Inclusion Champion, redefining leadership through her commitment to cultural diversity, disability inclusion, and accessibility. At Adrian House and Dominion House Faranak prioritizes inclusivity, comfort, and autonomy for her residents. As an immigrant and woman of colour with a medical background, she brings invaluable richness to her role, infusing daily practices with cultural sensitivity.',
 
       conclusion:
-        'PCLA extends its sincere gratitude to Fraser Health Authority and the TRIP team for leading this powerful day of learning. We remain committed to strengthening our trauma-informed, person-centered approach for every individual we serve.'
+        'A heartfelt thank you to the #Untapped Workplace Inclusion Awards for making inclusion a priority. Your platform not only recognizes achievements but fuels the collective mission toward a more inclusive and diverse future. We look forward to celebrating further Inclusivity Champions at the 2024 awards.'
     },
 
     pullQuote:
-      "Connecting Hope and Self-Compassion to Trauma & Resiliency Informed Practices",
+      "Faranak Sajed Nia, winner of the "Diverse & Inclusive Champion Award” at the 10th annual Untapped Workplace Inclusion Awards 2023!",
 
     contentImage1: '/images/fraserhealth-trip-4.jpg',
     imageCaption1: 'Finding support and community at PCLA',
