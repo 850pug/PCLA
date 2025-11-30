@@ -44,7 +44,7 @@ export const Stories = () => {
       storyLink: '/stories/partnerstory2'
     },
     {
-      name: 'Resident Spotlight',
+      name: 'Resident Spotlight - Mollie',
       title: 'The INCLUSION Art Show',
       dimension: 'Belonging',
       image: '/images/female-artist-displays-her-art-at-Inclusion-Art-Show.webp',
