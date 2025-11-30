@@ -10,13 +10,13 @@ export const Stories = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedDimension, setSelectedDimension] = useState('All');
 
-  const dimensions = ['All', 'Housing', 'Belonging', 'Purpose', 'Health', 'Autonomy', 'Partners'];
+  const dimensions = ['All', 'Housing', 'Belonging', 'Purpose', 'Health', 'Autonomy', 'Partners', 'Funders'];
 
   const stories = [
     {
       name: 'Fraser Health.',
       title: 'Building a Trauma-Informed Culture',
-      dimension: 'Partners',
+      dimension: 'Partners','Funders',
       image: '/images/fraserhealth logo.png',
       excerpt: 'This training helped our staff deepen their understanding of trauma and strengthen the compassion we bring to every interaction.',
       tags: ['Partners', 'Collaboration', 'Integrated Care'],
