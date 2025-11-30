@@ -27,14 +27,32 @@ const PartnerStory2 = () => {
     );
   };
 
-  const Image = ({ src, alt, caption }) => {
+  const Image = ({ src, alt, caption, aspectRatio = 'auto' }) => {
+    // aspectRatio options: 'auto', '16/9', '4/3', '1/1', '3/4', '9/16'
+    const aspectClasses = {
+      'auto': '',
+      '16/9': 'aspect-[16/9]',
+      '4/3': 'aspect-[4/3]',
+      '1/1': 'aspect-square',
+      '3/4': 'aspect-[3/4]',
+      '9/16': 'aspect-[9/16]'
+    };
+
+    const containerClass = aspectRatio === 'auto' 
+      ? 'overflow-hidden rounded-3xl border-4 border-gray-200 shadow-xl'
+      : `${aspectClasses[aspectRatio]} overflow-hidden rounded-3xl border-4 border-gray-200 shadow-xl`;
+
+    const imageClass = aspectRatio === 'auto'
+      ? 'w-full h-auto'
+      : 'w-full h-full object-cover';
+
     return (
       <figure className="my-12">
-        <div className="aspect-[16/9] overflow-hidden rounded-3xl border-4 border-gray-200 shadow-xl">
+        <div className={containerClass}>
           <img
             src={src}
             alt={alt}
-            className="w-full h-full object-cover"
+            className={imageClass}
           />
         </div>
         {caption && (
