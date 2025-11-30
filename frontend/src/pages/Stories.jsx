@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
@@ -9,8 +9,18 @@ import { Search } from 'lucide-react';
 export const Stories = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedDimension, setSelectedDimension] = useState('All');
+  const [visibleCount, setVisibleCount] = useState(6); // LOAD MORE STATE
 
-  const dimensions = ['All', 'Housing', 'Belonging', 'Purpose', 'Health', 'Autonomy', 'Partners', 'Funders'];
+  const dimensions = [
+    'All',
+    'Housing',
+    'Belonging',
+    'Purpose',
+    'Health',
+    'Autonomy',
+    'Partners',
+    'Funders'
+  ];
 
   const stories = [
     {
@@ -75,13 +85,20 @@ export const Stories = () => {
     }
   ];
 
-  // ✅ Updated filtering logic to support arrays or strings
+  // RESET LOAD COUNT WHEN FILTERS OR SEARCH CHANGE
+  useEffect(() => {
+    setVisibleCount(6);
+  }, [selectedDimension, searchTerm]);
+
+  // UPDATED FILTER LOGIC (supports dimensions being strings OR arrays)
   const filteredStories = stories.filter((story) => {
     const dims = story.dimension;
 
     const matchesDimension =
       selectedDimension === 'All' ||
-      (Array.isArray(dims) ? dims.includes(selectedDimension) : dims === selectedDimension);
+      (Array.isArray(dims)
+        ? dims.includes(selectedDimension)
+        : dims === selectedDimension);
 
     const matchesSearch =
       story.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
@@ -91,6 +108,8 @@ export const Stories = () => {
     return matchesDimension && matchesSearch;
   });
 
+  const visibleStories = filteredStories.slice(0, visibleCount);
+
   return (
     <div className="min-h-screen">
       {/* Hero */}
@@ -98,7 +117,8 @@ export const Stories = () => {
         <div
           className="absolute inset-0 z-0"
           style={{
-            backgroundImage: 'url(https://images.unsplash.com/photo-1527525443983-6e60c75fff46?w=1920)',
+            backgroundImage:
+              'url(https://images.unsplash.com/photo-1527525443983-6e60c75fff46?w=1920)',
             backgroundSize: 'cover',
             backgroundPosition: 'center'
           }}
@@ -114,11 +134,11 @@ export const Stories = () => {
         </div>
       </section>
 
-      {/* Search and Filter */}
+      {/* Search + Filters */}
       <section className="py-12 bg-white border-b-2">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto">
-            {/* Search Bar */}
+            {/* Search */}
             <div className="relative mb-8">
               <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
               <Input
@@ -130,7 +150,7 @@ export const Stories = () => {
               />
             </div>
 
-            {/* Dimension Filter */}
+            {/* Filter Buttons */}
             <div className="flex flex-wrap gap-3 justify-center">
               {dimensions.map((dimension) => (
                 <Button
@@ -151,74 +171,90 @@ export const Stories = () => {
         </div>
       </section>
 
-      {/* Stories Grid */}
+      {/* Stories */}
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-6">
-          {filteredStories.length > 0 ? (
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {filteredStories.map((story, index) => {
-                const isLogo =
-                  Array.isArray(story.dimension)
-                    ? story.dimension.includes('Partners')
-                    : story.dimension === 'Partners';
+          {visibleStories.length > 0 ? (
+            <>
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                {visibleStories.map((story, index) => {
+                  const isLogo =
+                    Array.isArray(story.dimension)
+                      ? story.dimension.includes('Partners')
+                      : story.dimension === 'Partners';
 
-                return (
-                  <Link to={story.storyLink} key={index}>
-                    <Card className="hover:shadow-2xl transition-all duration-300 border-2 rounded-3xl overflow-hidden group cursor-pointer h-full">
-                      <div className="relative h-72 overflow-hidden">
-                        <img
-                          src={story.image}
-                          alt={story.name}
-                          className={`w-full h-full ${
-                            isLogo
-                              ? 'object-contain bg-white p-6'
-                              : 'object-cover group-hover:scale-110 transition-transform duration-500'
-                          }`}
-                        />
+                  return (
+                    <Link to={story.storyLink} key={index}>
+                      <Card className="hover:shadow-2xl transition-all duration-300 border-2 rounded-3xl overflow-hidden group cursor-pointer h-full">
+                        <div className="relative h-72 overflow-hidden">
+                          <img
+                            src={story.image}
+                            alt={story.name}
+                            className={`w-full h-full ${
+                              isLogo
+                                ? 'object-contain bg-white p-6'
+                                : 'object-cover group-hover:scale-110 transition-transform duration-500'
+                            }`}
+                          />
 
-                        <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
-                        <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                          <h3 className="text-2xl font-bold mb-2">{story.name}</h3>
+                          <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+                          <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
+                            <h3 className="text-2xl font-bold mb-2">{story.name}</h3>
 
-                          {/* Updated badge to show all dimensions */}
-                          <div className="flex gap-2 flex-wrap">
-                            {(Array.isArray(story.dimension)
-                              ? story.dimension
-                              : [story.dimension]
-                            ).map((dim, i) => (
-                              <Badge key={i} className="bg-[#f26d2d] hover:bg-[#d65a1e]">
-                                {dim}
+                            {/* multiple badges */}
+                            <div className="flex gap-2 flex-wrap">
+                              {(Array.isArray(story.dimension)
+                                ? story.dimension
+                                : [story.dimension]
+                              ).map((dim, i) => (
+                                <Badge key={i} className="bg-[#f26d2d] hover:bg-[#d65a1e]">
+                                  {dim}
+                                </Badge>
+                              ))}
+                            </div>
+                          </div>
+                        </div>
+
+                        <CardContent className="p-6">
+                          <h4 className="text-xl font-bold text-gray-900 mb-3">
+                            {story.title}
+                          </h4>
+                          <p className="text-gray-700 leading-relaxed mb-4 italic">
+                            "{story.excerpt}"
+                          </p>
+                          <div className="flex flex-wrap gap-2 mb-4">
+                            {story.tags.map((tag, i) => (
+                              <Badge
+                                key={i}
+                                variant="outline"
+                                className="border-[#86a873] text-[#86a873]"
+                              >
+                                {tag}
                               </Badge>
                             ))}
                           </div>
-                        </div>
-                      </div>
+                          <Button className="w-full bg-[#336f99] hover:bg-[#2a5a7d] text-white rounded-full">
+                            Read Full Story →
+                          </Button>
+                        </CardContent>
+                      </Card>
+                    </Link>
+                  );
+                })}
+              </div>
 
-                      <CardContent className="p-6">
-                        <h4 className="text-xl font-bold text-gray-900 mb-3">{story.title}</h4>
-                        <p className="text-gray-700 leading-relaxed mb-4 italic">
-                          "{story.excerpt}"
-                        </p>
-                        <div className="flex flex-wrap gap-2 mb-4">
-                          {story.tags.map((tag, i) => (
-                            <Badge
-                              key={i}
-                              variant="outline"
-                              className="border-[#86a873] text-[#86a873]"
-                            >
-                              {tag}
-                            </Badge>
-                          ))}
-                        </div>
-                        <Button className="w-full bg-[#336f99] hover:bg-[#2a5a7d] text-white rounded-full">
-                          Read Full Story →
-                        </Button>
-                      </CardContent>
-                    </Card>
-                  </Link>
-                );
-              })}
-            </div>
+              {/* LOAD MORE BUTTON */}
+              {visibleCount < filteredStories.length && (
+                <div className="text-center mt-12">
+                  <Button
+                    onClick={() => setVisibleCount((prev) => prev + 6)}
+                    className="bg-[#336f99] hover:bg-[#2a5a7d] text-white rounded-full px-10 py-4"
+                  >
+                    Load More
+                  </Button>
+                </div>
+              )}
+            </>
           ) : (
             <div className="text-center py-20">
               <p className="text-2xl text-gray-600">No stories found matching your search.</p>
@@ -236,7 +272,7 @@ export const Stories = () => {
         </div>
       </section>
 
-      {/* Share Your Story CTA */}
+      {/* CTA */}
       <section className="py-20 bg-[#86a873] text-white">
         <div className="container mx-auto px-6 text-center">
           <h2 className="text-4xl font-bold mb-6">Share Your Recovery Story</h2>
