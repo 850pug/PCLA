@@ -36,7 +36,7 @@ const PartnerStory1 = () => {
     },
 
     pullQuote:
-      "Faranak Sajed Nia, winner of the "Diverse & Inclusive Champion Award” at the 10th annual Untapped Workplace Inclusion Awards 2023!",
+      'Faranak Sajed Nia, winner of the "Diverse & Inclusive Champion Award” at the 10th annual Untapped Workplace Inclusion Awards 2023!',
 
     contentImage1: '/images/fraserhealth-trip-4.jpg',
     imageCaption1: 'Finding support and community at PCLA',
