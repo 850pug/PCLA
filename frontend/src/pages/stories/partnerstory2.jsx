@@ -141,7 +141,7 @@ const PartnerStory2 = () => {
             />
 
             <Paragraph>
-              This year\'s event, held on October 13th at PARQ Vancouver, gathered 300 guests from across Canada, including business leaders, service providers, government representatives, industry experts, and advocates who united to celebrate the remarkable progress in advancing disability inclusion in workplaces.
+              This year's event, held on October 13th at PARQ Vancouver, gathered 300 guests from across Canada, including business leaders, service providers, government representatives, industry experts, and advocates who united to celebrate the remarkable progress in advancing disability inclusion in workplaces.
             </Paragraph>
 
             <Paragraph>
