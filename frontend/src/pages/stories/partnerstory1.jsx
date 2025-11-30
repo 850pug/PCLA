@@ -9,7 +9,7 @@ const PartnerStory1 = () => {
     title: 'Building a Trauma-Informed Culture',
     dimension: 'Partners',
 
-    // IMPORTANT: rename your image files to these clean names
+    // renamed safe filenames
     image: '/images/fraserhealth-trip-2.jpg',
     excerpt:
       'This training helped our staff deepen their understanding of trauma and strengthen the compassion we bring to every interaction.',
@@ -42,16 +42,16 @@ const PartnerStory1 = () => {
       `,
 
       paragraph4:
-        'This customized training reflects Fraser Health’s recognition of PCLA’s unique role in delivering mental health housing and recovery supports in the community. It also builds on a shared vision between PCLA and Fraser Health to foster healing environments where residents and staff alike can thrive.',
+        'This customized training reflects Fraser Health’s recognition of PCLA’s unique role in delivering mental health housing and recovery supports in the community. It also reinforces a shared commitment to fostering healing environments where both residents and staff can thrive.',
 
       conclusion:
-        'PCLA extends its sincere gratitude to Fraser Health Authority and the TRIP team for facilitating this powerful day of learning, and to our dedicated staff for embracing these principles with openness, compassion, and professionalism. Together, we continue to strengthen our collective capacity to provide trauma-informed, person-centered care for every individual we serve.'
+        'PCLA extends its sincere gratitude to Fraser Health Authority and the TRIP team for leading this powerful day of learning. We remain committed to strengthening our trauma-informed, person-centered approach for every individual we serve.'
     },
 
     pullQuote:
-      "Connecting Hope and Self-Compassion to Trauma & Resiliency Informed Practices",
+      "Recovery isn't about going back to who you were before. It's about discovering who you can become.",
 
-    contentImage1: '/images/fraserhealth-trip-4.jpg',
+    contentImage1: '/images/fraserhealth-trip-6.jpg',
     imageCaption1: 'Finding support and community at PCLA',
 
     contentImage2: '/images/fraserhealth-trip-3.jpg',
@@ -128,10 +128,6 @@ const PartnerStory1 = () => {
               </figcaption>
             </figure>
 
-            <h3 className="text-3xl font-bold text-gray-900 mt-12 mb-6">
-              The Turning Point
-            </h3>
-
             <p className="text-lg text-gray-700 leading-relaxed mb-8">
               {story.fullStory.paragraph2}
             </p>
@@ -155,10 +151,6 @@ const PartnerStory1 = () => {
                 {story.imageCaption2}
               </figcaption>
             </figure>
-
-            <h3 className="text-3xl font-bold text-gray-900 mt-12 mb-6">
-              Looking Forward
-            </h3>
 
             <p className="text-lg text-gray-700 leading-relaxed mb-8">
               {story.fullStory.paragraph4}
