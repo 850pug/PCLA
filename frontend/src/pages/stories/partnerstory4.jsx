@@ -6,7 +6,7 @@ import { ArrowLeft } from 'lucide-react';
 const PartnerStory4 = () => {
   const story = {
     name: 'BCIT Partner Spotlight',
-    title: 'BCIT nursing program students at Miller's Way',
+    title: "BCIT nursing program students at Miller's Way",
     dimension: 'Partners',
     heroImage: '/images/two-British-Columbia-Institute-of-Technology-nursing-student-volunteers-serving-food.webp',
     excerpt: 'The relationship with the BCIT Nursing program exposes future nurses to what successful in-community supports can look like for people living with mental illness.',
