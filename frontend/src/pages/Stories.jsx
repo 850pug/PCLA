@@ -24,6 +24,16 @@ export const Stories = () => {
 
   const stories = [
     {
+      name: 'Resident Spotlight',
+      title: 'A Creative Afternoon at Henderson House',
+      dimension: 'Autonomy',
+      image: '/images/Floralarranging-PCLA-hero.jpg',
+      excerpt:
+        'A creative afternoon at Henderson House brought residents together for a floral workshop that resulted in meaningful sense of accomplishment.',
+      tags: ['Autonomy', 'Independence', 'Self-Advocacy'],
+      storyLink: '/stories/autonomystory1'
+    },
+    {
       name: 'Fraser Health.',
       title: 'Building a Trauma-Informed Culture',
       dimension: ['Partners', 'Funders'],
@@ -102,16 +112,6 @@ export const Stories = () => {
         'The staff here understand recovery isn\'t linear. They celebrate every small victory with me.',
       tags: ['Health', 'Wellness', 'Mental Health'],
       storyLink: '/stories/healthstory1'
-    },
-    {
-      name: 'James K.',
-      title: 'Reclaiming My Independence',
-      dimension: 'Autonomy',
-      image: 'https://images.pexels.com/photos/6484132/pexels-photo-6484132.jpeg?w=600',
-      excerpt:
-        'PCLA taught me that having a mental illness doesn\'t mean giving up control of my life. I make my own choices now.',
-      tags: ['Autonomy', 'Independence', 'Self-Advocacy'],
-      storyLink: '/stories/autonomystory1'
     }
   ];
 
