@@ -23,7 +23,7 @@ export const SusieInnes = () => {
             <div className="md:col-span-1">
               <div className="aspect-[3/4] w-full overflow-hidden rounded-3xl border-4 border-gray-200 shadow-xl">
                 <img 
-                  src="/images/susie-innes-headshot.jpg" 
+                  src="/images/Headshot-placeholder.jpeg" 
                   alt="Susie Innes"
                   className="w-full h-full object-cover"
                 />
