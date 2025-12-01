@@ -2,9 +2,10 @@ import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Linkedin, Mail, ArrowLeft } from 'lucide-react';
 
-const ScottRoberts = () => {
+export const ScottRoberts = () => {
   return (
     <div className="min-h-screen">
+      {/* Navigation */}
       <section className="bg-gray-50 py-8">
         <div className="max-w-6xl mx-auto px-6">
           <Link to="/about/team" className="inline-flex items-center text-[#336f99] hover:text-[#86a873] transition-colors">
@@ -14,19 +15,22 @@ const ScottRoberts = () => {
         </div>
       </section>
 
+      {/* Headshot Section */}
       <section className="py-16 bg-white">
         <div className="max-w-6xl mx-auto px-6">
           <div className="grid md:grid-cols-3 gap-12 items-start">
+            {/* Headshot - Fixed size */}
             <div className="md:col-span-1">
               <div className="aspect-[3/4] w-full overflow-hidden rounded-3xl border-4 border-gray-200 shadow-xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600" 
+                  src="/images/scott-roberts-headshot.jpg" 
                   alt="Scott Roberts"
                   className="w-full h-full object-cover"
                 />
               </div>
             </div>
             
+            {/* Info */}
             <div className="md:col-span-2">
               <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Scott Roberts</h1>
               <p className="text-2xl text-[#86a873] font-semibold mb-6">President</p>
@@ -35,59 +39,45 @@ const ScottRoberts = () => {
                 <a href="#" className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#336f99] text-white hover:bg-[#86a873] transition-colors">
                   <Linkedin className="w-5 h-5" />
                 </a>
-                <a href="mailto:scott-roberts@pclaservices.ca" className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#336f99] text-white hover:bg-[#86a873] transition-colors">
+                <a href="mailto:scott.roberts@pclaservices.ca" className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#336f99] text-white hover:bg-[#86a873] transition-colors">
                   <Mail className="w-5 h-5" />
                 </a>
               </div>
 
               <p className="text-xl text-gray-700 leading-relaxed">
-                Scott Roberts serves as President of PCLA's Board of Directors, providing strategic leadership and governance oversight.
+                Scott Roberts brings extensive senior management and consulting experience across tourism, hospitality, and social enterprise, supporting PCLA with strategic insight rooted in community development and sustainability.
               </p>
             </div>
           </div>
         </div>
       </section>
 
+      {/* Bio Section */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-6xl mx-auto px-6">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8">About Scott Roberts</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-8">About Scott</h2>
           
           <div className="prose prose-lg max-w-none">
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              [Detailed biography content will be added here. This section should include information about their background, experience, and contributions to PCLA.]
+              Scott has extensive senior management experience in domestic and international business with major airlines, hotels and tourism / hospitality companies throughout Canada. In his current entrepreneurial role, Scott provides strategic consulting in the areas of business success, strategic planning, performance management and community development.
             </p>
             
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              [Additional context about their role and impact on the organization and the people served.]
+              Among a variety of social enterprise and corporate businesses, Scott has worked extensively with Indigenous communities in western Canada, assisting to develop community owned tourism-related businesses with a mandate of creating sustainable local employment. Many of the cause-driven businesses he's working with are concentrated on social and environmental well-being, which aligns with his philosophy of creating a healthy and productive environment.
             </p>
 
-            <h3 className="text-2xl font-bold text-gray-900 mt-12 mb-4">Areas of Expertise</h3>
-            <ul className="space-y-3 text-lg text-gray-700">
-              <li>• [Area of expertise 1]</li>
-              <li>• [Area of expertise 2]</li>
-              <li>• [Area of expertise 3]</li>
-            </ul>
+            <p className="text-lg text-gray-700 leading-relaxed mb-6">
+              Scott has served on various boards and is an active board member of Tla'amin Management Services LP, the business arm of the Tla'amin Nation on the Sunshine Coast.
+            </p>
 
-            <h3 className="text-2xl font-bold text-gray-900 mt-12 mb-4">Professional Background</h3>
-            <ul className="space-y-3 text-lg text-gray-700">
-              <li>• [Background item 1]</li>
-              <li>• [Background item 2]</li>
-              <li>• [Background item 3]</li>
-            </ul>
+            <p className="text-lg text-gray-700 leading-relaxed mb-6">
+              In his spare time, Scott enjoys travel, reading and outdoor activities.
+            </p>
           </div>
         </div>
       </section>
 
-      <section className="py-16 bg-[#f26d2d] text-white">
-        <div className="max-w-6xl mx-auto px-6">
-          <div className="text-center">
-            <blockquote className="text-2xl md:text-3xl italic font-light leading-relaxed">
-              "Supporting recovery and empowering individuals is at the heart of everything we do at PCLA."
-            </blockquote>
-          </div>
-        </div>
-      </section>
-
+      {/* Contact CTA */}
       <section className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">Learn More About PCLA</h2>

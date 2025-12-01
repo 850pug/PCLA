@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Linkedin, Mail, ArrowLeft } from 'lucide-react';
 
-const NancyTu = () => {
+export const NancyTu = () => {
   return (
     <div className="min-h-screen">
       <section className="bg-gray-50 py-8">
@@ -20,7 +20,7 @@ const NancyTu = () => {
             <div className="md:col-span-1">
               <div className="aspect-[3/4] w-full overflow-hidden rounded-3xl border-4 border-gray-200 shadow-xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=600" 
+                  src="/images/nancy-tu-headshot.jpg" 
                   alt="Nancy Tu"
                   className="w-full h-full object-cover"
                 />
@@ -35,13 +35,13 @@ const NancyTu = () => {
                 <a href="#" className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#336f99] text-white hover:bg-[#86a873] transition-colors">
                   <Linkedin className="w-5 h-5" />
                 </a>
-                <a href="mailto:nancy-tu@pclaservices.ca" className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#336f99] text-white hover:bg-[#86a873] transition-colors">
+                <a href="mailto:nancy.tu@pclaservices.ca" className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#336f99] text-white hover:bg-[#86a873] transition-colors">
                   <Mail className="w-5 h-5" />
                 </a>
               </div>
 
               <p className="text-xl text-gray-700 leading-relaxed">
-                Nancy Tu serves as Treasurer of PCLA's Board of Directors, overseeing financial governance and stewardship.
+                Nancy Tu brings over 20 years of accounting and financial leadership experience, offering strong expertise in budgeting, controls, and nonprofit financial management grounded in equity, teamwork, and integrity.
               </p>
             </div>
           </div>
@@ -50,40 +50,20 @@ const NancyTu = () => {
 
       <section className="py-20 bg-gray-50">
         <div className="max-w-6xl mx-auto px-6">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8">About Nancy Tu</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-8">About Nancy</h2>
           
           <div className="prose prose-lg max-w-none">
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              [Detailed biography content will be added here. This section should include information about their background, experience, and contributions to PCLA.]
+              Nancy brings over 20 years experience in the finance and accounting field. Originally employed in a public traded company. Nancy, for a number of reasons, over seven years ago made a values-based decision to move to the not-for-profit sector. She is currently employed as the Financial Controller for a large non-profit service and housing provider. She is a member in good standing of the Chartered Professional Accountants of British Columbia.
             </p>
             
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              [Additional context about their role and impact on the organization and the people served.]
+              Nancy has a proven track record of achievements in the areas of year end audited working papers, annual budget preparation, internal controls, operational support, complex financial transactions, capital budget preparation, implementation, and management as well as cash management. She is also well versed in payroll systems. HR and project management. She is a strong proponent of the principles of Diversity, Inclusion, Equity and Teamwork in the workplace as well as in everyday life.
             </p>
 
-            <h3 className="text-2xl font-bold text-gray-900 mt-12 mb-4">Areas of Expertise</h3>
-            <ul className="space-y-3 text-lg text-gray-700">
-              <li>• [Area of expertise 1]</li>
-              <li>• [Area of expertise 2]</li>
-              <li>• [Area of expertise 3]</li>
-            </ul>
-
-            <h3 className="text-2xl font-bold text-gray-900 mt-12 mb-4">Professional Background</h3>
-            <ul className="space-y-3 text-lg text-gray-700">
-              <li>• [Background item 1]</li>
-              <li>• [Background item 2]</li>
-              <li>• [Background item 3]</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <section className="py-16 bg-[#f26d2d] text-white">
-        <div className="max-w-6xl mx-auto px-6">
-          <div className="text-center">
-            <blockquote className="text-2xl md:text-3xl italic font-light leading-relaxed">
-              "Supporting recovery and empowering individuals is at the heart of everything we do at PCLA."
-            </blockquote>
+            <p className="text-lg text-gray-700 leading-relaxed mb-6">
+              When not working, Nancy enjoys spending time with her family and friends, she is a fan of live theatre and music, and enjoys cycling and baking Japanese cheesecakes, when time permits.
+            </p>
           </div>
         </div>
       </section>

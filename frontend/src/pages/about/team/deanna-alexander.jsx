@@ -2,9 +2,10 @@ import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Linkedin, Mail, ArrowLeft } from 'lucide-react';
 
-const DeannaAlexander = () => {
+export const DeannaAlexander = () => {
   return (
     <div className="min-h-screen">
+      {/* Navigation */}
       <section className="bg-gray-50 py-8">
         <div className="max-w-6xl mx-auto px-6">
           <Link to="/about/team" className="inline-flex items-center text-[#336f99] hover:text-[#86a873] transition-colors">
@@ -14,19 +15,22 @@ const DeannaAlexander = () => {
         </div>
       </section>
 
+      {/* Headshot Section */}
       <section className="py-16 bg-white">
         <div className="max-w-6xl mx-auto px-6">
           <div className="grid md:grid-cols-3 gap-12 items-start">
+            {/* Headshot - Fixed size */}
             <div className="md:col-span-1">
               <div className="aspect-[3/4] w-full overflow-hidden rounded-3xl border-4 border-gray-200 shadow-xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600" 
+                  src="/images/deanna-alexander-headshot.jpg" 
                   alt="Deanna Alexander"
                   className="w-full h-full object-cover"
                 />
               </div>
             </div>
             
+            {/* Info */}
             <div className="md:col-span-2">
               <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Deanna Alexander</h1>
               <p className="text-2xl text-[#86a873] font-semibold mb-6">Team Lead, Lina's Place</p>
@@ -35,59 +39,41 @@ const DeannaAlexander = () => {
                 <a href="#" className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#336f99] text-white hover:bg-[#86a873] transition-colors">
                   <Linkedin className="w-5 h-5" />
                 </a>
-                <a href="mailto:deanna-alexander@pclaservices.ca" className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#336f99] text-white hover:bg-[#86a873] transition-colors">
+                <a href="mailto:deanna.alexander@pclaservices.ca" className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#336f99] text-white hover:bg-[#86a873] transition-colors">
                   <Mail className="w-5 h-5" />
                 </a>
               </div>
 
               <p className="text-xl text-gray-700 leading-relaxed">
-                Deanna Alexander serves as Team Lead at Lina's Place, bringing dedication and expertise to supporting residents in their recovery journeys.
+                Deanna Alexander brings over 30 years of community mental health experience, leading resident support at Lina's Place with a focus on independence, compassion, and recovery-oriented care.
               </p>
             </div>
           </div>
         </div>
       </section>
 
+      {/* Bio Section */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-6xl mx-auto px-6">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8">About Deanna Alexander</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-8">About Deanna</h2>
           
           <div className="prose prose-lg max-w-none">
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              [Detailed biography content will be added here. This section should include information about their background, experience, and contributions to PCLA.]
+              Deanna Alexander has been part of PCLA since 1992, contributing over 30 years of service in community mental health. After more than two decades with the CRESST program, she now serves as Team Lead at Lina's Place, a 12-bed mental health assisted living facility.
             </p>
             
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              [Additional context about their role and impact on the organization and the people served.]
+              Deanna is deeply committed to empowering residents to achieve their personal goals, strengthen independent living skills, and maintain their mental health. Her leadership emphasizes compassion, collaboration, and respect, creating an environment where residents are encouraged to grow in confidence and autonomy.
             </p>
 
-            <h3 className="text-2xl font-bold text-gray-900 mt-12 mb-4">Areas of Expertise</h3>
-            <ul className="space-y-3 text-lg text-gray-700">
-              <li>• [Area of expertise 1]</li>
-              <li>• [Area of expertise 2]</li>
-              <li>• [Area of expertise 3]</li>
-            </ul>
-
-            <h3 className="text-2xl font-bold text-gray-900 mt-12 mb-4">Professional Background</h3>
-            <ul className="space-y-3 text-lg text-gray-700">
-              <li>• [Background item 1]</li>
-              <li>• [Background item 2]</li>
-              <li>• [Background item 3]</li>
-            </ul>
+            <p className="text-lg text-gray-700 leading-relaxed mb-6">
+              She remains passionate about PCLA's mission and the values of dignity, recovery, and inclusion that guide its work.
+            </p>
           </div>
         </div>
       </section>
 
-      <section className="py-16 bg-[#f26d2d] text-white">
-        <div className="max-w-6xl mx-auto px-6">
-          <div className="text-center">
-            <blockquote className="text-2xl md:text-3xl italic font-light leading-relaxed">
-              "Supporting recovery and empowering individuals is at the heart of everything we do at PCLA."
-            </blockquote>
-          </div>
-        </div>
-      </section>
-
+      {/* Contact CTA */}
       <section className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">Learn More About PCLA</h2>

@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Linkedin, Mail, ArrowLeft } from 'lucide-react';
 
-const HarshThakkar = () => {
+export const HarshThakkar = () => {
   return (
     <div className="min-h-screen">
       <section className="bg-gray-50 py-8">
@@ -20,7 +20,7 @@ const HarshThakkar = () => {
             <div className="md:col-span-1">
               <div className="aspect-[3/4] w-full overflow-hidden rounded-3xl border-4 border-gray-200 shadow-xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=600" 
+                  src="/images/harsh-thakkar-headshot.jpg" 
                   alt="Harsh Thakkar"
                   className="w-full h-full object-cover"
                 />
@@ -35,13 +35,13 @@ const HarshThakkar = () => {
                 <a href="#" className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#336f99] text-white hover:bg-[#86a873] transition-colors">
                   <Linkedin className="w-5 h-5" />
                 </a>
-                <a href="mailto:harsh-thakkar@pclaservices.ca" className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#336f99] text-white hover:bg-[#86a873] transition-colors">
+                <a href="mailto:harsh.thakkar@pclaservices.ca" className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#336f99] text-white hover:bg-[#86a873] transition-colors">
                   <Mail className="w-5 h-5" />
                 </a>
               </div>
 
               <p className="text-xl text-gray-700 leading-relaxed">
-                Harsh Thakkar serves on PCLA's Board of Directors, contributing expertise and strategic guidance.
+                Harsh Thakkar brings over 20 years of nonprofit leadership experience, advancing community impact through inclusive service delivery, operational excellence, and a strong commitment to equity and person-centered support.
               </p>
             </div>
           </div>
@@ -50,40 +50,20 @@ const HarshThakkar = () => {
 
       <section className="py-20 bg-gray-50">
         <div className="max-w-6xl mx-auto px-6">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8">About Harsh Thakkar</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-8">About Harsh</h2>
           
           <div className="prose prose-lg max-w-none">
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              [Detailed biography content will be added here. This section should include information about their background, experience, and contributions to PCLA.]
+              Harsh Thakkar is a visionary leader with over 20 years of experience in the non-profit sector. He has expertise in fostering community connections, streamlining operations, and scaling organizations. Honored as a 2020 RBC Top 25 Canadian Immigrant, which acknowledges his contributions to the people of the community who are in difficulties. His efforts are geared towards initiatives that champion diversity, person-centered service delivery, and overall community well-being.
             </p>
             
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              [Additional context about their role and impact on the organization and the people served.]
+              Driven by a deep commitment to social impact, he lives by his core value: "It takes one to help another." As an approachable, charismatic, and humble leader, he inspires his family, friends, and co-workers to develop programs that address inequities by listening to marginalized voices and removing barriers to access key resources. He invests deeply in mentoring individuals and initiatives facing challenges, guiding them toward sustainable success with practical strategies and a focus on long-term growth. By fostering inclusive environments where collaboration thrives, he empowers communities to bridge gaps, build resilience, and create lasting, equitable progress.
             </p>
 
-            <h3 className="text-2xl font-bold text-gray-900 mt-12 mb-4">Areas of Expertise</h3>
-            <ul className="space-y-3 text-lg text-gray-700">
-              <li>• [Area of expertise 1]</li>
-              <li>• [Area of expertise 2]</li>
-              <li>• [Area of expertise 3]</li>
-            </ul>
-
-            <h3 className="text-2xl font-bold text-gray-900 mt-12 mb-4">Professional Background</h3>
-            <ul className="space-y-3 text-lg text-gray-700">
-              <li>• [Background item 1]</li>
-              <li>• [Background item 2]</li>
-              <li>• [Background item 3]</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <section className="py-16 bg-[#f26d2d] text-white">
-        <div className="max-w-6xl mx-auto px-6">
-          <div className="text-center">
-            <blockquote className="text-2xl md:text-3xl italic font-light leading-relaxed">
-              "Supporting recovery and empowering individuals is at the heart of everything we do at PCLA."
-            </blockquote>
+            <p className="text-lg text-gray-700 leading-relaxed mb-6">
+              A graduate of Kwantlen Polytechnic University with a Bachelor of Business Administration, Harsh leverages his knowledge to lead in dynamic settings. Outside work, he embraces work-life balance through cricket, biking, and swimming, activities that reflect his commitment to community and connection.
+            </p>
           </div>
         </div>
       </section>

@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Linkedin, Mail, ArrowLeft } from 'lucide-react';
 
-const SibShaw = () => {
+export const SibShaw = () => {
   return (
     <div className="min-h-screen">
       <section className="bg-gray-50 py-8">
@@ -20,7 +20,7 @@ const SibShaw = () => {
             <div className="md:col-span-1">
               <div className="aspect-[3/4] w-full overflow-hidden rounded-3xl border-4 border-gray-200 shadow-xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=600" 
+                  src="/images/sib-shaw-headshot.jpg" 
                   alt="Sib Shaw"
                   className="w-full h-full object-cover"
                 />
@@ -35,13 +35,13 @@ const SibShaw = () => {
                 <a href="#" className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#336f99] text-white hover:bg-[#86a873] transition-colors">
                   <Linkedin className="w-5 h-5" />
                 </a>
-                <a href="mailto:sib-shaw@pclaservices.ca" className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#336f99] text-white hover:bg-[#86a873] transition-colors">
+                <a href="mailto:sib.shaw@pclaservices.ca" className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#336f99] text-white hover:bg-[#86a873] transition-colors">
                   <Mail className="w-5 h-5" />
                 </a>
               </div>
 
               <p className="text-xl text-gray-700 leading-relaxed">
-                Sib Shaw serves on PCLA's Board of Directors, contributing expertise and leadership to organizational governance.
+                Sib Shaw brings over 30 years of international leadership experience across hospitality, retail, and healthcare, contributing strategic operational insight and strong community engagement to PCLA\'s governance.
               </p>
             </div>
           </div>
@@ -50,40 +50,20 @@ const SibShaw = () => {
 
       <section className="py-20 bg-gray-50">
         <div className="max-w-6xl mx-auto px-6">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8">About Sib Shaw</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-8">About Sib</h2>
           
           <div className="prose prose-lg max-w-none">
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              [Detailed biography content will be added here. This section should include information about their background, experience, and contributions to PCLA.]
+              With over 30 years of international experience across the USA, Bermuda, UK, and Canada, Sib Shaw has built a diverse career spanning hospitality, retail, and healthcare. Beginning as Head Baker on Celebrity Cruises and Pastry Chef at The Fairmont Jasper Park Lodge, Sib later advanced into retail leadership as Store Manager at Walmart Supercenter, overseeing 300+ employees and a $60 million annual budget while earning multiple awards for operational excellence. Working with The North West Company, Canada\'s oldest organization, offered Sib the rare opportunity to serve remote Arctic communities and collaborate with Indigenous, Métis, and Inuit partners—an experience that strengthened his cultural awareness and resilience.
             </p>
             
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              [Additional context about their role and impact on the organization and the people served.]
+              After the pandemic disrupted his career, Sib transitioned into healthcare, completing the Nutrition and Food Service Management program at Algonquin College and leadership training with SafeCare BC. Today, he serves as Director of Operations at Three Links Care Society, overseeing Food Services, Housekeeping, Laundry, and Maintenance.
             </p>
 
-            <h3 className="text-2xl font-bold text-gray-900 mt-12 mb-4">Areas of Expertise</h3>
-            <ul className="space-y-3 text-lg text-gray-700">
-              <li>• [Area of expertise 1]</li>
-              <li>• [Area of expertise 2]</li>
-              <li>• [Area of expertise 3]</li>
-            </ul>
-
-            <h3 className="text-2xl font-bold text-gray-900 mt-12 mb-4">Professional Background</h3>
-            <ul className="space-y-3 text-lg text-gray-700">
-              <li>• [Background item 1]</li>
-              <li>• [Background item 2]</li>
-              <li>• [Background item 3]</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <section className="py-16 bg-[#f26d2d] text-white">
-        <div className="max-w-6xl mx-auto px-6">
-          <div className="text-center">
-            <blockquote className="text-2xl md:text-3xl italic font-light leading-relaxed">
-              "Supporting recovery and empowering individuals is at the heart of everything we do at PCLA."
-            </blockquote>
+            <p className="text-lg text-gray-700 leading-relaxed mb-6">
+              Sib currently volunteers as President of the Pacific Society of Nutrition Management, Board Member of Langara College\'s Nutrition Education program, and Board Member of Pioneer Community Living Association. He also leads as President of Strata Corporation EPS 5539, contributing to community governance and organizational development across multiple sectors.
+            </p>
           </div>
         </div>
       </section>

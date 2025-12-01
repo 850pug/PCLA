@@ -2,9 +2,10 @@ import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Linkedin, Mail, ArrowLeft } from 'lucide-react';
 
-const JeannineCorrigan = () => {
+export const JeannineCorrigan = () => {
   return (
     <div className="min-h-screen">
+      {/* Navigation */}
       <section className="bg-gray-50 py-8">
         <div className="max-w-6xl mx-auto px-6">
           <Link to="/about/team" className="inline-flex items-center text-[#336f99] hover:text-[#86a873] transition-colors">
@@ -14,19 +15,22 @@ const JeannineCorrigan = () => {
         </div>
       </section>
 
+      {/* Headshot Section */}
       <section className="py-16 bg-white">
         <div className="max-w-6xl mx-auto px-6">
           <div className="grid md:grid-cols-3 gap-12 items-start">
+            {/* Headshot - Fixed size */}
             <div className="md:col-span-1">
               <div className="aspect-[3/4] w-full overflow-hidden rounded-3xl border-4 border-gray-200 shadow-xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=600" 
+                  src="/images/jeannine-corrigan-headshot.jpg" 
                   alt="Jeannine Corrigan"
                   className="w-full h-full object-cover"
                 />
               </div>
             </div>
             
+            {/* Info */}
             <div className="md:col-span-2">
               <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Jeannine Corrigan</h1>
               <p className="text-2xl text-[#86a873] font-semibold mb-6">Manager of Care, CRESST</p>
@@ -35,59 +39,37 @@ const JeannineCorrigan = () => {
                 <a href="#" className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#336f99] text-white hover:bg-[#86a873] transition-colors">
                   <Linkedin className="w-5 h-5" />
                 </a>
-                <a href="mailto:jeannine-corrigan@pclaservices.ca" className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#336f99] text-white hover:bg-[#86a873] transition-colors">
+                <a href="mailto:jeannine.corrigan@pclaservices.ca" className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#336f99] text-white hover:bg-[#86a873] transition-colors">
                   <Mail className="w-5 h-5" />
                 </a>
               </div>
 
               <p className="text-xl text-gray-700 leading-relaxed">
-                Jeannine Corrigan leads care services at CRESST, providing compassionate support and recovery-oriented practice.
+                Jeannine Corrigan brings over 30 years of psychiatric nursing and community mental health experience, leading care at CRESST North with a strong commitment to advocacy, stability, and person-centered recovery.
               </p>
             </div>
           </div>
         </div>
       </section>
 
+      {/* Bio Section */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-6xl mx-auto px-6">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8">About Jeannine Corrigan</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-8">About Jeannine</h2>
           
           <div className="prose prose-lg max-w-none">
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              [Detailed biography content will be added here. This section should include information about their background, experience, and contributions to PCLA.]
+              Jeannine Corrigan is an experienced psychiatric nurse and mental health leader with more than 30 years of community practice. A graduate of the Douglas College Psychiatric Nursing Program (1991), she joined PCLA in 1993 as a Registered Psychiatric Nurse with the CRESST Program and became Manager of Care at CRESST North in 2018.
             </p>
             
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              [Additional context about their role and impact on the organization and the people served.]
+              Jeannine is known for her compassion, advocacy, and dedication to helping individuals living with mental illness achieve stability and hope. Her decades of service reflect a deep commitment to client-centered recovery and to creating a supportive environment where every individual is treated with respect and empathy.
             </p>
-
-            <h3 className="text-2xl font-bold text-gray-900 mt-12 mb-4">Areas of Expertise</h3>
-            <ul className="space-y-3 text-lg text-gray-700">
-              <li>• [Area of expertise 1]</li>
-              <li>• [Area of expertise 2]</li>
-              <li>• [Area of expertise 3]</li>
-            </ul>
-
-            <h3 className="text-2xl font-bold text-gray-900 mt-12 mb-4">Professional Background</h3>
-            <ul className="space-y-3 text-lg text-gray-700">
-              <li>• [Background item 1]</li>
-              <li>• [Background item 2]</li>
-              <li>• [Background item 3]</li>
-            </ul>
           </div>
         </div>
       </section>
 
-      <section className="py-16 bg-[#f26d2d] text-white">
-        <div className="max-w-6xl mx-auto px-6">
-          <div className="text-center">
-            <blockquote className="text-2xl md:text-3xl italic font-light leading-relaxed">
-              "Supporting recovery and empowering individuals is at the heart of everything we do at PCLA."
-            </blockquote>
-          </div>
-        </div>
-      </section>
-
+      {/* Contact CTA */}
       <section className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">Learn More About PCLA</h2>
