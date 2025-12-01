@@ -59,7 +59,11 @@ export const AnastasiaHumenuk = () => {
           
           <div className="prose prose-lg max-w-none">
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              Anastasia Humenuk brings 28 years of HR leadership experience across sectors, strengthening PCLA's people systems through expertise in labour relations, workplace practices, and organizational development.
+              Anastasia Humenuk brings 28 years of experience in HR leadership roles in the private, healthcare, municipal government and the non-profit sectors. She has specific experience leading the HR function and HR team for non-profits who deliver programs and services aimed at assisting the most vulnerable. She has extensive experience in workplace investigations, labor relations and collective bargaining and setting up HR systems and processes for organizations from the ground up.
+            </p>
+            
+            <p className="text-lg text-gray-700 leading-relaxed mb-6">
+              Anastasia holds BA and HR degree from McGill University along with an MA in Leadership & Training from Royal Roads University and mediation and coaching certifications. Anastasia works in a part-time capacity in the role of HR Director for PCLA.
             </p>
           </div>
         </div>

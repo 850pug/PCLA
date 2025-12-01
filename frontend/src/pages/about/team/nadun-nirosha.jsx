@@ -59,7 +59,19 @@ export const NadunNirosha = () => {
           
           <div className="prose prose-lg max-w-none">
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              Nadun Nirosha is a seasoned finance professional with 22 years of international experience, leading financial strategy, planning, and administration to strengthen organizational performance and operational excellence.
+              As a seasoned financial professional with 22 years of dedicated experience in accounting and finance, Nadun Nirosha brings a wealth of experience and expertise to the role as Director, Finance and Administration. With a relentless commitment to driving financial excellence and fostering organizational growth, he has consistently delivered results in dynamic and challenging environments.
+            </p>
+            
+            <p className="text-lg text-gray-700 leading-relaxed mb-6">
+              His journey in finance began with a solid foundation in accounting, and over the years, he honed his skills to encompass a broad spectrum of financial disciplines. His experience led him to various countries such as Saudi Arabia and Qatar. One of his core strengths is developing and implementing robust financial strategies and excels in financial planning, budgeting, and forecasting, leveraging data-driven insights to optimize resource allocation and maximize cost-effectiveness.
+            </p>
+
+            <p className="text-lg text-gray-700 leading-relaxed mb-6">
+              Born and raised amidst the lush and diverse landscape of Sri Lanka, and now proudly settled in the welcoming embrace of Canada, he brings a unique blend of cultural insights and international experience. Nadun has navigated through various industries, from start-ups to established financial institutions and healthcare, allowing him to adapt to different financial landscapes. As a Director of Finance, his vision is to continue facilitating the financial success at PCLA while fostering an environment where diversity and excellence thrive.
+            </p>
+
+            <p className="text-lg text-gray-700 leading-relaxed mb-6">
+              Growing up in Sri Lanka, Nadun honed his cricketing skills and continues to play and follow the sport with unwavering enthusiasm. This passion for cricket has taught him the value of teamwork, strategic thinking and resilience, qualities that he seamlessly integrated into this financial leadership style.
             </p>
           </div>
         </div>

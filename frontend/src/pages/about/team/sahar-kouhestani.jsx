@@ -59,7 +59,15 @@ export const SaharKouhestani = () => {
           
           <div className="prose prose-lg max-w-none">
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              Dr. Sahar Kouhestani is a health policy and quality improvement leader who strengthens PCLA's safety, accreditation, and performance systems through expertise in healthcare management and evidence-based practice.
+              Dr. Sahar Kouhestani is a healthcare leader specializing in quality improvement, safety systems, and risk management. She holds a PhD in Health Policy and a Master\'s in Health Care Management (MHA) and brings over eight years of experience in healthcare administration, accreditation, and performance excellence.
+            </p>
+            
+            <p className="text-lg text-gray-700 leading-relaxed mb-6">
+              At PCLA, Dr. Kouhestani leads initiatives that strengthen quality assurance, resident safety, and accessibility, aligning practices with CARF, Fraser Health, and BC Housing standards. Her work advances a culture of accountability, continuous improvement, and evidence-based policy development across all residential programs.
+            </p>
+
+            <p className="text-lg text-gray-700 leading-relaxed mb-6">
+              Before joining PCLA, she held senior roles in both healthcare organizations and academia, including Clinical Operations Manager at the Calgary Eye Specialist Clinic and Accreditation Specialist at Mashhad University of Medical Sciences. She also holds certifications in healthcare analytics, financial management, and safety leadership from Johns Hopkins and George Washington University.
             </p>
           </div>
         </div>

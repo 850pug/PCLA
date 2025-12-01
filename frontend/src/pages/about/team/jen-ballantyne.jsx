@@ -59,7 +59,15 @@ export const JenBallantyne = () => {
           
           <div className="prose prose-lg max-w-none">
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              Jen Ballantyne brings extensive experience in executive support and administration, ensuring seamless coordination across leadership functions and strengthening PCLA's operations through professionalism and attention to detail.
+              Jen Ballantyne brings extensive experience in executive support, administration, and organizational management to her role as Executive Coordinator at PCLA. With a strong background in executive assistance, departmental coordination, and financial administration, she supports the Executive Director, Board of Directors, and Human Resources.
+            </p>
+            
+            <p className="text-lg text-gray-700 leading-relaxed mb-6">
+              Her previous roles in executive and administrative management strengthened her expertise in corporate communication, client relations, and bookkeeping, and she holds training in payroll compliance.
+            </p>
+
+            <p className="text-lg text-gray-700 leading-relaxed mb-6">
+              Known for her upbeat personality, professionalism, and adaptability, Jen combines attention to detail with a collaborative spirit. She is dedicated to ensuring the smooth operations of PCLA and to advancing the organization\'s mission of supporting recovery through housing and community care.
             </p>
           </div>
         </div>
