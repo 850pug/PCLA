@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Linkedin, Mail, ArrowLeft } from 'lucide-react';
 
-const NadunNirosha = () => {
+export const NadunNirosha = () => {
   return (
     <div className="min-h-screen">
       {/* Navigation */}
@@ -23,7 +23,7 @@ const NadunNirosha = () => {
             <div className="md:col-span-1">
               <div className="aspect-[3/4] w-full overflow-hidden rounded-3xl border-4 border-gray-200 shadow-xl">
                 <img 
-                  src="https://images.pexels.com/photos/3259624/pexels-photo-3259624.jpeg?w=600" 
+                  src="/images/nadun-nirosha-headshot.jpg" 
                   alt="Nadun Nirosha"
                   className="w-full h-full object-cover"
                 />
@@ -45,7 +45,7 @@ const NadunNirosha = () => {
               </div>
 
               <p className="text-xl text-gray-700 leading-relaxed">
-                As a seasoned financial professional with 22 years of dedicated experience in accounting and finance, Nadun Nirosha brings a wealth of experience and expertise to the role as Director, Finance and Administration.
+                Nadun Nirosha is a seasoned finance professional with 22 years of international experience, leading financial strategy, planning, and administration to strengthen organizational performance and operational excellence.
               </p>
             </div>
           </div>
@@ -59,39 +59,8 @@ const NadunNirosha = () => {
           
           <div className="prose prose-lg max-w-none">
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              With over two decades of experience in financial management, Nadun has developed deep expertise in non-profit accounting, budgeting, and financial planning. Their strategic approach ensures PCLA maintains strong fiscal health while maximizing resources for program delivery.
+              Nadun Nirosha is a seasoned finance professional with 22 years of international experience, leading financial strategy, planning, and administration to strengthen organizational performance and operational excellence.
             </p>
-            
-            <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              Nadun oversees all aspects of PCLA's financial operations, including accounting, payroll, financial reporting, and compliance. They work closely with funding partners and regulatory bodies to ensure transparency and accountability in all financial matters.
-            </p>
-
-            <h3 className="text-2xl font-bold text-gray-900 mt-12 mb-4">Areas of Expertise</h3>
-            <ul className="space-y-3 text-lg text-gray-700">
-              <li>• Non-profit financial management and reporting</li>
-              <li>• Budget development and forecasting</li>
-              <li>• Grant accounting and compliance</li>
-              <li>• Financial systems and process improvement</li>
-              <li>• Audit preparation and stakeholder reporting</li>
-            </ul>
-
-            <h3 className="text-2xl font-bold text-gray-900 mt-12 mb-4">Professional Background</h3>
-            <ul className="space-y-3 text-lg text-gray-700">
-              <li>• 22+ years in accounting and finance</li>
-              <li>• Extensive non-profit sector experience</li>
-              <li>• Professional accounting designation</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      {/* Quote Section */}
-      <section className="py-16 bg-[#f26d2d] text-white">
-        <div className="max-w-6xl mx-auto px-6">
-          <div className="text-center">
-            <blockquote className="text-2xl md:text-3xl italic font-light leading-relaxed">
-              "Sound financial management is the foundation that allows us to focus on what matters most—supporting people on their recovery journeys."
-            </blockquote>
           </div>
         </div>
       </section>

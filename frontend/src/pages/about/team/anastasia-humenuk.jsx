@@ -2,9 +2,10 @@ import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Linkedin, Mail, ArrowLeft } from 'lucide-react';
 
-const AnastasiaHumenuk = () => {
+export const AnastasiaHumenuk = () => {
   return (
     <div className="min-h-screen">
+      {/* Navigation */}
       <section className="bg-gray-50 py-8">
         <div className="max-w-6xl mx-auto px-6">
           <Link to="/about/team" className="inline-flex items-center text-[#336f99] hover:text-[#86a873] transition-colors">
@@ -14,19 +15,22 @@ const AnastasiaHumenuk = () => {
         </div>
       </section>
 
+      {/* Headshot Section */}
       <section className="py-16 bg-white">
         <div className="max-w-6xl mx-auto px-6">
           <div className="grid md:grid-cols-3 gap-12 items-start">
+            {/* Headshot - Fixed size */}
             <div className="md:col-span-1">
               <div className="aspect-[3/4] w-full overflow-hidden rounded-3xl border-4 border-gray-200 shadow-xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1516841273335-e39b37888115?w=600" 
+                  src="/images/anastasia-humenuk-headshot.jpg" 
                   alt="Anastasia Humenuk"
                   className="w-full h-full object-cover"
                 />
               </div>
             </div>
             
+            {/* Info */}
             <div className="md:col-span-2">
               <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Anastasia Humenuk</h1>
               <p className="text-2xl text-[#86a873] font-semibold mb-6">Director of Human Resources</p>
@@ -35,59 +39,33 @@ const AnastasiaHumenuk = () => {
                 <a href="#" className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#336f99] text-white hover:bg-[#86a873] transition-colors">
                   <Linkedin className="w-5 h-5" />
                 </a>
-                <a href="mailto:anastasia-humenuk@pclaservices.ca" className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#336f99] text-white hover:bg-[#86a873] transition-colors">
+                <a href="mailto:anastasia.humenuk@pclaservices.ca" className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#336f99] text-white hover:bg-[#86a873] transition-colors">
                   <Mail className="w-5 h-5" />
                 </a>
               </div>
 
               <p className="text-xl text-gray-700 leading-relaxed">
-                Anastasia Humenuk brings 28 years of experience in HR leadership roles in the private, healthcare, municipal government and the non-profit sectors. She has specific experience leading the HR function and HR team for non-profits who deliver programs and services aimed at assisting the most vulnerable.
+                Anastasia Humenuk brings 28 years of HR leadership experience across sectors, strengthening PCLA's people systems through expertise in labour relations, workplace practices, and organizational development.
               </p>
             </div>
           </div>
         </div>
       </section>
 
+      {/* Bio Section */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-6xl mx-auto px-6">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8">About Anastasia Humenuk</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-8">About Anastasia</h2>
           
           <div className="prose prose-lg max-w-none">
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              [Detailed biography content will be added here. This section should include information about their background, experience, and contributions to PCLA.]
+              Anastasia Humenuk brings 28 years of HR leadership experience across sectors, strengthening PCLA's people systems through expertise in labour relations, workplace practices, and organizational development.
             </p>
-            
-            <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              [Additional context about their role and impact on the organization and the people served.]
-            </p>
-
-            <h3 className="text-2xl font-bold text-gray-900 mt-12 mb-4">Areas of Expertise</h3>
-            <ul className="space-y-3 text-lg text-gray-700">
-              <li>• [Area of expertise 1]</li>
-              <li>• [Area of expertise 2]</li>
-              <li>• [Area of expertise 3]</li>
-            </ul>
-
-            <h3 className="text-2xl font-bold text-gray-900 mt-12 mb-4">Professional Background</h3>
-            <ul className="space-y-3 text-lg text-gray-700">
-              <li>• [Background item 1]</li>
-              <li>• [Background item 2]</li>
-              <li>• [Background item 3]</li>
-            </ul>
           </div>
         </div>
       </section>
 
-      <section className="py-16 bg-[#f26d2d] text-white">
-        <div className="max-w-6xl mx-auto px-6">
-          <div className="text-center">
-            <blockquote className="text-2xl md:text-3xl italic font-light leading-relaxed">
-              "Supporting recovery and empowering individuals is at the heart of everything we do at PCLA."
-            </blockquote>
-          </div>
-        </div>
-      </section>
-
+      {/* Contact CTA */}
       <section className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">Learn More About PCLA</h2>

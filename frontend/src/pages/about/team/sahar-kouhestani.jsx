@@ -2,9 +2,10 @@ import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Linkedin, Mail, ArrowLeft } from 'lucide-react';
 
-const SaharKouhestani = () => {
+export const SaharKouhestani = () => {
   return (
     <div className="min-h-screen">
+      {/* Navigation */}
       <section className="bg-gray-50 py-8">
         <div className="max-w-6xl mx-auto px-6">
           <Link to="/about/team" className="inline-flex items-center text-[#336f99] hover:text-[#86a873] transition-colors">
@@ -14,19 +15,22 @@ const SaharKouhestani = () => {
         </div>
       </section>
 
+      {/* Headshot Section */}
       <section className="py-16 bg-white">
         <div className="max-w-6xl mx-auto px-6">
           <div className="grid md:grid-cols-3 gap-12 items-start">
+            {/* Headshot - Fixed size */}
             <div className="md:col-span-1">
               <div className="aspect-[3/4] w-full overflow-hidden rounded-3xl border-4 border-gray-200 shadow-xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=600" 
-                  alt="Sahar Kouhestani"
+                  src="/images/sahar-kouhestani-headshot.jpg" 
+                  alt="Dr. Sahar Kouhestani"
                   className="w-full h-full object-cover"
                 />
               </div>
             </div>
             
+            {/* Info */}
             <div className="md:col-span-2">
               <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Dr. Sahar Kouhestani</h1>
               <p className="text-2xl text-[#86a873] font-semibold mb-6">Quality, Safety & Risk Manager</p>
@@ -41,55 +45,27 @@ const SaharKouhestani = () => {
               </div>
 
               <p className="text-xl text-gray-700 leading-relaxed">
-                Dr. Sahar Kouhestani is a healthcare leader specializing in quality improvement, safety systems, and risk management. She holds a PhD in Health Policy and a Master's in Health Care Management (MHA) and brings over eight years of experience in healthcare administration, accreditation, and performance excellence.
+                Dr. Sahar Kouhestani is a health policy and quality improvement leader who strengthens PCLA's safety, accreditation, and performance systems through expertise in healthcare management and evidence-based practice.
               </p>
             </div>
           </div>
         </div>
       </section>
 
+      {/* Bio Section */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-6xl mx-auto px-6">
           <h2 className="text-3xl font-bold text-gray-900 mb-8">About Dr. Kouhestani</h2>
           
           <div className="prose prose-lg max-w-none">
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              With advanced degrees in health policy and healthcare management, Dr. Kouhestani brings a rigorous, evidence-based approach to quality improvement and risk management. Her work ensures PCLA maintains the highest standards of care and safety for residents and staff.
+              Dr. Sahar Kouhestani is a health policy and quality improvement leader who strengthens PCLA's safety, accreditation, and performance systems through expertise in healthcare management and evidence-based practice.
             </p>
-            
-            <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              Dr. Kouhestani leads PCLA's quality assurance programs, accreditation processes, and safety initiatives. She develops systems and protocols that support continuous improvement while maintaining compliance with regulatory requirements.
-            </p>
-
-            <h3 className="text-2xl font-bold text-gray-900 mt-12 mb-4">Areas of Expertise</h3>
-            <ul className="space-y-3 text-lg text-gray-700">
-              <li>• Quality improvement and performance excellence</li>
-              <li>• Healthcare safety systems and protocols</li>
-              <li>• Risk assessment and management</li>
-              <li>• Accreditation and regulatory compliance</li>
-              <li>• Health policy and system design</li>
-            </ul>
-
-            <h3 className="text-2xl font-bold text-gray-900 mt-12 mb-4">Education & Credentials</h3>
-            <ul className="space-y-3 text-lg text-gray-700">
-              <li>• PhD in Health Policy</li>
-              <li>• Master of Health Administration (MHA)</li>
-              <li>• 8+ years in healthcare administration</li>
-            </ul>
           </div>
         </div>
       </section>
 
-      <section className="py-16 bg-[#f26d2d] text-white">
-        <div className="max-w-6xl mx-auto px-6">
-          <div className="text-center">
-            <blockquote className="text-2xl md:text-3xl italic font-light leading-relaxed">
-              "Quality care isn't just about meeting standards—it's about continuously improving to better serve those we support."
-            </blockquote>
-          </div>
-        </div>
-      </section>
-
+      {/* Contact CTA */}
       <section className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">Learn More About PCLA</h2>

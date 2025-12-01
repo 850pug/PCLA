@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Linkedin, Mail, ArrowLeft } from 'lucide-react';
 
-const JenBallantyne = () => {
+export const JenBallantyne = () => {
   return (
     <div className="min-h-screen">
       {/* Navigation */}
@@ -23,7 +23,7 @@ const JenBallantyne = () => {
             <div className="md:col-span-1">
               <div className="aspect-[3/4] w-full overflow-hidden rounded-3xl border-4 border-gray-200 shadow-xl">
                 <img 
-                  src="https://images.pexels.com/photos/3259624/pexels-photo-3259624.jpeg?w=600" 
+                  src="/images/jen-ballantyne-headshot.jpg" 
                   alt="Jen Ballantyne"
                   className="w-full h-full object-cover"
                 />
@@ -45,7 +45,7 @@ const JenBallantyne = () => {
               </div>
 
               <p className="text-xl text-gray-700 leading-relaxed">
-                Jen Ballantyne brings extensive experience in executive support, administration, and organizational management to her role as Executive Coordinator at PCLA. With a strong background in executive assistance, departmental coordination, and financial administration, she supports the Executive Director, Board of Directors, and Human Resources.
+                Jen Ballantyne brings extensive experience in executive support and administration, ensuring seamless coordination across leadership functions and strengthening PCLA's operations through professionalism and attention to detail.
               </p>
             </div>
           </div>
@@ -59,39 +59,8 @@ const JenBallantyne = () => {
           
           <div className="prose prose-lg max-w-none">
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              As Executive Coordinator, Jen serves as the organizational hub, ensuring smooth operations and effective communication across all levels of PCLA. Her attention to detail and proactive approach keep the executive office running efficiently.
+              Jen Ballantyne brings extensive experience in executive support and administration, ensuring seamless coordination across leadership functions and strengthening PCLA's operations through professionalism and attention to detail.
             </p>
-            
-            <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              Jen manages board governance support, coordinates executive schedules, and facilitates communication between leadership, staff, and external stakeholders. Her organizational skills and discretion make her an invaluable part of the leadership team.
-            </p>
-
-            <h3 className="text-2xl font-bold text-gray-900 mt-12 mb-4">Areas of Expertise</h3>
-            <ul className="space-y-3 text-lg text-gray-700">
-              <li>• Executive support and office management</li>
-              <li>• Board governance and meeting coordination</li>
-              <li>• Administrative systems and processes</li>
-              <li>• HR coordination and support</li>
-              <li>• Stakeholder communication</li>
-            </ul>
-
-            <h3 className="text-2xl font-bold text-gray-900 mt-12 mb-4">Professional Background</h3>
-            <ul className="space-y-3 text-lg text-gray-700">
-              <li>• Extensive executive assistance experience</li>
-              <li>• Background in departmental coordination</li>
-              <li>• Financial administration expertise</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      {/* Quote Section */}
-      <section className="py-16 bg-[#f26d2d] text-white">
-        <div className="max-w-6xl mx-auto px-6">
-          <div className="text-center">
-            <blockquote className="text-2xl md:text-3xl italic font-light leading-relaxed">
-              "Behind every successful organization is a well-coordinated team. I'm here to make sure everything runs smoothly so our leaders can focus on our mission."
-            </blockquote>
           </div>
         </div>
       </section>

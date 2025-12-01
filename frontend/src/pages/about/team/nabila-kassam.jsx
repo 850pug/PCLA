@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Linkedin, Mail, ArrowLeft } from 'lucide-react';
 
-const NabilaKassam = () => {
+export const NabilaKassam = () => {
   return (
     <div className="min-h-screen">
       {/* Navigation */}
@@ -23,7 +23,7 @@ const NabilaKassam = () => {
             <div className="md:col-span-1">
               <div className="aspect-[3/4] w-full overflow-hidden rounded-3xl border-4 border-gray-200 shadow-xl">
                 <img 
-                  src="/images/Nabila-Kassam.webp" 
+                  src="/images/nabila-kassam-headshot.jpg" 
                   alt="Nabila Kassam"
                   className="w-full h-full object-cover"
                 />
@@ -45,7 +45,7 @@ const NabilaKassam = () => {
               </div>
 
               <p className="text-xl text-gray-700 leading-relaxed">
-                As Director of Development at PCLA, Nabila oversees marketing and communication, nurtures existing relationships, and secures new opportunities for PCLA to grow and improve. Nabila brings fifteen years of experience in fundraising, partnership development, and program evaluation to her current role.
+                Nabila Kassam brings fifteen years of experience in fundraising, partnerships, and program development, leading PCLA\'s marketing and development efforts to advance equity and expand opportunities for those we serve.
               </p>
             </div>
           </div>
@@ -59,28 +59,16 @@ const NabilaKassam = () => {
           
           <div className="prose prose-lg max-w-none">
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              With fifteen years of experience in the non-profit sector, Nabila has developed expertise in building meaningful partnerships, securing sustainable funding, and communicating impact to diverse stakeholders. Her strategic approach to development ensures PCLA can continue expanding and improving services.
+              As Director of Development at PCLA, Nabila oversees marketing and communication, nurtures existing relationships, and secures new opportunities for PCLA to grow and improve. Nabila brings fifteen years of experience in fundraising, partnership development, and program evaluation to her current role.
             </p>
             
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              Nabila leads PCLA's fundraising initiatives, grant applications, and donor relations while also overseeing marketing, communications, and public relations. Her work tells the story of recovery and helps connect PCLA with supporters who share our vision.
+              After receiving her Masters from the University of Oxford, Nabila went on to develop educational curricula, secure large-scale funding, and conduct programming for the United Nations, UNICEF, and the US Department of State. Her work had her focusing on inequity around the world (including Jordan, Nigeria, Kyrgyzstan, and Sri Lanka). When Nabila returned to Canada in 2018, it was with a focus on addressing inequity at home.
             </p>
 
-            <h3 className="text-2xl font-bold text-gray-900 mt-12 mb-4">Areas of Expertise</h3>
-            <ul className="space-y-3 text-lg text-gray-700">
-              <li>• Fundraising strategy and donor relations</li>
-              <li>• Grant writing and proposal development</li>
-              <li>• Marketing and communications</li>
-              <li>• Partnership development and stakeholder engagement</li>
-              <li>• Program evaluation and impact reporting</li>
-            </ul>
-
-            <h3 className="text-2xl font-bold text-gray-900 mt-12 mb-4">Professional Background</h3>
-            <ul className="space-y-3 text-lg text-gray-700">
-              <li>• 15 years in non-profit fundraising and development</li>
-              <li>• Extensive experience in partnership development</li>
-              <li>• Background in program evaluation</li>
-            </ul>
+            <p className="text-lg text-gray-700 leading-relaxed mb-6">
+              In BC, Nabila has secured funds from BC Hydro, BC Housing, and TransLink towards immigrant inclusion programming as well as from the Ministry of Education towards poverty alleviation. With PCLA, Nabila continues to focus her career on equity, ensuring that those living with moderate to severe mental illness have access to comfortable homes and customized programming.
+            </p>
           </div>
         </div>
       </section>
@@ -90,7 +78,7 @@ const NabilaKassam = () => {
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center">
             <blockquote className="text-2xl md:text-3xl italic font-light leading-relaxed">
-              "Every partnership, every donation, every story shared helps us create more opportunities for recovery and hope."
+              "Everyone wants to live a happy, safe, and empowered life. I\'m proud our mission ensures those living with mental illness are afforded those same comforts."
             </blockquote>
           </div>
         </div>
@@ -99,14 +87,14 @@ const NabilaKassam = () => {
       {/* Contact CTA */}
       <section className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-6 text-center">
-          <h2 className="text-3xl font-bold text-gray-900 mb-6">Support PCLA's Mission</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-6">Learn More About PCLA</h2>
           <p className="text-xl text-gray-700 mb-8 max-w-2xl mx-auto">
-            Learn how you can partner with us or support our programs
+            Discover our programs, approach to recovery, and how we support individuals in our community
           </p>
           <div className="flex justify-center gap-4">
-            <Link to="/get-involved">
+            <Link to="/programs">
               <Button size="lg" className="bg-[#336f99] hover:bg-[#2a5a7d] text-white px-8 py-6 rounded-full text-lg">
-                Get Involved
+                Our Programs
               </Button>
             </Link>
             <Link to="/about/team">
