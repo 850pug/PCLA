@@ -23,7 +23,7 @@ export const NabilaKassam = () => {
             <div className="md:col-span-1">
               <div className="aspect-[3/4] w-full overflow-hidden rounded-3xl border-4 border-gray-200 shadow-xl">
                 <img 
-                  src="/images/nabila-kassam-headshot.jpg" 
+                  src="/images/Nabila-Kassam.webp" 
                   alt="Nabila Kassam"
                   className="w-full h-full object-cover"
                 />
@@ -78,7 +78,7 @@ export const NabilaKassam = () => {
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center">
             <blockquote className="text-2xl md:text-3xl italic font-light leading-relaxed">
-              "Everyone wants to live a happy, safe, and empowered life. I\'m proud our mission ensures those living with mental illness are afforded those same comforts."
+              "Everyone wants to live a happy, safe, and empowered life. I'm proud our mission ensures those living with mental illness are afforded those same comforts."
             </blockquote>
           </div>
         </div>
