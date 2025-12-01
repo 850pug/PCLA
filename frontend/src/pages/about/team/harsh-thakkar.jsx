@@ -20,7 +20,7 @@ export const HarshThakkar = () => {
             <div className="md:col-span-1">
               <div className="aspect-[3/4] w-full overflow-hidden rounded-3xl border-4 border-gray-200 shadow-xl">
                 <img 
-                  src="/images/Headshot-placeholder.jpeg" 
+                  src="/images/Harsh-Thakkar.webp" 
                   alt="Harsh Thakkar"
                   className="w-full h-full object-cover"
                 />
