@@ -20,7 +20,7 @@ export const CamilaNunes = () => {
             <div className="md:col-span-1">
               <div className="aspect-[3/4] w-full overflow-hidden rounded-3xl border-4 border-gray-200 shadow-xl">
                 <img 
-                  src="/images/camila-nunes-headshot.jpg" 
+                  src="/images/Headshot-placeholder.jpeg" 
                   alt="Camila Nunes"
                   className="w-full h-full object-cover"
                 />
