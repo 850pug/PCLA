@@ -59,28 +59,12 @@ export const MichaelKierszenblat = () => {
           
           <div className="prose prose-lg max-w-none">
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              With extensive experience in both government and non-profit sectors, Michael has dedicated his career to improving services and outcomes for individuals facing mental health and housing challenges. His leadership style emphasizes collaboration, innovation, and person-centered care.
+              Michael Kierszenblat brings experience from leadership roles in Provincial Ministries, BC Housing, and the non-profit sector in the delivery of programs and services aimed at assisting the most vulnerable. Michael has a track record of fostering productive relationships with various levels of government, non-profit organizations, and communities - as well as leading teams and stakeholders through successful, meaningful change initiatives aimed at strengthening service delivery.
             </p>
             
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              Under Michael's leadership, PCLA has expanded its programs, strengthened partnerships with health authorities and community organizations, and maintained a strong commitment to recovery-oriented practice. He brings a strategic vision while staying grounded in the day-to-day realities of supporting people on their recovery journeys.
+              Michael holds Bachelor Degrees in History and Political Science from Simon Fraser University and is a Recipient of the BC Premier\'s Award for Service Excellence.
             </p>
-
-            <h3 className="text-2xl font-bold text-gray-900 mt-12 mb-4">Areas of Expertise</h3>
-            <ul className="space-y-3 text-lg text-gray-700">
-              <li>• Strategic planning and organizational development</li>
-              <li>• Mental health and housing policy</li>
-              <li>• Partnership development and stakeholder relations</li>
-              <li>• Recovery-oriented service delivery</li>
-              <li>• Program evaluation and quality improvement</li>
-            </ul>
-
-            <h3 className="text-2xl font-bold text-gray-900 mt-12 mb-4">Professional Background</h3>
-            <ul className="space-y-3 text-lg text-gray-700">
-              <li>• Former senior roles in Provincial Ministries</li>
-              <li>• Experience with BC Housing programs</li>
-              <li>• Extensive non-profit sector leadership</li>
-            </ul>
           </div>
         </div>
       </section>
@@ -90,7 +74,7 @@ export const MichaelKierszenblat = () => {
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center">
             <blockquote className="text-2xl md:text-3xl italic font-light leading-relaxed">
-              "Recovery is possible for everyone. Our role is to create the conditions and supports that allow each person to discover their own path forward."
+              "Everyone wants to live a happy, safe, and empowered life. I\'m proud our mission ensures those living with mental illness are afforded those same comforts."
             </blockquote>
           </div>
         </div>
